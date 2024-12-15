@@ -1,39 +1,102 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 3 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1734285656436 tunnel running, 3 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 3 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1734286326814 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
 starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1734285659498 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.15.26): 1734286329883 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
 starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1734285662600 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.15.26): 1734286332943 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
 starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1734285665678 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.15.26): 1734286336026 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
 starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1734285668792 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.15.26): 1734286339090 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
 starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1734285671888 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.15.26): 1734286342145 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286345206 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286348519 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286351575 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286354632 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286357815 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286360881 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286363948 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286367018 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+they-moments.gl.at.ply.gg:2336 => 127.0.0.1:2336 (minecraft-bedrock)
+starting-handhelds.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+summary-demanding.gl.at.ply.gg:2221 => 127.0.0.1:2221 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1734286370087 tunnel running, 3 tunnels registered
 
 
 TUNNELS
