@@ -5,9 +5,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-12-17 20:18:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-12-17 20:20:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-17 20:07:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
     },
     "done": true
   },
@@ -20,6 +38,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2024-12-17 20:12:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-12-17 20:20:42 +0000"
     },
     "done": true
   },
@@ -43,9 +67,21 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-12-17 20:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:18:48 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
@@ -55,7 +91,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -67,7 +103,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -137,9 +173,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-12-17 20:20:42 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -151,7 +193,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -167,12 +209,17 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "requirement": "2024-12-17 20:14:40 +0000",
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "has_leather": "2024-12-17 20:20:42 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
@@ -240,6 +287,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-17 20:15:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-17 20:15:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2024-12-17 20:06:42 +0000"
@@ -252,6 +329,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:18:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-17 20:15:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2024-12-17 20:12:28 +0000"
@@ -260,7 +349,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -268,9 +357,16 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2024-12-17 20:10:00 +0000",
       "minecraft:taiga": "2024-12-17 20:06:34 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-12-17 20:24:00 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-17 20:04:59 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
@@ -280,9 +376,15 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-12-17 20:20:42 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
@@ -292,13 +394,19 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-17 20:12:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
     },
     "done": true
   },
@@ -320,6 +428,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-12-17 20:20:42 +0000"
+    },
+    "done": true
+  },
   "bracken:root": {
     "criteria": {
       "start": "2024-12-17 20:04:58 +0000"
@@ -332,9 +446,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
@@ -356,6 +476,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2024-12-17 20:12:28 +0000"
@@ -374,6 +500,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-12-17 20:20:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2024-12-17 20:13:06 +0000"
@@ -386,17 +518,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:14:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:24:34 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 20:16:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-12-17 20:20:43 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
