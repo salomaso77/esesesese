@@ -1,1 +1,324 @@
-chests: []
+chests:
+- createdAt: 1734469026262
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -557.0
+    y: 65.0
+    z: 147.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1734469626262
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SPRUCE_PLANKS
+    amount: 12
+  player: 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+- createdAt: 1734468997715
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -581.0
+    y: 64.0
+    z: 154.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1734469597715
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 52
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 158
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: COBBLESTONE
+    amount: 63
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERRACK
+    amount: 31
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: CRAFTING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: IRON_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GOLD_INGOT
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LILAC
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WHEAT_SEEDS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: MOSS_BLOCK
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: ROTTEN_FLESH
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: RAW_GOLD
+    amount: 27
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: COBBLESTONE
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIRT
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: RAW_COPPER
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STONE_SLAB
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: ARROW
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: EMERALD
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GUNPOWDER
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BIRCH_PLANKS
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NAME_TAG
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: COAL
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LEATHER
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WOODEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BONE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STICK
+    amount: 2
+  player: 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+- createdAt: 1734468757715
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 219.0
+    y: 80.0
+    z: 84.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1734469357715
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIRT
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LILAC
+  player: e73b4ede-8259-34ba-864e-279a47de915f
+- createdAt: 1734468801613
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 143.0
+    y: 67.0
+    z: 87.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1734469401613
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: '{"italic":false,"color":"white","translate":"Species Beginner
+        Book"}'
+      lore:
+      - '{"italic":false,"color":"gray","translate":"Use to join a species."}'
+      custom-model-data: 888501
+      internal: H4sIAAAAAAAA/+NiYGBk4E8q0CsuSE3OTC2OT8rPz+ZiAAAK+ZELFwAAAA==
+      title: BOOK OF REFORGED ANCESTRY
+      author: The Provider
+      pages:
+      - '["",{"translate":"Click to join a species. This book is a one-time use.","bold":true},{"translate":"\n\n","color":"black"},{"translate":"-
+        ","clickEvent":{"action":"run_command","value":"/trigger bp.automech"}},{"translate":"Automech","color":"green","clickEvent":{"action":"run_command","value":"/trigger
+        bp.automech"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.automech"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.dweller"}},{"translate":"Dweller","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger
+        bp.dweller"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.dweller"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.enderling"}},{"translate":"Enderling","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger
+        bp.enderling"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.enderling"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.faefolk"}},{"translate":"Faefolk","color":"blue","clickEvent":{"action":"run_command","value":"/trigger
+        bp.faefolk"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.faefolk"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.frostkin"}},{"translate":"Frostkin","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger
+        bp.frostkin"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.frostkin"}},{"translate":"\n\n"}]'
+      - '["",{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.human"}},{"translate":"Human","color":"red","clickEvent":{"action":"run_command","value":"/trigger
+        bp.human"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.human"}},{"translate":"\n\n","color":"reset"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.hunter"}},{"translate":"Hunter","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger
+        bp.hunter"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.hunter"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.nereid"}},{"translate":"Nereid","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger
+        bp.nereid"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.nereid"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.netherkin"}},{"translate":"Netherkin","color":"gold","clickEvent":{"action":"run_command","value":"/trigger
+        bp.netherkin"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.netherkin"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.outlander"}},{"translate":"Outlander","color":"gray","clickEvent":{"action":"run_command","value":"/trigger
+        bp.outlander"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.outlander"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.realmkeeper"}},{"translate":"Realmkeeper","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger
+        bp.realmkeeper"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.realmkeeper"}},{"translate":"\n\n"},{"translate":"- ","clickEvent":{"action":"run_command","value":"/trigger
+        bp.villain"}},{"translate":"Villain","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger
+        bp.villain"}},{"translate":" -","color":"reset","clickEvent":{"action":"run_command","value":"/trigger
+        bp.villain"}}]'
+      generation: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LILAC
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BIRCH_LOG
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WHEAT_SEEDS
+  player: c1cf5321-2117-373e-b505-d2103ed9b507
+- createdAt: 1734468884426
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -598.0
+    y: 49.0
+    z: 151.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1734469484426
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: ROTTEN_FLESH
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 104
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: TORCH
+    amount: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 19
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIRT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WHEAT_SEEDS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BOWL
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: COOKED_BEEF
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LEATHER
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SPRUCE_LOG
+    amount: 39
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SUGAR_CANE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: STICK
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BROWN_MUSHROOM
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: FURNACE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LIGHT_GRAY_WOOL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BOWL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: OAK_PLANKS
+    amount: 17
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: COOKED_MUTTON
+    amount: 4
+  player: 10475c48-2fb1-36ab-bc9d-77dd82cae389
