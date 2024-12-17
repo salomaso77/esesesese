@@ -153,7 +153,7 @@ messages:
   console-no-world-provided: Please also provide the name of the world
 
    # The text that will show up in the bar on the top of the screen in apocalyptic worlds
-  apocalypse-boss-bar-title: §4§4§l☠ [ §9§l¡Share §5§lAny§7§lthing - §3§lWelcome! §4§l] 🏹
+  apocalypse-boss-bar-title: §4§4§l☠ [ §9§l¡Engine §5§lKingdom§7§lMC - §3§lWelcome! §4§l] 🏹
 
    # sent when a player tries to sleep and `allow-sleep` (see above) is set to false.
   no-apocalypse-sleep: §7That would be a little too easy...
