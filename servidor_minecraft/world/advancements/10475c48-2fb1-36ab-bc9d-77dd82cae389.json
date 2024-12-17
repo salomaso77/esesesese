@@ -91,13 +91,31 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-12-17 20:09:02 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2024-12-17 20:01:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:11:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
     },
     "done": true
   },
@@ -127,7 +145,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -155,9 +173,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -200,6 +230,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2024-12-17 20:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-12-17 20:09:02 +0000"
     },
     "done": true
   },
@@ -260,6 +296,18 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2024-12-17 20:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-12-17 20:09:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
     },
     "done": true
   },
@@ -325,7 +373,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -343,7 +391,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -365,9 +413,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-17 20:10:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-17 19:53:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
     },
     "done": true
   },
@@ -377,9 +437,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -479,9 +545,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-17 20:16:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-17 19:54:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
     },
     "done": true
   },
@@ -524,6 +602,18 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2024-12-17 20:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:11:41 +0000"
     },
     "done": true
   },
@@ -581,6 +671,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-17 20:11:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2024-12-17 19:54:15 +0000"
@@ -589,18 +685,20 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-12-17 20:18:12 +0000",
       "minecraft:taiga": "2024-12-17 19:45:07 +0000",
       "minecraft:beach": "2024-12-17 19:46:39 +0000",
       "minecraft:river": "2024-12-17 19:46:45 +0000",
       "minecraft:cold_ocean": "2024-12-17 19:45:47 +0000",
       "minecraft:forest": "2024-12-17 20:08:12 +0000",
       "minecraft:ocean": "2024-12-17 19:45:35 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-12-17 20:18:20 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-17 19:43:31 +0000"
     },
     "done": false
@@ -625,7 +723,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -649,7 +747,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -734,7 +832,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -816,6 +914,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-12-17 20:14:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-17 20:04:56 +0000"
@@ -842,7 +946,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },
@@ -860,7 +964,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:07:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:17:34 +0000"
     },
     "done": false
   },

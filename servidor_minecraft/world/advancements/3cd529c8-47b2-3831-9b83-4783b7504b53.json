@@ -119,9 +119,15 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-17 20:13:06 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -175,7 +181,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -211,7 +217,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -269,6 +275,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-12-17 20:15:05 +0000",
+      "minecraft:basalt_deltas": "2024-12-17 20:15:44 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-17 20:04:58 +0000"
@@ -278,6 +291,12 @@
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-17 19:54:39 +0000"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2024-12-17 20:15:04 +0000"
     },
     "done": true
   },
@@ -296,6 +315,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-17 19:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-17 20:15:04 +0000"
     },
     "done": true
   },
@@ -431,6 +456,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-17 20:15:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2024-12-17 19:53:12 +0000"
@@ -439,7 +470,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -469,7 +500,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -493,10 +524,9 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2024-12-17 20:05:36 +0000",
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
@@ -746,7 +776,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -783,7 +813,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -801,7 +831,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -886,7 +916,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -938,6 +968,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-12-17 20:15:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2024-12-17 19:57:37 +0000"
@@ -982,7 +1018,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
@@ -1000,7 +1036,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-17 20:05:34 +0000"
+      "log_spam_fixer": "2024-12-17 20:15:34 +0000"
     },
     "done": false
   },
