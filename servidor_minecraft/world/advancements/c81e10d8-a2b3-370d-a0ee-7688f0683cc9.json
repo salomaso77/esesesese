@@ -144,6 +144,7 @@
       "beef": "2024-12-17 20:05:26 +0000",
       "mutton": "2024-12-17 20:55:40 +0000",
       "rotten_flesh": "2024-12-17 20:58:23 +0000",
+      "enchanted_golden_apple": "2025-01-04 05:34:07 +0000",
       "cooked_salmon": "2024-12-17 20:19:57 +0000"
     },
     "done": false
@@ -1285,73 +1286,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 05:27:20 +0000"
+      "log_spam_fixer": "2025-01-04 05:37:20 +0000"
     },
     "done": false
   },
@@ -1391,6 +1392,24 @@
     },
     "done": true
   },
+  "bracken:technical/dimension_border_text/overworld_to_faewild": {
+    "criteria": {
+      "requirement": "2025-01-04 05:34:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-01-04 05:29:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-01-04 05:37:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-01-04 05:25:01 +0000"
@@ -1400,6 +1419,18 @@
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-04 05:26:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2025-01-04 05:36:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-04 05:29:43 +0000"
     },
     "done": true
   },
@@ -1439,15 +1470,27 @@
     },
     "done": true
   },
-  "incendium:technical/on_hit": {
+  "bracken:technical/dimension_border_text/faewild_to_overworld": {
     "criteria": {
-      "target": "2025-01-04 05:27:39 +0000"
+      "requirement": "2025-01-04 05:34:24 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-01-04 05:33:30 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-04 05:26:44 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_faewild/enter_the_faewild": {
+    "criteria": {
+      "bracken:the_faewild/fae1": "2025-01-04 05:34:24 +0000"
     },
     "done": true
   },
@@ -1457,15 +1500,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-01-04 05:32:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-01-04 05:25:35 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-04 05:29:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2025-01-04 05:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-01-04 05:29:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-01-04 05:29:36 +0000"
     },
     "done": true
   },
@@ -1481,9 +1548,21 @@
     },
     "done": true
   },
+  "bracken:pax": {
+    "criteria": {
+      "bracken:pax1": "2025-01-04 05:35:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2025-01-04 05:26:44 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/faewild_to_pax": {
+    "criteria": {
+      "requirement": "2025-01-04 05:35:34 +0000"
     },
     "done": true
   },
@@ -1499,15 +1578,51 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-01-04 05:29:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-01-04 05:24:07 +0000"
     },
     "done": true
   },
+  "bracken:fae": {
+    "criteria": {
+      "bracken:fae1": "2025-01-04 05:34:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-04 05:29:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-01-04 05:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-01-04 05:27:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-04 05:26:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-01-04 05:34:01 +0000"
     },
     "done": true
   },

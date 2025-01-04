@@ -241,3 +241,32 @@
 [05:30:26] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
 [05:30:30] [Server thread/INFO]: rCesar_ issued server command: /time set day
 [05:30:30] [Server thread/INFO]: [rCesar_: Set the time to 1000]
+[05:31:03] [Server thread/INFO]: rCesar_ issued server command: /gamemode survival
+[05:31:03] [Server thread/INFO]: [rCesar_: Set own game mode to Survival Mode]
+[05:31:22] [Server thread/INFO]: rCesar_ issued server command: /gamemode creative
+[05:31:22] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
+[05:32:02] [Server thread/INFO]: rCesar_ has made the advancement [Ol' Betsy]
+[05:33:30] [Server thread/INFO]: rCesar_ has reached the goal [Sky's the Limit]
+[05:33:53] [Server thread/INFO]: rCesar_ issued server command: /gamemode survival
+[05:33:53] [Server thread/INFO]: [rCesar_: Set own game mode to Survival Mode]
+[05:33:57] [Server thread/INFO]: rCesar_ issued server command: /gamemode creative
+[05:33:57] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
+[05:34:05] [Server thread/INFO]: rCesar_ issued server command: /gamemode survival
+[05:34:05] [Server thread/INFO]: [rCesar_: Set own game mode to Survival Mode]
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/streets
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/streets
+[05:34:23] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/streets
+[05:34:24] [Server thread/INFO]: rCesar_ has made the advancement [Castles in the Sky]
+[05:34:47] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:47] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/houses
+[05:34:47] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:village/fae/streets
+[05:35:35] [Server thread/INFO]: rCesar_ has made the advancement [Pax Aeterna]
+[05:36:28] [Server thread/INFO]: rCesar_ issued server command: /tps
+[05:36:58] [Server thread/INFO]: rCesar_ has completed the challenge [Great View From Up Here]
+[05:39:25] [Server thread/INFO]: rCesar_ issued server command: /tps
+[05:40:39] [Server thread/INFO]: rCesar_ issued server command: /gamemode creative
+[05:40:39] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
