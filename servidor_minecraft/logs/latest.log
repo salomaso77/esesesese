@@ -236,3 +236,120 @@
 [23:48:19] [Server thread/INFO]: sCesar_ has made the advancement [Mind Your Manors]
 [23:48:55] [Server thread/INFO]: sCesar_ has made the advancement [Monster Hunter]
 [23:49:21] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=203, y=48, z=159}
+[23:52:49] [Server thread/INFO]: Villager EntityVillager['Villager'/1881, uuid='424991d0-07e5-4968-9d14-e33452a5ef7e', l='ServerLevel[world]', x=-3049.69, y=70.06, z=-2414.38, cpos=[-191, -151], tl=4863, v=true] died, message: 'Villager was slain by Zombie'
+[23:54:06] [Server thread/INFO]: sCesar_ lost connection: Disconnected
+[23:54:06] [Server thread/INFO]: [voicechat] Disconnecting client sCesar_
+[23:54:06] [Server thread/INFO]: sCesar_ left the game
+[23:54:23] [Server thread/INFO]: Stopping the server
+[23:54:23] [Server thread/INFO]: Stopping server
+[23:54:23] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[23:54:23] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[23:54:23] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[23:54:23] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[23:54:23] [Server thread/INFO]: [BloodMoon] Disabling BloodMoon v0.8.1
+[23:54:23] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[23:54:23] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[23:54:23] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[23:54:23] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
+[23:54:23] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[23:54:23] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
+[23:54:23] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.11
+[23:54:23] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[23:54:23] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
+[23:54:23] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[23:54:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[23:54:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[23:54:23] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:54:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[23:54:23] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:54:23] [Server thread/INFO]: Saving players
+[23:54:24] [WebSocketConnectReadThread-90/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[23:54:24] [Server thread/INFO]: Saving worlds
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 144 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 59 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_dormis]'/bracken:dormis
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_dormis'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_dormis'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_dormis'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_dormis' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (dormis): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_varskspace]'/bracken:varskspace
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_varskspace'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_varskspace'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_varskspace'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_bracken_varskspace' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (varskspace): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_panacea]'/bracken:panacea
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_panacea'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_panacea'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_panacea'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_bracken_panacea' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (panacea): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_pax]'/bracken:pax
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_pax'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_pax'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_pax'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_bracken_pax' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (pax): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_void]'/bracken:void
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_void'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_void'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_void'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_bracken_void' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_omnidrome]'/bracken:omnidrome
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_omnidrome'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_omnidrome'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_omnidrome'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_omnidrome' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (omnidrome): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_glacium]'/bracken:glacium
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_glacium'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_glacium'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_glacium'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_glacium' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacium): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_sanctum]'/bracken:sanctum
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_sanctum'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_sanctum'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_sanctum'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_sanctum' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (sanctum): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_underdark]'/bracken:the_underdark
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_underdark'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_underdark'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_underdark'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_bracken_the_underdark' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_underdark): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_brine]'/bracken:the_brine
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_brine'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_brine'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_brine'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_bracken_the_brine' in 0.00s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_brine): All chunks are saved
+[23:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_faewild]'/bracken:the_faewild
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_faewild'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_faewild'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_faewild'
+[23:54:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 54 entity chunks, 0 poi chunks in world 'world_bracken_the_faewild' in 0.01s
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_faewild): All chunks are saved
+[23:54:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:54:24] [Server thread/INFO]: Flushing Chunk IO
+[23:54:24] [Server thread/INFO]: Closing Thread Pool
+[23:54:24] [Server thread/INFO]: Closing Server
