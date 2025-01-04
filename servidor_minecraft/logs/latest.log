@@ -1,851 +1,243 @@
-[20:48:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:48:40] [ServerMain/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=null}, noise=null], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=4.0]}], minValue=0.0, maxValue=16.0]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=null}, noise=null], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-1.73, maxValue=2.27], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Reference{ResourceKey[minecraft:worldgen/density_function / bracken:omnidrome/sloped_cheese]=null}], minValue=-Infinity, maxValue=Infinity]}], minValue=-Infinity, maxValue=Infinity], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=17.5]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
-[20:48:43] [ServerMain/INFO]: Loaded 7 recipes
-[20:48:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:48:44] [Server thread/INFO]: Loading properties
-[20:48:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[20:48:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:48:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:48:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[05:20:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:20:48] [ServerMain/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=null}, noise=null], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=4.0]}], minValue=0.0, maxValue=16.0]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=null}, noise=null], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-1.73, maxValue=2.27], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Reference{ResourceKey[minecraft:worldgen/density_function / bracken:omnidrome/sloped_cheese]=null}], minValue=-Infinity, maxValue=Infinity]}], minValue=-Infinity, maxValue=Infinity], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=17.5]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
+[05:20:53] [ServerMain/INFO]: Loaded 7 recipes
+[05:20:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[05:20:54] [Server thread/INFO]: Loading properties
+[05:20:54] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[05:20:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:20:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:20:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:48:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:48:45] [Server thread/INFO]: Default game type: SURVIVAL
-[20:48:45] [Server thread/INFO]: Generating keypair
-[20:48:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:48:46] [Server thread/INFO]: Using epoll channel type
-[20:48:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:48:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:48:46] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[20:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[20:48:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[20:48:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[20:48:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:48:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:48:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:48:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:48:48] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:48:48] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:48:49] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[20:48:49] [Server thread/INFO]: [floodgate] Took 679ms to boot Floodgate
-[20:48:49] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[20:48:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[20:48:49] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[20:48:49] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
-[20:48:49] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[20:48:49] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.11
-[20:48:49] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
-[20:48:49] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
-[20:48:50] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:48:50] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:48:50] [Server thread/INFO]: [BloodMoon] Loading server plugin BloodMoon v0.8.1
-[20:48:50] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[20:48:50] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[20:48:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:48:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[20:48:50] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[20:48:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[20:48:51] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[20:48:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:48:51] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[20:48:51] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[20:48:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[20:48:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:48:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:48:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:48:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:48:51] [Server thread/INFO]: Preparing level "world"
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:48:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:48:52] [Server thread/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=a[firstOctave=-8, amplitudes=[1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@37e6a19a], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=11.111111111111109]}], minValue=0.0, maxValue=44.444444444444436]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=a[firstOctave=-8, amplitudes=[0.5, 1.0, 2.0, 1.0, 2.0, 1.0, 0.0, 2.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@26bb4116], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-5.0749527959331875, maxValue=5.614952795933187], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=QUARTER_NEGATIVE, input=j[function=Direct{a[type=MUL, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{aa[fromY=0, toY=256, fromValue=1.5, toValue=-1.5]}], argument2=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=1.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-1.0]}], argument2=j[function=Direct{l[type=CacheOnce, wrapped=j[function=Direct{INSTANCE}]]}], minValue=-1.0, maxValue=-1.0]}], minValue=0.0, maxValue=0.0]}], minValue=0.0, maxValue=0.0]}], argument2=j[function=Direct{w[spline=e[coordinate=Coordinate[Direct{l[type=FlatCache, wrapped=j[function=Direct{v[shiftX=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{s[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@483d43c9]]}]]}]]}], shiftY=j[function=Direct{h[value=0.0]}], shiftZ=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{t[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@483d43c9]]}]]}]]}], xzScale=0.25, yScale=0.0, noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:continentalness]=a[firstOctave=-9, amplitudes=[1.0, 1.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@705afb00]]}]]}], locations=[F@5e30a3b, values=[c[value=-1.0], c[value=2.0]], derivatives=[F@2a9dc7c2, minValue=-1.0, maxValue=2.0]]}], minValue=-1.0, maxValue=2.0]}]]}]]}], minValue=-2.5, maxValue=3.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=-0.0]}], argument2=j[function=Direct{h[value=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}]]}]]}], argument2=j[function=Direct{k[type=HALF_NEGATIVE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:jagged]=a[firstOctave=-16, amplitudes=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@1018a81], xzScale=1500.0, yScale=0.0]}], minValue=-3.137254901960784, maxValue=6.274509803921568]}], minValue=-4.705882352941176, maxValue=9.411764705882351]}], minValue=-7.205882352941176, maxValue=12.911764705882351]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], argument2=j[function=Direct{net.minecraft.world.level.levelgen.synth.BlendedNoise@1c2efa48}], minValue=-8.844120000000002, maxValue=8.844120000000002]}], minValue=-5.660236800000002, maxValue=5.660236800000002]}], minValue=-4.160236800000002, maxValue=7.160236800000002], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=45.944444444444436]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
-[20:48:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:48:55] [Server thread/INFO]: Time elapsed: 690 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:48:55] [Server thread/INFO]: Time elapsed: 68 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:48:55] [Server thread/INFO]: Time elapsed: 58 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:panacea
-[20:48:55] [Server thread/INFO]: Time elapsed: 47 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:omnidrome
-[20:48:55] [Server thread/INFO]: Time elapsed: 52 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:glacium
-[20:48:55] [Server thread/INFO]: Time elapsed: 53 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:the_underdark
-[20:48:55] [Server thread/INFO]: Time elapsed: 41 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:void
-[20:48:55] [Server thread/INFO]: Time elapsed: 48 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:dormis
-[20:48:55] [Server thread/INFO]: Time elapsed: 22 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:sanctum
-[20:48:55] [Server thread/INFO]: Time elapsed: 22 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:the_brine
-[20:48:55] [Server thread/INFO]: Time elapsed: 18 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:pax
-[20:48:55] [Server thread/INFO]: Time elapsed: 23 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:the_faewild
-[20:48:55] [Server thread/INFO]: Time elapsed: 38 ms
-[20:48:55] [Server thread/INFO]: Preparing start region for dimension bracken:varskspace
-[20:48:55] [Server thread/INFO]: Time elapsed: 41 ms
-[20:48:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[20:48:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[20:48:55] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[20:48:55] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[20:48:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:48:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[20:48:57] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
-[20:48:57] [Server thread/INFO]:          __
-[20:48:57] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
-[20:48:57] [Server thread/INFO]:    |  | |        by OliPulse
-[20:48:57] [Server thread/INFO]:  
-[20:48:57] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[20:48:57] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
-[20:48:57] [Server thread/INFO]: [voicechat] Compatibility version 18
-[20:48:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[20:48:57] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[20:48:57] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.11
-[20:48:57] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
-[20:48:57] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
-[20:48:57] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
-[20:48:57] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
-[20:48:57] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[20:48:57] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
-[20:48:57] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[20:48:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
-[20:48:58] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8.1
-[20:48:58] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[20:48:58] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[20:48:58] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_panacea"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_omnidrome"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_glacium"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_underdark"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_void"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_dormis"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_sanctum"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_brine"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_pax"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_faewild"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_varskspace"
-[20:48:59] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[20:48:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:48:59] [Server thread/INFO]: [Geyser-Spigot] 
-[20:48:59] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
-[20:48:59] [Server thread/INFO]: [Geyser-Spigot] 
-[20:48:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:49:05] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[20:49:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
-[20:49:05] [Server thread/INFO]: [Geyser-Spigot] Done (6.047s)! Run /geyser help for help!
-[20:49:05] [Server thread/INFO]: Running delayed init tasks
-[20:49:05] [Server thread/INFO]: Done (21.501s)! For help, type "help"
-[20:49:05] [Server thread/INFO]: Timings Reset
-[20:49:05] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:49:05] [Server thread/INFO]: [voicechat] Loading plugins
-[20:49:05] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[20:49:05] [Server thread/INFO]: [voicechat] Initializing plugins
-[20:49:05] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[20:49:05] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[20:49:05] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'summary-demanding.gl.at.ply.gg:2221'
-[20:49:06] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 2221
-[20:49:06] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
-[20:49:06] [Craft Scheduler Thread - 1 - ZombieApocalypse/INFO]: [ZombieApocalypse] You are running the latest version.
-[20:49:07] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:trapped_chest",Properties:{facing:"up"}}
-[20:49:09] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[20:49:13] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
-[20:49:21] [User Authenticator #0/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
-[20:49:21] [Server thread/INFO]: xMega10_ joined the game
-[20:49:21] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[20:49:21] [Server thread/INFO]: xMega10_[/127.222.183.28:45945] logged in with entity id 391 at ([world]160.0, 67.0, 32.0)
-[20:49:24] [User Authenticator #0/INFO]: UUID of player LeoG24_ is bc34bb33-dda6-3834-bc3c-ee5dffc036c3
-[20:49:24] [Server thread/INFO]: LeoG24_ joined the game
-[20:49:24] [Server thread/INFO]: LeoG24_[/127.233.113.15:59261] logged in with entity id 519 at ([world]160.0, 67.0, 32.0)
-[20:49:25] [Server thread/INFO]: [Not Secure] [Server] h
-[20:49:31] [User Authenticator #0/INFO]: UUID of player Pacifico is e73b4ede-8259-34ba-864e-279a47de915f
-[20:49:31] [Server thread/INFO]: Pacifico joined the game
-[20:49:31] [Server thread/INFO]: Pacifico[/127.213.134.150:51565] logged in with entity id 525 at ([world]160.0, 67.0, 32.0)
-[20:49:52] [User Authenticator #0/INFO]: UUID of player EnginerGianex is 10475c48-2fb1-36ab-bc9d-77dd82cae389
-[20:49:52] [Server thread/INFO]: EnginerGianex joined the game
-[20:49:52] [Server thread/INFO]: EnginerGianex[/127.81.174.237:36335] logged in with entity id 1014 at ([world]160.0, 67.0, 32.0)
-[20:50:01] [User Authenticator #0/INFO]: UUID of player voned is c1cf5321-2117-373e-b505-d2103ed9b507
-[20:50:01] [Server thread/INFO]: voned joined the game
-[20:50:01] [Server thread/INFO]: voned[/127.172.86.77:49431] logged in with entity id 1036 at ([world]170.5, 86.0, 37.5)
-[20:50:01] [Server thread/INFO]: voned has made the advancement [A Sincere Thanks.]
-[20:50:15] [Server thread/INFO]: LeoG24_ was shot by Skeleton
-[20:50:16] [Server thread/INFO]: [Not Secure] [Server] vola
-[20:50:35] [User Authenticator #0/INFO]: UUID of player Leenxy is 3cd529c8-47b2-3831-9b83-4783b7504b53
-[20:50:35] [Server thread/INFO]: Leenxy joined the game
-[20:50:35] [Server thread/INFO]: Leenxy[/127.183.225.72:57665] logged in with entity id 1363 at ([world]1281.3477127069607, -54.0, 155.69999998807907)
-[20:50:52] [Server thread/INFO]: Pacifico was doomed to fall
-[20:50:54] [Async Chat Thread - #1/INFO]: [Not Secure] <Leenxy> like si conexion perdida
-[20:51:09] [Async Chat Thread - #1/INFO]: [Not Secure] <voned> por que tengo esta skin toda fea
-[20:51:16] [User Authenticator #0/INFO]: UUID of player rCesar_ is c81e10d8-a2b3-370d-a0ee-7688f0683cc9
-[20:51:16] [Server thread/INFO]: rCesar_ joined the game
-[20:51:16] [Server thread/INFO]: rCesar_[/127.254.202.117:52367] logged in with entity id 1944 at ([world]160.0, 67.0, 32.0)
-[20:51:25] [Server thread/INFO]: Pacifico was slain by Zombie
-[20:51:34] [Async Chat Thread - #1/INFO]: [Not Secure] <xMega10_> un zombi con espada de hierro encantada
-[20:51:37] [Async Chat Thread - #0/INFO]: [Not Secure] <rCesar_> que mierda hago aquí XD
-[20:51:39] [Async Chat Thread - #1/INFO]: [Not Secure] <EnginerGianex> se reinicio
-[20:51:46] [Async Chat Thread - #0/INFO]: [Not Secure] <rCesar_> se reinicio unos pasos atras
-[20:51:54] [Server thread/INFO]: LeoG24_ issued server command: /back
-[20:52:02] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2131, uuid='9b8e9ccc-6502-475a-88e6-32a58a5da636', l='ServerLevel[world_nether]', x=59.07, y=66.41, z=-251.94, cpos=[3, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:02] [Async Chat Thread - #1/INFO]: [Not Secure] <rCesar_> rollback para los chsvales
-[20:52:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2156, uuid='eee5a00d-7b6d-4461-9c7a-bc650a9b6016', l='ServerLevel[world_nether]', x=52.56, y=84.11, z=-256.38, cpos=[3, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:07] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2225, uuid='a51ab14a-9f55-40fa-9f3d-a56e80f5ce1a', l='ServerLevel[world_nether]', x=47.28, y=36.10, z=-302.56, cpos=[2, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:07] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2227, uuid='a2bef7d0-4244-41ed-a11a-ccfaa1e04a57', l='ServerLevel[world_nether]', x=58.55, y=45.10, z=-298.04, cpos=[3, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:07] [Server thread/INFO]: voned issued server command: /tpa pacifico
-[20:52:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2219, uuid='21081179-013f-42a1-834d-99e37a89ae56', l='ServerLevel[world_nether]', x=37.69, y=59.64, z=-229.35, cpos=[2, -15], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2221, uuid='f7fb99ae-2c5d-4b84-bc0d-1a65f5f39d72', l='ServerLevel[world_nether]', x=39.36, y=52.66, z=-245.34, cpos=[2, -16], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2230, uuid='c0c6dfd1-c457-4ebc-9af7-010f86c1cfb6', l='ServerLevel[world_nether]', x=-12.15, y=65.76, z=-294.68, cpos=[-1, -19], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2244, uuid='fe54cd23-86fd-4f3d-9794-1bae094b5a63', l='ServerLevel[world_nether]', x=54.62, y=41.49, z=-310.42, cpos=[3, -20], tl=423, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2259, uuid='61c957b1-1c8d-4b93-8e6c-be9840b16a99', l='ServerLevel[world_nether]', x=32.55, y=37.94, z=-301.54, cpos=[2, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2263, uuid='161f274c-5584-4892-ac7c-dd2cf8a0dd4d', l='ServerLevel[world_nether]', x=33.48, y=41.46, z=-304.44, cpos=[2, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2265, uuid='6fc8ef06-38f3-401d-a51d-ed8de517a03d', l='ServerLevel[world_nether]', x=33.73, y=49.88, z=-317.80, cpos=[2, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2292, uuid='2b243b73-abf0-42bb-99ee-f9112fbc0e8c', l='ServerLevel[world_nether]', x=31.70, y=119.97, z=-271.63, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2306, uuid='eb7739cb-d294-4c96-ae47-c5f5feff7aac', l='ServerLevel[world_nether]', x=-15.02, y=128.30, z=-257.39, cpos=[-1, -17], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2261, uuid='472fd6e1-25ab-49dc-a6d0-c4d408fa4acb', l='ServerLevel[world_nether]', x=-1.58, y=121.70, z=-292.60, cpos=[-1, -19], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2339, uuid='373de393-8abf-46aa-b9bc-9d1e757d8740', l='ServerLevel[world_nether]', x=37.65, y=44.33, z=-275.43, cpos=[2, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2341, uuid='564822a2-11f9-45d3-9ecb-7369c8cd67eb', l='ServerLevel[world_nether]', x=58.71, y=38.39, z=-269.17, cpos=[3, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2313, uuid='9987bf21-da1f-4567-89bc-4a3b09a7cb59', l='ServerLevel[world_nether]', x=2.08, y=85.36, z=-226.59, cpos=[0, -15], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2315, uuid='33b690b4-5d55-47ca-aeee-a0d9bd260ea1', l='ServerLevel[world_nether]', x=19.48, y=99.77, z=-265.59, cpos=[1, -17], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2335, uuid='97d71fd1-be15-4e9e-829d-cc4382661fb8', l='ServerLevel[world_nether]', x=85.49, y=58.55, z=-290.54, cpos=[5, -19], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2358, uuid='3d0c0ec8-ae47-4f9e-83b8-13f1f9adca2e', l='ServerLevel[world_nether]', x=54.75, y=38.95, z=-317.71, cpos=[3, -20], tl=427, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2122, uuid='f9aa61e0-67a9-4aee-9619-222483e8e6e4', l='ServerLevel[world_nether]', x=-50.39, y=112.98, z=-249.35, cpos=[-4, -16], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2371, uuid='28b4a23a-4922-4920-8a0f-0cdc2d436e5d', l='ServerLevel[world_nether]', x=-15.96, y=113.19, z=-280.09, cpos=[-1, -18], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2393, uuid='8a93949f-1337-4c34-8bab-f5814e70fb0d', l='ServerLevel[world_nether]', x=50.05, y=67.88, z=-273.06, cpos=[3, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2422, uuid='569cd0f9-ab9a-4656-9b4d-9631b1a50514', l='ServerLevel[world_nether]', x=-8.38, y=118.26, z=-302.68, cpos=[-1, -19], tl=424, v=true] died: Restless Spirit starved to death
-[20:52:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2431, uuid='b86d76d5-404c-4260-ac0f-338683e60a89', l='ServerLevel[world_nether]', x=26.99, y=88.83, z=-257.31, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2433, uuid='237fbcef-32f9-42fc-8260-add9d8ddd149', l='ServerLevel[world_nether]', x=19.21, y=96.27, z=-266.04, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:12] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2442, uuid='5921cd96-47fe-4015-bef7-494222d62787', l='ServerLevel[world_nether]', x=27.64, y=78.11, z=-344.60, cpos=[1, -22], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2497, uuid='9cf949dc-7513-462c-9908-2f1d6c0863f4', l='ServerLevel[world_nether]', x=-28.41, y=113.01, z=-252.85, cpos=[-2, -16], tl=437, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2503, uuid='56627247-2aeb-4209-b76d-04b323c51d44', l='ServerLevel[world_nether]', x=91.97, y=67.00, z=-305.37, cpos=[5, -20], tl=436, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2505, uuid='1f62addb-1676-4c34-ac29-cb958572e511', l='ServerLevel[world_nether]', x=95.66, y=69.83, z=-296.17, cpos=[5, -19], tl=436, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2507, uuid='638bcd84-6714-40be-8aa6-830b6622324c', l='ServerLevel[world_nether]', x=99.76, y=63.80, z=-318.87, cpos=[6, -20], tl=436, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2529, uuid='ad56ab3a-7d10-4afe-b9e9-4e1a062b8339', l='ServerLevel[world_nether]', x=32.73, y=150.57, z=-229.68, cpos=[2, -15], tl=423, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2553, uuid='9f48ada9-a9a8-4efb-a0a1-54bfce7c4b68', l='ServerLevel[world_nether]', x=-0.13, y=41.11, z=-313.95, cpos=[-1, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2555, uuid='142440e4-da40-4230-b394-d5a02da78c85', l='ServerLevel[world_nether]', x=15.34, y=44.33, z=-304.35, cpos=[0, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2551, uuid='46b12fca-71d6-4c51-863d-66f21ed442d6', l='ServerLevel[world_nether]', x=-16.06, y=46.07, z=-302.28, cpos=[-2, -19], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2564, uuid='196c589d-18dd-4572-95d4-74ba48f6bd04', l='ServerLevel[world_nether]', x=28.92, y=43.79, z=-263.70, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2562, uuid='fd04ded8-5d1a-4e0d-8836-90995ad632de', l='ServerLevel[world_nether]', x=33.31, y=37.78, z=-262.11, cpos=[2, -17], tl=426, v=true] died: Restless Spirit starved to death
-[20:52:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2566, uuid='08cef064-a135-423b-ba79-fd247230ad42', l='ServerLevel[world_nether]', x=18.24, y=39.56, z=-237.84, cpos=[1, -15], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2576, uuid='becc2d3a-0274-49b4-8dcd-52c3acf97857', l='ServerLevel[world_nether]', x=-21.60, y=126.33, z=-269.56, cpos=[-2, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2539, uuid='89e95d22-bd3a-47c8-9369-8989bae8dfc6', l='ServerLevel[world_nether]', x=-48.19, y=40.93, z=-251.06, cpos=[-4, -16], tl=437, v=true] died: Restless Spirit starved to death
-[20:52:14] [Async Chat Thread - #0/INFO]: [Not Secure] <LeoG24_> pues no veas el rollback
-[20:52:15] [Server thread/INFO]: Pacifico issued server command: /tpaccept
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2596, uuid='ac7e0a0e-b998-460a-b0d3-3939927eadd4', l='ServerLevel[world_nether]', x=-89.75, y=81.27, z=-275.29, cpos=[-6, -18], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2619, uuid='ea40e184-37e4-4ea4-a944-d5dcc20f1e03', l='ServerLevel[world_nether]', x=79.71, y=39.70, z=-231.19, cpos=[4, -15], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2621, uuid='881a0750-0e09-431d-8abf-1995af1f5b11', l='ServerLevel[world_nether]', x=76.38, y=34.19, z=-219.86, cpos=[4, -14], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2626, uuid='abf4252d-1b27-4371-afa3-a53edb447361', l='ServerLevel[world_nether]', x=-37.27, y=115.92, z=-285.24, cpos=[-3, -18], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2631, uuid='272b4c23-5377-4cfc-98e2-79050c74a8bc', l='ServerLevel[world_nether]', x=128.60, y=35.64, z=-268.75, cpos=[8, -17], tl=433, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2648, uuid='1c24f188-d21d-4912-9aac-409f9bbb948c', l='ServerLevel[world_nether]', x=-40.10, y=68.24, z=-235.60, cpos=[-3, -15], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2655, uuid='e68001d0-140a-4054-b31d-7de61b9c7b72', l='ServerLevel[world_nether]', x=-48.61, y=68.95, z=-289.82, cpos=[-4, -19], tl=425, v=true] died: Restless Spirit starved to death
-[20:52:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2664, uuid='e19f71bb-523d-43fe-8abe-37b040d793f9', l='ServerLevel[world_nether]', x=-82.85, y=47.62, z=-285.19, cpos=[-6, -18], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2677, uuid='aabc243b-0691-4c0b-9297-2e0d696762fa', l='ServerLevel[world_nether]', x=-11.76, y=41.93, z=-313.71, cpos=[-1, -20], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2679, uuid='6d4b3dc5-6c7c-4380-bc0a-37def7457e7c', l='ServerLevel[world_nether]', x=-28.83, y=48.29, z=-340.64, cpos=[-2, -22], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2692, uuid='1086ed5f-51f1-4c9d-902f-9a920ba003d3', l='ServerLevel[world_nether]', x=-42.81, y=102.16, z=-296.52, cpos=[-3, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2704, uuid='f76532ce-b7f6-4ea0-ab3f-21ee444fb125', l='ServerLevel[world_nether]', x=-60.51, y=66.50, z=-283.04, cpos=[-4, -18], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:17] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2738, uuid='461c07c3-91cd-43fd-8474-73e22c1c7343', l='ServerLevel[world_nether]', x=2.69, y=91.17, z=-357.29, cpos=[0, -23], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:17] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2792, uuid='b1e659ea-5a3f-4dea-8560-fc823ac1fc50', l='ServerLevel[world_nether]', x=-52.76, y=53.70, z=-339.63, cpos=[-4, -22], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:17] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2820, uuid='2768d8e2-0b12-42e7-99b8-fd37204684cc', l='ServerLevel[world_nether]', x=50.59, y=43.52, z=-253.33, cpos=[3, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2846, uuid='18258a1b-1622-410a-987e-25bbb475ccc9', l='ServerLevel[world_nether]', x=150.59, y=51.93, z=-276.71, cpos=[9, -18], tl=433, v=true] died: Restless Spirit starved to death
-[20:52:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2862, uuid='82026d02-fd31-4704-984e-0055e6cb284c', l='ServerLevel[world_nether]', x=46.20, y=70.02, z=-382.76, cpos=[2, -24], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2864, uuid='4478717c-ad5a-4fc3-a42b-d73d32d49095', l='ServerLevel[world_nether]', x=42.49, y=73.68, z=-378.49, cpos=[2, -24], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2870, uuid='b5087cd2-92a1-49df-8d15-9171cb60ab0d', l='ServerLevel[world_nether]', x=-74.65, y=115.83, z=-308.39, cpos=[-5, -20], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2933, uuid='80c47227-2d43-4d71-89a0-1f7db600d2a9', l='ServerLevel[world_nether]', x=-46.64, y=75.58, z=-251.27, cpos=[-3, -16], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/2988, uuid='b83a37de-f9d1-477b-8c55-33d0b33227b5', l='ServerLevel[world_nether]', x=-75.51, y=59.68, z=-265.73, cpos=[-5, -17], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3010, uuid='26969475-3862-485a-891a-87358efa7e8b', l='ServerLevel[world_nether]', x=1.26, y=101.53, z=-377.76, cpos=[0, -24], tl=428, v=true] died: Restless Spirit starved to death
-[20:52:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3017, uuid='91deeb74-3e60-40ac-a14b-04ef7555795c', l='ServerLevel[world_nether]', x=63.59, y=52.72, z=-345.04, cpos=[3, -22], tl=427, v=true] died: Restless Spirit starved to death
-[20:52:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3047, uuid='c0f87b50-9e81-43e3-bae5-8025b1ba77bb', l='ServerLevel[world_nether]', x=-47.69, y=107.62, z=-249.76, cpos=[-3, -16], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3049, uuid='d019cbea-212b-4323-9c84-541044efd781', l='ServerLevel[world_nether]', x=-41.15, y=86.23, z=-247.96, cpos=[-3, -16], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3063, uuid='3e9f8ed3-a3e0-4021-932d-c1cab54b3f22', l='ServerLevel[world_nether]', x=-20.84, y=131.22, z=-267.48, cpos=[-2, -17], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3071, uuid='b173d3cc-4c32-491c-8fed-f6e3b1099248', l='ServerLevel[world_nether]', x=-67.33, y=58.12, z=-268.64, cpos=[-5, -17], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:22] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3145, uuid='27e93871-0bff-4815-865a-e6bf5f7e6d0e', l='ServerLevel[world_nether]', x=21.43, y=80.14, z=-295.59, cpos=[1, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3159, uuid='36d186e8-6cce-4ade-b469-e395abb54d57', l='ServerLevel[world_nether]', x=-40.82, y=64.46, z=-275.77, cpos=[-3, -18], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:23] [Async Chat Thread - #1/INFO]: [Not Secure] <Pacifico> voned y esa skin
-[20:52:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3176, uuid='c6c3c051-6a38-438c-a51e-b91288f83c43', l='ServerLevel[world_nether]', x=-38.72, y=121.58, z=-302.02, cpos=[-3, -19], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3194, uuid='1dd8c3c7-a025-4c3f-87f0-3c8199ff6f4e', l='ServerLevel[world_nether]', x=-22.54, y=47.01, z=-215.52, cpos=[-2, -14], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3210, uuid='617258e5-dc97-493d-9bc7-9f984727d546', l='ServerLevel[world_nether]', x=3.32, y=74.95, z=-305.08, cpos=[0, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3289, uuid='63648a6d-21c6-4e7a-8937-a6c0528140d5', l='ServerLevel[world_nether]', x=-1.47, y=139.65, z=-264.02, cpos=[-1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3255, uuid='cece5cbc-ef97-4be2-9252-b610f7d1bfda', l='ServerLevel[world_nether]', x=64.64, y=69.14, z=-217.11, cpos=[4, -14], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3264, uuid='2f93f50d-6ec4-41b9-9e34-1c4bf66a731d', l='ServerLevel[world_nether]', x=83.07, y=35.54, z=-320.78, cpos=[5, -21], tl=428, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3279, uuid='f3308eaa-db44-4b55-95de-8ab511c8f1e9', l='ServerLevel[world_nether]', x=62.43, y=66.90, z=-396.27, cpos=[3, -25], tl=426, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3282, uuid='62573f0e-28d6-4f79-acf5-714b7d5f7098', l='ServerLevel[world_nether]', x=-15.33, y=115.30, z=-308.75, cpos=[-1, -20], tl=424, v=true] died: Restless Spirit starved to death
-[20:52:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3287, uuid='4b279ed1-713d-41f7-9734-4f9d1ed8859e', l='ServerLevel[world_nether]', x=-11.69, y=154.05, z=-249.67, cpos=[-1, -16], tl=423, v=true] died: Restless Spirit starved to death
-[20:52:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3308, uuid='d9b39d38-6b2c-4b34-9f46-23b4ecc22565', l='ServerLevel[world_nether]', x=-64.16, y=45.97, z=-363.58, cpos=[-5, -23], tl=425, v=true] died: Restless Spirit starved to death
-[20:52:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3322, uuid='91242ba9-2ec5-48a2-b834-67aa5bf55984', l='ServerLevel[world_nether]', x=6.03, y=121.67, z=-368.43, cpos=[0, -24], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3328, uuid='0be5ead3-dc96-4ed5-8b9b-f89c5158e569', l='ServerLevel[world_nether]', x=71.57, y=80.83, z=-218.01, cpos=[4, -14], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3340, uuid='43c74e56-7e93-4b6e-9c7e-f185976411e8', l='ServerLevel[world_nether]', x=-17.56, y=121.02, z=-280.57, cpos=[-2, -18], tl=424, v=true] died: Restless Spirit starved to death
-[20:52:29] [Server thread/INFO]: LeoG24_ issued server command: /back
-[20:52:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3368, uuid='89757c35-da37-4b9e-98c2-3f4c53d0f545', l='ServerLevel[world_nether]', x=18.67, y=49.10, z=-311.85, cpos=[1, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3349, uuid='9eed03c0-c038-4a6c-931c-58dc783b41c4', l='ServerLevel[world_nether]', x=23.35, y=91.50, z=-246.29, cpos=[1, -16], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3352, uuid='83fb759c-ff9b-4da6-9bee-2e0b0a139998', l='ServerLevel[world_nether]', x=59.50, y=69.50, z=-362.56, cpos=[3, -23], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3360, uuid='6c02e2fb-e3db-4082-92ba-73aa214cd8a7', l='ServerLevel[world_nether]', x=-34.79, y=113.59, z=-313.11, cpos=[-3, -20], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3386, uuid='b3e7a2b3-e58a-4dfc-9708-b1dad8b57703', l='ServerLevel[world_nether]', x=52.87, y=120.81, z=-380.00, cpos=[3, -24], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3417, uuid='ef33b3b6-9fe4-402f-bba5-273fcb56423d', l='ServerLevel[world_nether]', x=-1.00, y=44.74, z=-286.76, cpos=[-1, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:31] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3410, uuid='cfd09b95-868d-439b-a8d4-fda593ec3bf0', l='ServerLevel[world_nether]', x=16.95, y=64.87, z=-391.62, cpos=[1, -25], tl=436, v=true] died: Restless Spirit starved to death
-[20:52:31] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3426, uuid='175ee93c-8fe5-4b77-bacf-ba591cff7061', l='ServerLevel[world_nether]', x=123.25, y=62.67, z=-335.91, cpos=[7, -21], tl=425, v=true] died: Restless Spirit starved to death
-[20:52:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3442, uuid='2155f7a9-dba4-4e91-9434-39128d71cf7f', l='ServerLevel[world_nether]', x=8.67, y=62.02, z=-216.21, cpos=[0, -14], tl=437, v=true] died: Restless Spirit starved to death
-[20:52:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3446, uuid='3df87e7e-0af1-40de-bfef-8f54a2aa94ec', l='ServerLevel[world_nether]', x=-12.98, y=118.85, z=-298.94, cpos=[-1, -19], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3452, uuid='224b0eef-43b0-49e7-960f-087c2e8776c4', l='ServerLevel[world_nether]', x=-8.50, y=128.84, z=-288.30, cpos=[-1, -19], tl=432, v=true] died: Restless Spirit starved to death
-[20:52:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3458, uuid='5ae94674-bf65-4300-bedd-263b3a428fda', l='ServerLevel[world_nether]', x=30.29, y=151.66, z=-242.00, cpos=[1, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3467, uuid='02d67cd5-024f-4fa8-9457-e520f75929f7', l='ServerLevel[world_nether]', x=7.37, y=53.37, z=-296.76, cpos=[0, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3470, uuid='a6d3ce22-9596-4958-82cd-d1f572bccace', l='ServerLevel[world_nether]', x=117.34, y=49.72, z=-335.03, cpos=[7, -21], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3480, uuid='7da5eb51-d422-4a93-ac61-0c37e3d40e98', l='ServerLevel[world_nether]', x=136.28, y=55.28, z=-281.71, cpos=[8, -18], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3491, uuid='c2210cc1-14dd-49d4-81a8-0b96562f17f3', l='ServerLevel[world_nether]', x=-47.39, y=113.45, z=-247.42, cpos=[-3, -16], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:34] [Server thread/INFO]: xMega10_ was shot by Skeleton
-[20:52:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3516, uuid='cd0576fc-b17d-4b58-90c8-5c9ed0db9391', l='ServerLevel[world_nether]', x=75.42, y=59.16, z=-390.81, cpos=[4, -25], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3558, uuid='c7c30f81-b71b-4c8f-8208-9b69e09aa675', l='ServerLevel[world_nether]', x=22.88, y=113.19, z=-274.63, cpos=[1, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:36] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3569, uuid='47826750-d883-4f80-b3b3-2347dfbc70c8', l='ServerLevel[world_nether]', x=55.89, y=79.31, z=-220.67, cpos=[3, -14], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3619, uuid='4afbf577-0e4f-40a1-a760-a9e5c6a81b6a', l='ServerLevel[world_nether]', x=31.85, y=97.06, z=-271.06, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3594, uuid='24da2040-57bc-4828-9883-0577125e1519', l='ServerLevel[world_nether]', x=106.48, y=44.38, z=-315.23, cpos=[6, -20], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3596, uuid='a752b13c-097c-473d-992d-e8d3fbc06650', l='ServerLevel[world_nether]', x=100.73, y=50.41, z=-278.03, cpos=[6, -18], tl=438, v=true] died: Restless Spirit starved to death
-[20:52:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3599, uuid='83de363b-c20e-428f-9256-bb79dd63013e', l='ServerLevel[world_nether]', x=137.64, y=46.85, z=-281.27, cpos=[8, -18], tl=432, v=true] died: Restless Spirit starved to death
-[20:52:37] [Server thread/INFO]: Pacifico was slain by Zombie
-[20:52:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3640, uuid='05d7f258-445f-4012-902f-3b37c85e78ea', l='ServerLevel[world_nether]', x=1.77, y=80.82, z=-258.52, cpos=[0, -17], tl=424, v=true] died: Restless Spirit starved to death
-[20:52:38] [Server thread/INFO]: xMega10_ issued server command: /back
-[20:52:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3656, uuid='cff48acf-65c7-480d-9119-e50d0824bfc3', l='ServerLevel[world_nether]', x=-28.42, y=66.02, z=-288.42, cpos=[-2, -19], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:40] [Async Chat Thread - #0/INFO]: [Not Secure] <xMega10_> maldita sea
-[20:52:40] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3668, uuid='cab0c688-2198-4ea5-a224-db68a7aa915b', l='ServerLevel[world_nether]', x=-19.54, y=39.98, z=-337.37, cpos=[-2, -22], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:41] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3683, uuid='c5f8fcc7-987a-4925-8ff9-a5c96a2fa04b', l='ServerLevel[world_nether]', x=129.28, y=52.70, z=-333.82, cpos=[8, -21], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:41] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3687, uuid='384818ca-c47c-4203-88b6-e37eda980391', l='ServerLevel[world_nether]', x=27.45, y=60.84, z=-361.06, cpos=[1, -23], tl=428, v=true] died: Restless Spirit starved to death
-[20:52:42] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3698, uuid='fc08162a-9c4d-4273-b76d-2b03216bbcb9', l='ServerLevel[world_nether]', x=50.16, y=96.66, z=-382.91, cpos=[3, -24], tl=429, v=true] died: Restless Spirit starved to death
-[20:52:42] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3702, uuid='d8e9a9e7-12e3-470e-a195-df5292db60ea', l='ServerLevel[world_nether]', x=126.19, y=66.05, z=-316.61, cpos=[7, -20], tl=427, v=true] died: Restless Spirit starved to death
-[20:52:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3710, uuid='c91dc182-bb82-4d24-99aa-de76b86dbd23', l='ServerLevel[world_nether]', x=-22.16, y=50.27, z=-239.62, cpos=[-2, -15], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3717, uuid='e3458aea-d5a0-4b1c-af69-44c8f1b3c09e', l='ServerLevel[world_nether]', x=23.41, y=66.19, z=-399.21, cpos=[1, -25], tl=426, v=true] died: Restless Spirit starved to death
-[20:52:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3727, uuid='d3e1929a-fffe-4409-96ae-8042b9fc748c', l='ServerLevel[world_nether]', x=-53.53, y=70.21, z=-310.13, cpos=[-4, -20], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:46] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3752, uuid='fb3423b5-5220-4e18-8cdc-31c4af63d952', l='ServerLevel[world_nether]', x=21.41, y=55.47, z=-360.66, cpos=[1, -23], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:47] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3767, uuid='5654d4c3-6e3b-4f00-bb60-c8c1b72c90aa', l='ServerLevel[world_nether]', x=-83.32, y=80.81, z=-251.62, cpos=[-6, -16], tl=432, v=true] died: Restless Spirit starved to death
-[20:52:48] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3782, uuid='09442ce7-7afd-4294-a02c-ebd48450cf61', l='ServerLevel[world_nether]', x=11.72, y=154.48, z=-262.13, cpos=[0, -17], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:48] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3826, uuid='1b2618bf-2bf5-411f-aad3-1daee11dec59', l='ServerLevel[world_nether]', x=-7.25, y=74.15, z=-270.38, cpos=[-1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:49] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3822, uuid='ca1bfbd4-7990-45b3-b059-86f930b2016f', l='ServerLevel[world_nether]', x=48.07, y=64.17, z=-366.80, cpos=[3, -23], tl=437, v=true] died: Restless Spirit starved to death
-[20:52:49] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3830, uuid='e9fbaadc-e2da-4984-abf1-6d14300ca373', l='ServerLevel[world_nether]', x=48.25, y=67.82, z=-382.05, cpos=[3, -24], tl=433, v=true] died: Restless Spirit starved to death
-[20:52:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3849, uuid='1a85de33-8641-460e-a851-843d701f2f2f', l='ServerLevel[world_nether]', x=-17.62, y=63.05, z=-292.27, cpos=[-2, -19], tl=432, v=true] died: Restless Spirit starved to death
-[20:52:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3853, uuid='806059ab-4bca-47ea-9516-a0fdd35a1185', l='ServerLevel[world_nether]', x=-18.35, y=110.46, z=-311.93, cpos=[-2, -20], tl=430, v=true] died: Restless Spirit starved to death
-[20:52:51] [Server thread/INFO]: xMega10_ was shot by Skeleton
-[20:52:51] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3887, uuid='94a3e2c2-5d6d-481d-9120-1a5ce81f58e8', l='ServerLevel[world_nether]', x=-25.79, y=71.04, z=-272.26, cpos=[-2, -18], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:51] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3893, uuid='3a2dae4a-6b81-4449-bf3a-d6a2170856c2', l='ServerLevel[world_nether]', x=32.37, y=51.25, z=-227.23, cpos=[2, -15], tl=428, v=true] died: Restless Spirit starved to death
-[20:52:51] [Server thread/WARN]: LeoG24_ moved too quickly! 3.5067472803306714,-2.1942937317126052,-13.935079189286245
-[20:52:52] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3925, uuid='fb1e5ad0-4930-427c-835c-8ddb5423e90b', l='ServerLevel[world_nether]', x=62.68, y=72.95, z=-364.12, cpos=[3, -23], tl=426, v=true] died: Restless Spirit starved to death
-[20:52:53] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3931, uuid='f0ee2ac6-edc1-4053-baa0-d621d8e62649', l='ServerLevel[world_nether]', x=-64.19, y=99.09, z=-348.18, cpos=[-5, -22], tl=440, v=true] died: Restless Spirit starved to death
-[20:52:53] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3942, uuid='878bf39c-2903-4a26-afc7-0531447dd08f', l='ServerLevel[world_nether]', x=-56.35, y=99.51, z=-312.36, cpos=[-4, -20], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:54] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3956, uuid='ea49a526-a31f-4fcb-a86f-c9445a82e802', l='ServerLevel[world_nether]', x=-24.56, y=60.15, z=-303.39, cpos=[-2, -19], tl=439, v=true] died: Restless Spirit starved to death
-[20:52:54] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3962, uuid='43c137f5-852b-4ddd-a577-043bb9546926', l='ServerLevel[world_nether]', x=145.36, y=57.97, z=-306.67, cpos=[9, -20], tl=437, v=true] died: Restless Spirit starved to death
-[20:52:54] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3971, uuid='d3c1f859-d591-4e9f-b72d-705b21ad859c', l='ServerLevel[world_nether]', x=80.13, y=73.10, z=-317.64, cpos=[5, -20], tl=433, v=true] died: Restless Spirit starved to death
-[20:52:55] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/3988, uuid='87769955-9658-4694-a931-d38ff4345ba8', l='ServerLevel[world_nether]', x=15.56, y=82.27, z=-358.57, cpos=[0, -23], tl=435, v=true] died: Restless Spirit starved to death
-[20:52:55] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4003, uuid='f35e1a9a-7518-4c8d-9bff-c3988ee3d601', l='ServerLevel[world_nether]', x=-57.54, y=58.80, z=-277.46, cpos=[-4, -18], tl=432, v=true] died: Restless Spirit starved to death
-[20:52:55] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4007, uuid='e0db3f44-7886-4359-bc9e-13882bbb9dbb', l='ServerLevel[world_nether]', x=146.41, y=32.33, z=-263.26, cpos=[9, -17], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:55] [Server thread/INFO]: xMega10_ issued server command: /back
-[20:52:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4026, uuid='c939a7eb-69a4-49d8-b817-76cc8ff696f3', l='ServerLevel[world_nether]', x=29.27, y=68.40, z=-385.16, cpos=[1, -25], tl=434, v=true] died: Restless Spirit starved to death
-[20:52:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4039, uuid='81fc31b0-a76c-4c6b-bbc9-de5a3c63ff7b', l='ServerLevel[world_nether]', x=104.21, y=59.00, z=-335.38, cpos=[6, -21], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4041, uuid='dc36d7bc-27a5-481a-afcd-a5e7f2f283bb', l='ServerLevel[world_nether]', x=92.46, y=56.33, z=-340.68, cpos=[5, -22], tl=431, v=true] died: Restless Spirit starved to death
-[20:52:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4050, uuid='9885a64d-fc7d-47c0-93df-eba4e131c8f5', l='ServerLevel[world_nether]', x=-53.54, y=96.00, z=-264.07, cpos=[-4, -17], tl=425, v=true] died: Restless Spirit starved to death
-[20:52:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4052, uuid='ed2c3367-4ae7-4fa9-a72b-58327a877bed', l='ServerLevel[world_nether]', x=55.66, y=91.97, z=-232.29, cpos=[3, -15], tl=425, v=true] died: Restless Spirit starved to death
-[20:52:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4084, uuid='05fcab45-368a-4ff0-883e-967364392632', l='ServerLevel[world_nether]', x=40.24, y=39.90, z=-290.14, cpos=[2, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4091, uuid='62ce06d3-b5c7-4a42-85be-8168dae362dc', l='ServerLevel[world_nether]', x=-16.42, y=64.09, z=-290.37, cpos=[-2, -19], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4093, uuid='a719b114-b360-4085-9363-505bfd3f24be', l='ServerLevel[world_nether]', x=-22.61, y=58.38, z=-294.51, cpos=[-2, -19], tl=422, v=true] died: Restless Spirit starved to death
-[20:52:58] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4114, uuid='475552f2-0537-4a58-9fff-52c8976abfda', l='ServerLevel[world_nether]', x=17.97, y=159.74, z=-257.88, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:58] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4116, uuid='1a950dfe-7bb2-4ddd-ae82-dcbedf7ab126', l='ServerLevel[world_nether]', x=44.80, y=139.83, z=-227.43, cpos=[2, -15], tl=421, v=true] died: Restless Spirit starved to death
-[20:52:59] [Server thread/INFO]: Pacifico issued server command: /tpa voned
-[20:53:00] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4143, uuid='8df02fa3-8432-4448-8126-435bb7acb93e', l='ServerLevel[world_nether]', x=-69.65, y=118.31, z=-294.70, cpos=[-5, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:00] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4146, uuid='9757083f-20cd-4d8e-b6fd-5bf2bdd25377', l='ServerLevel[world_nether]', x=-61.48, y=113.63, z=-288.49, cpos=[-4, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:01] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4178, uuid='396d37fb-ecda-4b65-b20f-a8e56d009d07', l='ServerLevel[world_nether]', x=13.73, y=121.93, z=-292.48, cpos=[0, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:01] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4166, uuid='382d9283-92d8-4b5a-ad75-2d9c814b175e', l='ServerLevel[world_nether]', x=44.10, y=128.88, z=-232.41, cpos=[2, -15], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:01] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4169, uuid='8676c60b-58d0-4085-98d9-a093799faf5c', l='ServerLevel[world_nether]', x=58.75, y=112.13, z=-232.20, cpos=[3, -15], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:01] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4175, uuid='5d0ce828-87a2-467d-b29e-3ad2e8434715', l='ServerLevel[world_nether]', x=51.97, y=150.34, z=-244.70, cpos=[3, -16], tl=429, v=true] died: Restless Spirit starved to death
-[20:53:02] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4189, uuid='e05568a5-7c4b-407d-93f9-c0abd9a8a992', l='ServerLevel[world_nether]', x=28.13, y=85.74, z=-370.44, cpos=[1, -24], tl=440, v=true] died: Restless Spirit starved to death
-[20:53:02] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4206, uuid='7fcdc8f1-466c-47f2-bfb8-d62d2c3035cd', l='ServerLevel[world_nether]', x=-6.80, y=140.73, z=-332.81, cpos=[-1, -21], tl=429, v=true] died: Restless Spirit starved to death
-[20:53:02] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4216, uuid='a77e1fcd-6cc8-453e-b4f6-da4db75b587f', l='ServerLevel[world_nether]', x=6.25, y=80.51, z=-379.52, cpos=[0, -24], tl=422, v=true] died: Restless Spirit starved to death
-[20:53:03] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4229, uuid='6aa4de82-a1b9-4b79-9a45-d55b97d8b206', l='ServerLevel[world_nether]', x=-54.96, y=62.39, z=-276.33, cpos=[-4, -18], tl=428, v=true] died: Restless Spirit starved to death
-[20:53:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4262, uuid='0b0d26ea-f08b-4f50-80c0-1f04f8e81c3f', l='ServerLevel[world_nether]', x=-28.57, y=121.48, z=-328.82, cpos=[-2, -21], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4264, uuid='2383c084-7eec-4d82-9660-da29a37db248', l='ServerLevel[world_nether]', x=-72.56, y=111.89, z=-290.46, cpos=[-5, -19], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4271, uuid='cef28fbe-7a5f-4872-9513-1c501781a898', l='ServerLevel[world_nether]', x=133.50, y=56.68, z=-297.94, cpos=[8, -19], tl=425, v=true] died: Restless Spirit starved to death
-[20:53:05] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4296, uuid='f3e2b46f-827e-474b-81c4-9795c4ec5fad', l='ServerLevel[world_nether]', x=27.40, y=103.26, z=-293.91, cpos=[1, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:05] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4278, uuid='9391b33b-d943-431b-ac95-c7dd838fc40f', l='ServerLevel[world_nether]', x=84.74, y=72.04, z=-385.29, cpos=[5, -25], tl=437, v=true] died: Restless Spirit starved to death
-[20:53:05] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4294, uuid='c0a263d3-50fb-4073-a247-323893e3c809', l='ServerLevel[world_nether]', x=45.79, y=59.12, z=-239.23, cpos=[2, -15], tl=426, v=true] died: Restless Spirit starved to death
-[20:53:05] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4303, uuid='317aa76f-bc5b-4a3f-931e-1b44bb2f07f2', l='ServerLevel[world_nether]', x=-41.66, y=104.25, z=-290.53, cpos=[-3, -19], tl=424, v=true] died: Restless Spirit starved to death
-[20:53:06] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4314, uuid='294644d9-0774-4928-ad27-7b11b7aff812', l='ServerLevel[world_nether]', x=-72.53, y=67.88, z=-282.19, cpos=[-5, -18], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:06] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4332, uuid='9cdde284-f1fc-4b1b-a1ba-8ff69f040df2', l='ServerLevel[world_nether]', x=-25.01, y=113.29, z=-284.33, cpos=[-2, -18], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4369, uuid='1cb1cead-f9d9-4533-9f95-f8016ba6dcac', l='ServerLevel[world_nether]', x=28.18, y=72.23, z=-379.37, cpos=[1, -24], tl=440, v=true] died: Restless Spirit starved to death
-[20:53:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4377, uuid='ec31701e-284a-45fd-a5dd-8f43c1847113', l='ServerLevel[world_nether]', x=-58.32, y=95.74, z=-303.93, cpos=[-4, -19], tl=432, v=true] died: Restless Spirit starved to death
-[20:53:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4390, uuid='ff761b0e-0a44-4711-9b6b-9c00756a8525', l='ServerLevel[world_nether]', x=26.94, y=105.21, z=-394.18, cpos=[1, -25], tl=428, v=true] died: Restless Spirit starved to death
-[20:53:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4393, uuid='2d965b69-86e5-473a-a2da-2fb4fd2dd584', l='ServerLevel[world_nether]', x=-29.70, y=74.03, z=-223.53, cpos=[-2, -14], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4410, uuid='260137bc-f0fb-4225-b895-785fe82bfcf8', l='ServerLevel[world_nether]', x=-61.49, y=117.26, z=-285.51, cpos=[-4, -18], tl=424, v=true] died: Restless Spirit starved to death
-[20:53:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4503, uuid='3773d696-cd6f-48ec-a09c-e792743354c5', l='ServerLevel[world_nether]', x=97.74, y=49.04, z=-354.84, cpos=[6, -23], tl=437, v=true] died: Restless Spirit starved to death
-[20:53:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4518, uuid='f4aa1ab2-359e-423c-8778-e6c7a2cffa61', l='ServerLevel[world_nether]', x=-68.99, y=105.18, z=-249.04, cpos=[-5, -16], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4522, uuid='c0ef451d-4138-437c-b033-0c46e8743066', l='ServerLevel[world_nether]', x=13.79, y=100.55, z=-249.27, cpos=[0, -16], tl=433, v=true] died: Restless Spirit starved to death
-[20:53:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4535, uuid='6575c65f-080e-4e60-b158-067c3ad75a28', l='ServerLevel[world_nether]', x=35.83, y=104.35, z=-394.05, cpos=[2, -25], tl=434, v=true] died: Restless Spirit starved to death
-[20:53:21] [Server thread/INFO]: voned was slain by Zombie
-[20:53:22] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4553, uuid='9983aaba-e1a4-44a2-950b-6a8d3aa97e9d', l='ServerLevel[world_nether]', x=-69.65, y=118.85, z=-284.26, cpos=[-5, -18], tl=428, v=true] died: Restless Spirit starved to death
-[20:53:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4563, uuid='5ccb4dc5-7731-4506-bc3b-e8cfb6d4a175', l='ServerLevel[world_nether]', x=-49.68, y=93.99, z=-297.07, cpos=[-4, -19], tl=426, v=true] died: Restless Spirit starved to death
-[20:53:25] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4584, uuid='f1312830-32e1-468f-a16e-ba9259a70eb7', l='ServerLevel[world_nether]', x=48.47, y=49.49, z=-233.55, cpos=[3, -15], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4651, uuid='371375e2-7cfb-4dc3-8bc0-2f560bd3daf2', l='ServerLevel[world_nether]', x=84.13, y=59.34, z=-377.75, cpos=[5, -24], tl=426, v=true] died: Restless Spirit starved to death
-[20:53:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4658, uuid='b73052ff-94fa-49a3-9202-8c277e950200', l='ServerLevel[world_nether]', x=110.98, y=37.47, z=-269.15, cpos=[6, -17], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4667, uuid='553c7f24-6b50-4952-961a-e02f264c1f43', l='ServerLevel[world_nether]', x=-65.69, y=97.11, z=-298.02, cpos=[-5, -19], tl=425, v=true] died: Restless Spirit starved to death
-[20:53:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4673, uuid='81999168-1ef2-45c4-94af-9bef327d8ce2', l='ServerLevel[world_nether]', x=14.69, y=80.15, z=-364.61, cpos=[0, -23], tl=436, v=true] died: Restless Spirit starved to death
-[20:53:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4696, uuid='788c99c3-484c-4634-b683-9323e64e613a', l='ServerLevel[world_nether]', x=-13.27, y=147.74, z=-267.86, cpos=[-1, -17], tl=423, v=true] died: Restless Spirit starved to death
-[20:53:28] [Server thread/INFO]: LeoG24_ lost connection: Disconnected
-[20:53:28] [Server thread/INFO]: [voicechat] Disconnecting client LeoG24_
-[20:53:28] [Server thread/INFO]: LeoG24_ left the game
-[20:53:29] [Server thread/INFO]: Pacifico was shot by Skeleton
-[20:53:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4708, uuid='ecc314d7-ed71-4926-a45b-1a74c56d7237', l='ServerLevel[world_nether]', x=-56.04, y=78.49, z=-231.95, cpos=[-4, -15], tl=433, v=true] died: Restless Spirit starved to death
-[20:53:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4718, uuid='bbbc3e6a-47bb-4c1a-9945-d3bf5da64f58', l='ServerLevel[world_nether]', x=107.01, y=54.82, z=-349.98, cpos=[6, -22], tl=439, v=true] died: Restless Spirit starved to death
-[20:53:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4726, uuid='925e2621-5244-4728-881d-e8d45d8afc74', l='ServerLevel[world_nether]', x=77.56, y=52.43, z=-401.59, cpos=[4, -26], tl=432, v=true] died: Restless Spirit starved to death
-[20:53:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4729, uuid='ed23b2a7-d5c4-47dc-a773-0f398f37904e', l='ServerLevel[world_nether]', x=57.28, y=67.41, z=-350.22, cpos=[3, -22], tl=431, v=true] died: Restless Spirit starved to death
-[20:53:31] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4757, uuid='14cbacf4-34cb-47fa-92fe-95ede8724cae', l='ServerLevel[world_nether]', x=-45.69, y=42.39, z=-314.09, cpos=[-3, -20], tl=423, v=true] died: Restless Spirit starved to death
-[20:53:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4780, uuid='74e59320-ba14-4a10-a90f-471fcc9e923b', l='ServerLevel[world_nether]', x=-9.49, y=60.92, z=-285.17, cpos=[-1, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4784, uuid='9247f7a4-6cba-40a9-94c1-ae29d04ad2e5', l='ServerLevel[world_nether]', x=-43.45, y=66.86, z=-283.22, cpos=[-3, -18], tl=428, v=true] died: Restless Spirit starved to death
-[20:53:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4789, uuid='c98a94c5-98a0-438d-9a2a-a324062a7b2d', l='ServerLevel[world_nether]', x=2.28, y=100.29, z=-229.40, cpos=[0, -15], tl=440, v=true] died: Restless Spirit starved to death
-[20:53:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4798, uuid='bc93c180-3378-4403-8463-386e741cc54a', l='ServerLevel[world_nether]', x=90.53, y=66.88, z=-329.97, cpos=[5, -21], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4803, uuid='281e981e-0de4-43ce-8b42-42e7530a5890', l='ServerLevel[world_nether]', x=130.23, y=39.49, z=-272.23, cpos=[8, -18], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:36] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4819, uuid='2a547a21-ba72-42e9-a183-41d261268ea7', l='ServerLevel[world_nether]', x=89.44, y=34.81, z=-228.09, cpos=[5, -15], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4840, uuid='975d202d-55a1-4911-a8ab-c2dfc8e93fc6', l='ServerLevel[world_nether]', x=47.43, y=89.92, z=-258.72, cpos=[2, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4859, uuid='ee056504-576d-40a0-a7e2-78f3d475b06a', l='ServerLevel[world_nether]', x=-52.73, y=52.34, z=-354.52, cpos=[-4, -23], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4861, uuid='0dbb3735-4e11-4a5b-b0b1-29d921636ac3', l='ServerLevel[world_nether]', x=-58.74, y=46.30, z=-341.84, cpos=[-4, -22], tl=427, v=true] died: Restless Spirit starved to death
-[20:53:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4880, uuid='4be878b8-0be4-4706-b9c0-4a32518124fc', l='ServerLevel[world_nether]', x=-59.05, y=39.62, z=-269.60, cpos=[-4, -17], tl=430, v=true] died: Restless Spirit starved to death
-[20:53:40] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4896, uuid='6828ba8a-1ed9-4dcd-86d6-878962928766', l='ServerLevel[world_nether]', x=95.79, y=58.21, z=-389.30, cpos=[5, -25], tl=425, v=true] died: Restless Spirit starved to death
-[20:53:41] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4907, uuid='c5c2871e-45e0-430a-bc3e-71c8e3192368', l='ServerLevel[world_nether]', x=-43.17, y=96.68, z=-301.95, cpos=[-3, -19], tl=440, v=true] died: Restless Spirit starved to death
-[20:53:41] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4925, uuid='160b370f-5fb2-4ca7-a8c3-b275188fdebd', l='ServerLevel[world_nether]', x=28.52, y=71.93, z=-240.10, cpos=[1, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:42] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4928, uuid='0f9f2d14-b29b-4f5c-8f3a-ab5b31e31b12', l='ServerLevel[world_nether]', x=28.32, y=56.64, z=-331.60, cpos=[1, -21], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:42] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4933, uuid='caffb6c2-1e30-4628-9fbd-d2ed473cbbea', l='ServerLevel[world_nether]', x=157.21, y=47.37, z=-302.98, cpos=[9, -19], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:43] [Server thread/INFO]: xMega10_ was slain by Zombie
-[20:53:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4964, uuid='20054635-7764-44f5-94a7-d2a299b9df92', l='ServerLevel[world_nether]', x=89.27, y=71.82, z=-380.01, cpos=[5, -24], tl=434, v=true] died: Restless Spirit starved to death
-[20:53:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/4974, uuid='ae4a9461-de90-475b-a2c2-47954ecf9923', l='ServerLevel[world_nether]', x=85.23, y=53.68, z=-385.64, cpos=[5, -25], tl=429, v=true] died: Restless Spirit starved to death
-[20:53:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5010, uuid='05e15271-d922-41a6-a216-c1628b861823', l='ServerLevel[world_nether]', x=74.88, y=80.41, z=-226.65, cpos=[4, -15], tl=423, v=true] died: Restless Spirit starved to death
-[20:53:45] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5051, uuid='ef0f166b-57a7-4b8f-83cc-48e55df5ed8d', l='ServerLevel[world_nether]', x=-0.63, y=109.69, z=-301.59, cpos=[-1, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:45] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5044, uuid='c00a217b-9902-43d0-8807-eaeaeffe00b9', l='ServerLevel[world_nether]', x=77.12, y=56.01, z=-392.62, cpos=[4, -25], tl=425, v=true] died: Restless Spirit starved to death
-[20:53:46] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5070, uuid='f98f8ab7-5d9e-4c80-a390-06659cada25e', l='ServerLevel[world_nether]', x=-35.02, y=78.78, z=-245.68, cpos=[-3, -16], tl=422, v=true] died: Restless Spirit starved to death
-[20:53:47] [Async Chat Thread - #2/INFO]: [Not Secure] <xMega10_> LA PUTA QUE LO PARIO
-[20:53:48] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5099, uuid='59864610-4b1b-477e-9b71-c74b31e63508', l='ServerLevel[world_nether]', x=146.60, y=70.34, z=-324.74, cpos=[9, -21], tl=425, v=true] died: Restless Spirit starved to death
-[20:53:48] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5102, uuid='5619c93d-a33b-4ae8-8f5a-a73a91f93926', l='ServerLevel[world_nether]', x=126.66, y=38.87, z=-276.43, cpos=[7, -18], tl=423, v=true] died: Restless Spirit starved to death
-[20:53:49] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5118, uuid='8761cc13-ebde-40cd-8fe5-6135e9c193c2', l='ServerLevel[world_nether]', x=-9.71, y=119.54, z=-328.55, cpos=[-1, -21], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:50] [Server thread/INFO]: xMega10_ issued server command: /back
-[20:53:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5123, uuid='bdf5c95e-74aa-473c-a844-499c800e69e6', l='ServerLevel[world_nether]', x=132.08, y=55.22, z=-304.61, cpos=[8, -20], tl=438, v=true] died: Restless Spirit starved to death
-[20:53:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5166, uuid='268e970b-bcf7-48fb-98fa-56f645e31ac9', l='ServerLevel[world_nether]', x=118.04, y=60.68, z=-330.90, cpos=[7, -21], tl=421, v=true] died: Restless Spirit starved to death
-[20:53:51] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5169, uuid='2389071a-e488-49de-8c57-2d9597f9fadf', l='ServerLevel[world_nether]', x=-15.62, y=52.53, z=-237.39, cpos=[-1, -15], tl=440, v=true] died: Restless Spirit starved to death
-[20:53:52] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5204, uuid='40b73346-28d8-4d27-9b3f-0312d6079967', l='ServerLevel[world_nether]', x=15.64, y=40.48, z=-401.24, cpos=[0, -26], tl=435, v=true] died: Restless Spirit starved to death
-[20:53:54] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5227, uuid='32a98509-2b90-4804-8f56-f20005fde9bb', l='ServerLevel[world_nether]', x=-64.63, y=80.48, z=-266.30, cpos=[-5, -17], tl=434, v=true] died: Restless Spirit starved to death
-[20:53:55] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5234, uuid='80d39253-9449-4366-9fda-b86131725483', l='ServerLevel[world_nether]', x=-57.34, y=69.18, z=-246.69, cpos=[-4, -16], tl=436, v=true] died: Restless Spirit starved to death
-[20:53:55] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5241, uuid='e9d32786-61eb-48e8-ada9-75189319ff96', l='ServerLevel[world_nether]', x=-17.62, y=80.89, z=-238.60, cpos=[-2, -15], tl=432, v=true] died: Restless Spirit starved to death
-[20:53:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5254, uuid='77abd33c-f40a-479c-a377-cacc23ed0c53', l='ServerLevel[world_nether]', x=-62.93, y=109.83, z=-309.43, cpos=[-4, -20], tl=433, v=true] died: Restless Spirit starved to death
-[20:53:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5263, uuid='32db92d3-039b-41b1-9c2b-034fa6bb98c3', l='ServerLevel[world_nether]', x=101.47, y=61.12, z=-327.47, cpos=[6, -21], tl=431, v=true] died: Restless Spirit starved to death
-[20:53:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5272, uuid='843f26d8-8962-4c1e-b719-a34e7e2a827e', l='ServerLevel[world_nether]', x=-51.43, y=41.85, z=-271.04, cpos=[-4, -17], tl=437, v=true] died: Restless Spirit starved to death
-[20:53:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5291, uuid='1b0fa9ef-aeda-4763-be1b-cb1e4d341ff3', l='ServerLevel[world_nether]', x=46.43, y=82.62, z=-397.98, cpos=[2, -25], tl=423, v=true] died: Restless Spirit starved to death
-[20:53:59] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5326, uuid='7255277d-2adb-47ee-963a-8b23a4d894da', l='ServerLevel[world_nether]', x=24.39, y=136.72, z=-219.23, cpos=[1, -14], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:00] [Server thread/INFO]: voned issued server command: /tpa enginergianex
-[20:54:02] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5346, uuid='13c9ade6-d52c-484c-b651-4028a7c157b6', l='ServerLevel[world_nether]', x=28.53, y=72.97, z=-400.57, cpos=[1, -26], tl=438, v=true] died: Restless Spirit starved to death
-[20:54:03] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5371, uuid='98b991e5-5d9f-4bef-bb22-a8b7ff595b93', l='ServerLevel[world_nether]', x=-7.18, y=57.64, z=-218.60, cpos=[-1, -14], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5375, uuid='8c9428f2-6afc-44ec-a44a-c8ebe7ab0e74', l='ServerLevel[world_nether]', x=-56.87, y=52.08, z=-359.49, cpos=[-4, -23], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:05] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5385, uuid='cadd7d62-a987-42db-9b32-4a4750fda0b4', l='ServerLevel[world_nether]', x=-56.67, y=41.09, z=-238.06, cpos=[-4, -15], tl=439, v=true] died: Restless Spirit starved to death
-[20:54:06] [Server thread/INFO]: EnginerGianex issued server command: /tpaccept
-[20:54:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5406, uuid='ff48ea6e-053b-47d8-88f6-a5eff7807b86', l='ServerLevel[world_nether]', x=-54.21, y=95.03, z=-293.08, cpos=[-4, -19], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5420, uuid='e09a3de7-242d-405f-bc4d-16f016417c6d', l='ServerLevel[world_nether]', x=89.73, y=39.46, z=-291.11, cpos=[5, -19], tl=432, v=true] died: Restless Spirit starved to death
-[20:54:10] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5438, uuid='6f8f49f6-9fe7-4b32-88bd-d47cdcbf31f1', l='ServerLevel[world_nether]', x=30.04, y=117.76, z=-380.39, cpos=[1, -24], tl=431, v=true] died: Restless Spirit starved to death
-[20:54:12] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5528, uuid='adf07c60-0b1f-4188-bc2a-70941b5a0293', l='ServerLevel[world_nether]', x=2.24, y=142.30, z=-265.66, cpos=[0, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:13] [Server thread/INFO]: Pacifico drowned
-[20:54:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5574, uuid='6672f97a-ae59-4e24-8ecb-d124305de80f', l='ServerLevel[world_nether]', x=-16.41, y=51.10, z=-233.60, cpos=[-2, -15], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5586, uuid='e067667c-f81c-406f-bea3-aac1bb65c309', l='ServerLevel[world_nether]', x=-56.86, y=66.46, z=-268.64, cpos=[-4, -17], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5590, uuid='050e06ce-9106-4f6d-b3cb-e91303865962', l='ServerLevel[world_nether]', x=-22.16, y=124.66, z=-250.29, cpos=[-2, -16], tl=428, v=true] died: Restless Spirit starved to death
-[20:54:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5597, uuid='9c241394-ad92-4496-ae8d-85d47c2db2e3', l='ServerLevel[world_nether]', x=-55.23, y=89.00, z=-262.41, cpos=[-4, -17], tl=436, v=true] died: Restless Spirit starved to death
-[20:54:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5627, uuid='5e439db4-4176-48b9-bfd5-6de2d9e2c5d4', l='ServerLevel[world_nether]', x=45.68, y=70.73, z=-274.39, cpos=[2, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5617, uuid='d3a5a2c8-721d-453f-a7a6-0d1c2e6d4bfd', l='ServerLevel[world_nether]', x=-11.61, y=118.46, z=-305.82, cpos=[-1, -20], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:16] [Async Chat Thread - #3/INFO]: [Not Secure] <voned> tengo miedo
-[20:54:17] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5637, uuid='47201c40-635d-48ab-a38d-8887e4a90435', l='ServerLevel[world_nether]', x=-19.43, y=119.59, z=-311.12, cpos=[-2, -20], tl=439, v=true] died: Restless Spirit starved to death
-[20:54:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5659, uuid='92babfc9-db73-4766-a318-bdc1e2a18583', l='ServerLevel[world_nether]', x=-31.41, y=115.85, z=-294.19, cpos=[-2, -19], tl=437, v=true] died: Restless Spirit starved to death
-[20:54:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5680, uuid='07e42a50-da56-4750-a6e8-23e96c50d2bb', l='ServerLevel[world_nether]', x=23.99, y=86.69, z=-263.64, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:18] [Async Chat Thread - #2/INFO]: [Not Secure] <xMega10_> JAJA
-[20:54:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5676, uuid='85084e6a-2202-43e0-95f6-65383a590ef8', l='ServerLevel[world_nether]', x=-34.43, y=107.83, z=-288.17, cpos=[-3, -19], tl=440, v=true] died: Restless Spirit starved to death
-[20:54:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5723, uuid='b9b5fe3b-a244-4eb9-9fae-2b025e3fe7fe', l='ServerLevel[world_nether]', x=-57.23, y=120.70, z=-304.66, cpos=[-4, -20], tl=437, v=true] died: Restless Spirit starved to death
-[20:54:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5730, uuid='0106755f-7cea-4734-9f1a-793e55b11cab', l='ServerLevel[world_nether]', x=-49.76, y=68.32, z=-297.89, cpos=[-4, -19], tl=428, v=true] died: Restless Spirit starved to death
-[20:54:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5737, uuid='6b37162f-cec1-4053-b32d-7d733d802ab7', l='ServerLevel[world_nether]', x=15.96, y=67.52, z=-397.05, cpos=[0, -25], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5751, uuid='6e80f3d8-1419-4ef6-a987-d18f0387d550', l='ServerLevel[world_nether]', x=106.28, y=41.72, z=-386.76, cpos=[6, -25], tl=432, v=true] died: Restless Spirit starved to death
-[20:54:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5766, uuid='692977f0-995d-47c6-8128-dc44deaa17ee', l='ServerLevel[world_nether]', x=-41.73, y=97.01, z=-300.78, cpos=[-3, -19], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5768, uuid='973ed0f2-2c07-4373-bdd0-b1667bfc11a4', l='ServerLevel[world_nether]', x=-66.38, y=103.20, z=-307.69, cpos=[-5, -20], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5772, uuid='c15f88c1-8df5-4af5-8051-f41025217952', l='ServerLevel[world_nether]', x=-71.26, y=74.28, z=-246.27, cpos=[-5, -16], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:22] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5790, uuid='a3f5f5ea-68c0-4959-96b7-9635cf4fba72', l='ServerLevel[world_nether]', x=-13.36, y=68.60, z=-267.68, cpos=[-1, -17], tl=430, v=true] died: Restless Spirit starved to death
-[20:54:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5807, uuid='983f43a7-0b40-48f0-9ac4-84a9e0dccee2', l='ServerLevel[world_nether]', x=-48.40, y=110.18, z=-231.60, cpos=[-4, -15], tl=439, v=true] died: Restless Spirit starved to death
-[20:54:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5814, uuid='6666412f-0e12-47fa-a4bf-d4012ec5315b', l='ServerLevel[world_nether]', x=-76.43, y=70.28, z=-309.54, cpos=[-5, -20], tl=436, v=true] died: Restless Spirit starved to death
-[20:54:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5816, uuid='387d98f1-7863-41d4-b68c-b04ab9160d85', l='ServerLevel[world_nether]', x=-71.42, y=51.28, z=-331.46, cpos=[-5, -21], tl=436, v=true] died: Restless Spirit starved to death
-[20:54:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5834, uuid='3b46b414-a51c-4298-bccd-2916445ce7de', l='ServerLevel[world_nether]', x=25.63, y=43.39, z=-266.17, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5850, uuid='18dc1294-c59b-4b16-adc3-622f187dc833', l='ServerLevel[world_nether]', x=-4.33, y=76.44, z=-251.09, cpos=[-1, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5841, uuid='649d9796-eebf-46c4-9c8e-09ed9b13f10d', l='ServerLevel[world_nether]', x=-44.73, y=111.85, z=-281.44, cpos=[-3, -18], tl=436, v=true] died: Restless Spirit starved to death
-[20:54:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5848, uuid='b39c6350-97da-4fbb-9781-bafe57af5954', l='ServerLevel[world_nether]', x=21.78, y=77.98, z=-329.89, cpos=[1, -21], tl=434, v=true] died: Restless Spirit starved to death
-[20:54:25] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5911, uuid='5afc299c-2b6c-4bf8-9f41-186cc34a177b', l='ServerLevel[world_nether]', x=31.21, y=108.16, z=-266.89, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:25] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5864, uuid='55943edc-5434-4984-8231-be4e4a8b2453', l='ServerLevel[world_nether]', x=13.00, y=97.89, z=-312.53, cpos=[0, -20], tl=439, v=true] died: Restless Spirit starved to death
-[20:54:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5921, uuid='7979e623-cafa-41c7-9589-02bf9f6060b0', l='ServerLevel[world_nether]', x=-39.44, y=73.94, z=-244.74, cpos=[-3, -16], tl=431, v=true] died: Restless Spirit starved to death
-[20:54:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5930, uuid='201fc59f-7249-4331-9080-18a9a207a710', l='ServerLevel[world_nether]', x=140.45, y=50.04, z=-265.63, cpos=[8, -17], tl=424, v=true] died: Restless Spirit starved to death
-[20:54:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5932, uuid='c13882c9-c370-4eab-8eb8-a16a6b15ef72', l='ServerLevel[world_nether]', x=-2.36, y=35.79, z=-358.91, cpos=[-1, -23], tl=424, v=true] died: Restless Spirit starved to death
-[20:54:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5935, uuid='bfb0347d-c936-4b4d-9d18-d8292ba21438', l='ServerLevel[world_nether]', x=-62.27, y=54.69, z=-263.75, cpos=[-4, -17], tl=422, v=true] died: Restless Spirit starved to death
-[20:54:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5987, uuid='1995a7b7-fd1c-4052-a814-d63d7f5e4f8c', l='ServerLevel[world_nether]', x=78.47, y=73.58, z=-241.69, cpos=[4, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5942, uuid='6c355c8b-8a16-464c-a439-9dab026f5a27', l='ServerLevel[world_nether]', x=77.28, y=75.02, z=-355.59, cpos=[4, -23], tl=437, v=true] died: Restless Spirit starved to death
-[20:54:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5953, uuid='c93b4077-4580-47d7-ac97-0c668df90e74', l='ServerLevel[world_nether]', x=-8.95, y=114.23, z=-311.07, cpos=[-1, -20], tl=432, v=true] died: Restless Spirit starved to death
-[20:54:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5971, uuid='2624676f-3510-4332-a14f-075b55b7a6d5', l='ServerLevel[world_nether]', x=94.33, y=51.20, z=-367.20, cpos=[5, -23], tl=430, v=true] died: Restless Spirit starved to death
-[20:54:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/5985, uuid='cc5a90e5-caa0-40b6-be86-d33742af15f8', l='ServerLevel[world_nether]', x=139.27, y=41.22, z=-283.66, cpos=[8, -18], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6012, uuid='b9bb0ab4-dc9f-4107-ae05-398b6f6d5a79', l='ServerLevel[world_nether]', x=-22.09, y=103.71, z=-228.45, cpos=[-2, -15], tl=431, v=true] died: Restless Spirit starved to death
-[20:54:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6018, uuid='ef8bacfe-5dc6-469b-bd14-ec585b7ef23b', l='ServerLevel[world_nether]', x=-29.13, y=111.07, z=-323.56, cpos=[-2, -21], tl=430, v=true] died: Restless Spirit starved to death
-[20:54:28] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6022, uuid='544bdfa9-3779-4641-95c7-4b32e30d0d41', l='ServerLevel[world_nether]', x=-9.55, y=75.02, z=-244.22, cpos=[-1, -16], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6045, uuid='b20d1b4c-8aa5-4b5c-8378-56cef98b4fd3', l='ServerLevel[world_nether]', x=44.68, y=108.07, z=-356.52, cpos=[2, -23], tl=430, v=true] died: Restless Spirit starved to death
-[20:54:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6051, uuid='6fea28c5-a778-4135-a455-4d8d70192c01', l='ServerLevel[world_nether]', x=25.15, y=104.65, z=-224.72, cpos=[1, -15], tl=424, v=true] died: Restless Spirit starved to death
-[20:54:30] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6089, uuid='5bfd9cf7-b9cc-4aea-8507-da1f6dd53d04', l='ServerLevel[world_nether]', x=30.03, y=159.99, z=-220.79, cpos=[1, -14], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:31] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6103, uuid='8776a90a-f98c-4a83-b67a-00843a4bf967', l='ServerLevel[world_nether]', x=-64.40, y=116.29, z=-318.68, cpos=[-5, -20], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6121, uuid='98f506f3-6523-4371-8f4c-3801e4964d95', l='ServerLevel[world_nether]', x=67.57, y=136.74, z=-215.37, cpos=[4, -14], tl=439, v=true] died: Restless Spirit starved to death
-[20:54:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6142, uuid='02f88ac6-1d96-4bc3-b2e9-281b6fabeec5', l='ServerLevel[world_nether]', x=51.29, y=72.61, z=-261.23, cpos=[3, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6150, uuid='f8e05331-a51a-440c-8f12-ff003b5442d8', l='ServerLevel[world_nether]', x=-42.29, y=107.78, z=-284.62, cpos=[-3, -18], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6469, uuid='071868f8-f4b1-4358-9f5b-7303e14f7487', l='ServerLevel[world_nether]', x=-24.00, y=49.84, z=-320.72, cpos=[-2, -21], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6820, uuid='b552c8ef-6e36-46c2-8489-b268737d0716', l='ServerLevel[world_nether]', x=49.76, y=70.34, z=-379.79, cpos=[3, -24], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6829, uuid='0de88665-3000-43ea-b97f-a84df7a38369', l='ServerLevel[world_nether]', x=-61.17, y=114.10, z=-286.68, cpos=[-4, -18], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Leenxy> arroba cesar arroba cesar la gen del nether tambien tiene cambios?
-[20:54:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6972, uuid='db89eb56-97df-4d9b-9a58-5edba923d649', l='ServerLevel[world_nether]', x=-17.36, y=58.80, z=-271.78, cpos=[-2, -17], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6985, uuid='9e12a4e2-6177-4192-ba6f-089248a82603', l='ServerLevel[world_nether]', x=-21.21, y=110.20, z=-312.97, cpos=[-2, -20], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6993, uuid='e09205e3-93d1-42eb-b347-7ddbf4ffeb4e', l='ServerLevel[world_nether]', x=18.43, y=42.12, z=-242.24, cpos=[1, -16], tl=427, v=true] died: Restless Spirit starved to death
-[20:54:37] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/6995, uuid='7bb04959-03df-4d4e-9649-5d4212863e42', l='ServerLevel[world_nether]', x=-7.58, y=42.53, z=-256.78, cpos=[-1, -17], tl=427, v=true] died: Restless Spirit starved to death
-[20:54:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7003, uuid='2b6374ba-76be-464f-b4ec-c820a6841abb', l='ServerLevel[world_nether]', x=-13.49, y=66.94, z=-232.48, cpos=[-1, -15], tl=440, v=true] died: Restless Spirit starved to death
-[20:54:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7013, uuid='4840f732-d5ea-4886-b717-4a5c363051d9', l='ServerLevel[world_nether]', x=-51.13, y=36.96, z=-328.78, cpos=[-4, -21], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7031, uuid='573dd898-3338-4e55-b4e4-51593c464e9a', l='ServerLevel[world_nether]', x=-58.15, y=111.26, z=-313.58, cpos=[-4, -20], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:38] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7035, uuid='384ca6cb-eb25-4c44-bbe1-50713eeed632', l='ServerLevel[world_nether]', x=-55.87, y=104.87, z=-298.71, cpos=[-4, -19], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7056, uuid='2c9f75fd-63f7-4a32-bb06-1025044a1942', l='ServerLevel[world_nether]', x=58.14, y=63.70, z=-236.59, cpos=[3, -15], tl=438, v=true] died: Restless Spirit starved to death
-[20:54:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7099, uuid='f2983225-fd0c-40c3-99fd-af4ed22052c4', l='ServerLevel[world_nether]', x=45.38, y=94.09, z=-203.24, cpos=[2, -13], tl=428, v=true] died: Restless Spirit starved to death
-[20:54:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7120, uuid='2589101d-6a74-4060-bde3-8a876a160005', l='ServerLevel[world_nether]', x=-36.40, y=72.66, z=-227.42, cpos=[-3, -15], tl=422, v=true] died: Restless Spirit starved to death
-[20:54:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7123, uuid='fa854c9e-26ec-45ad-9613-be8f8657dbca', l='ServerLevel[world_nether]', x=-35.91, y=76.09, z=-221.09, cpos=[-3, -14], tl=422, v=true] died: Restless Spirit starved to death
-[20:54:39] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7125, uuid='afce02cd-18cb-4d42-bbce-c2a485f801be', l='ServerLevel[world_nether]', x=-31.14, y=75.35, z=-230.68, cpos=[-2, -15], tl=422, v=true] died: Restless Spirit starved to death
-[20:54:40] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7168, uuid='34ec2eec-2f64-400b-8f80-6e964634dee2', l='ServerLevel[world_nether]', x=16.10, y=87.37, z=-272.39, cpos=[1, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:40] [Server thread/INFO]: Pacifico issued server command: /tpa voned
-[20:54:40] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7187, uuid='d9ceb311-a7e2-47f1-981c-04a816b0cad7', l='ServerLevel[world_nether]', x=57.97, y=60.36, z=-241.21, cpos=[3, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7230, uuid='4d96f467-8061-4d67-982e-847c8e5fa1ba', l='ServerLevel[world_nether]', x=29.40, y=99.11, z=-242.60, cpos=[1, -16], tl=424, v=true] died: Restless Spirit starved to death
-[20:54:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7238, uuid='12780a4c-938c-494e-ab26-e52dde71f7ba', l='ServerLevel[world_nether]', x=31.95, y=35.16, z=-262.13, cpos=[1, -17], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:44] [Server thread/INFO]: EnginerGianex was slain by xMega10_
-[20:54:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7246, uuid='dc31fc1c-602e-4db3-a825-b62f7c990b51', l='ServerLevel[world_nether]', x=156.46, y=55.82, z=-301.42, cpos=[9, -19], tl=423, v=true] died: Restless Spirit starved to death
-[20:54:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7264, uuid='4d842107-b28f-4637-a7fb-8f08f9f79dc9', l='ServerLevel[world_nether]', x=-57.81, y=116.00, z=-238.26, cpos=[-4, -15], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:46] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7290, uuid='0913cc76-76f0-4413-a7bd-2c4eb8e78ec5', l='ServerLevel[world_nether]', x=8.33, y=97.23, z=-230.26, cpos=[0, -15], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:46] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7306, uuid='90d98028-d096-41b1-bf29-6610948f4dc4', l='ServerLevel[world_nether]', x=238.86, y=55.87, z=-8.57, cpos=[14, -1], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:47] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7322, uuid='b3bf8924-135d-4648-bbae-8d62e3b2d909', l='ServerLevel[world_nether]', x=-44.97, y=108.33, z=-297.43, cpos=[-3, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:54:47] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7324, uuid='5029613c-ce5e-4567-a591-eaa4cdc4c419', l='ServerLevel[world_nether]', x=-38.99, y=105.09, z=-290.78, cpos=[-3, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:54:47] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7359, uuid='c203ca97-e771-4126-a727-c7aff6d961c0', l='ServerLevel[world_nether]', x=10.67, y=71.76, z=-284.10, cpos=[0, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:49] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7390, uuid='1499652c-4695-421d-8a62-4492248a21cc', l='ServerLevel[world_nether]', x=61.62, y=45.18, z=-219.59, cpos=[3, -14], tl=428, v=true] died: Restless Spirit starved to death
-[20:54:49] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7394, uuid='0fa288ed-8939-4421-b538-4c0489cde4bc', l='ServerLevel[world_nether]', x=-37.02, y=101.78, z=-233.90, cpos=[-3, -15], tl=426, v=true] died: Restless Spirit starved to death
-[20:54:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7419, uuid='159f6eac-68aa-45cc-a6d7-74b322a3ac9e', l='ServerLevel[world_nether]', x=-46.84, y=48.48, z=-331.83, cpos=[-3, -21], tl=427, v=true] died: Restless Spirit starved to death
-[20:54:50] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7422, uuid='9f16892b-9ebf-46a0-a923-1abc28869f4f', l='ServerLevel[world_nether]', x=133.63, y=60.42, z=-325.85, cpos=[8, -21], tl=424, v=true] died: Restless Spirit starved to death
-[20:54:51] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7433, uuid='55b09069-169d-4a44-98b7-27d66d9fe68e', l='ServerLevel[world_nether]', x=58.47, y=72.16, z=-360.98, cpos=[3, -23], tl=430, v=true] died: Restless Spirit starved to death
-[20:54:52] [Server thread/INFO]: voned was slain by xMega10_
-[20:54:52] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7454, uuid='8282df2e-f51f-4b1a-a5a0-e8efa969567a', l='ServerLevel[world_nether]', x=3.51, y=153.88, z=-246.25, cpos=[0, -16], tl=435, v=true] died: Restless Spirit starved to death
-[20:54:52] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7459, uuid='04cb9962-f42d-442a-ae7d-46176adca4e6', l='ServerLevel[world_nether]', x=-0.58, y=56.41, z=-216.61, cpos=[-1, -14], tl=429, v=true] died: Restless Spirit starved to death
-[20:54:52] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7465, uuid='d766a7b6-6a21-48e1-b381-581b0ff60dac', l='ServerLevel[world_nether]', x=132.63, y=49.19, z=-289.81, cpos=[8, -19], tl=421, v=true] died: Restless Spirit starved to death
-[20:54:53] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7473, uuid='64cefe37-1bf4-456b-bab5-a5a87851e68e', l='ServerLevel[world_nether]', x=-27.51, y=61.08, z=-273.49, cpos=[-2, -18], tl=438, v=true] died: Restless Spirit starved to death
-[20:54:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7522, uuid='81a00ce0-7067-47e6-827e-e142211498c0', l='ServerLevel[world_nether]', x=-20.52, y=62.43, z=-261.54, cpos=[-2, -17], tl=432, v=true] died: Restless Spirit starved to death
-[20:54:56] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7524, uuid='67a9a5bf-c69f-48aa-a111-cc0e903fe0f8', l='ServerLevel[world_nether]', x=9.55, y=71.69, z=-350.40, cpos=[0, -22], tl=432, v=true] died: Restless Spirit starved to death
-[20:54:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7528, uuid='ebfd6ce1-553d-4f12-b365-4ddab2142a91', l='ServerLevel[world_nether]', x=47.25, y=33.26, z=-250.48, cpos=[2, -16], tl=437, v=true] died: Restless Spirit starved to death
-[20:54:57] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7538, uuid='bcab1ec9-9b52-4a50-9abc-87fbad75d200', l='ServerLevel[world_nether]', x=41.68, y=71.75, z=-343.36, cpos=[2, -22], tl=427, v=true] died: Restless Spirit starved to death
-[20:54:59] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7561, uuid='7f3bf743-471d-42d6-acb4-cc01635d73d6', l='ServerLevel[world_nether]', x=-61.51, y=37.17, z=-321.41, cpos=[-4, -21], tl=437, v=true] died: Restless Spirit starved to death
-[20:54:59] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7564, uuid='35c415da-a5b6-43b2-90bf-e3df67a8650f', l='ServerLevel[world_nether]', x=72.53, y=78.38, z=-232.38, cpos=[4, -15], tl=436, v=true] died: Restless Spirit starved to death
-[20:54:59] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7571, uuid='1c49fc7f-cf39-44ea-a027-41d69758bf53', l='ServerLevel[world_nether]', x=-52.74, y=49.07, z=-344.83, cpos=[-4, -22], tl=423, v=true] died: Restless Spirit starved to death
-[20:55:00] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7596, uuid='96e6dd94-a5f0-4a01-9469-acfdd09508aa', l='ServerLevel[world_nether]', x=-52.84, y=93.21, z=-356.40, cpos=[-4, -23], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:00] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7598, uuid='b1704dc4-54e8-48ad-84ad-fa88f5e7f01a', l='ServerLevel[world_nether]', x=-53.61, y=99.70, z=-347.80, cpos=[-4, -22], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:01] [Async Chat Thread - #2/INFO]: [Not Secure] <xMega10_> que tal soy mega
-[20:55:01] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7617, uuid='9328ef72-7e90-4e99-828a-f67e076e5500', l='ServerLevel[world_nether]', x=31.96, y=87.11, z=-274.13, cpos=[1, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:03] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7646, uuid='3ac29bca-2eda-452c-b274-f3b7c2b0353a', l='ServerLevel[world_nether]', x=42.50, y=78.60, z=-359.50, cpos=[2, -23], tl=434, v=true] died: Restless Spirit starved to death
-[20:55:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7697, uuid='2b2164a8-ddf4-421b-bf0c-811444618b19', l='ServerLevel[world_nether]', x=36.18, y=39.21, z=-307.42, cpos=[2, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:04] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7706, uuid='c04ee219-6c22-43c0-8219-1336e9e2223c', l='ServerLevel[world_nether]', x=24.54, y=117.61, z=-365.24, cpos=[1, -23], tl=423, v=true] died: Restless Spirit starved to death
-[20:55:04] [Async Chat Thread - #3/INFO]: [Not Secure] <voned> mega para eso mejor no hagas nada
-[20:55:07] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7772, uuid='10708fc0-71d2-4f98-8532-fcdff4f2961d', l='ServerLevel[world_nether]', x=57.56, y=98.97, z=-244.50, cpos=[3, -16], tl=440, v=true] died: Restless Spirit starved to death
-[20:55:07] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7779, uuid='6e49903d-e2b2-40f7-9202-9c048978361f', l='ServerLevel[world_nether]', x=45.55, y=82.34, z=-376.47, cpos=[2, -24], tl=435, v=true] died: Restless Spirit starved to death
-[20:55:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7810, uuid='5b734b96-c91c-4ed5-803f-93872ca65829', l='ServerLevel[world_nether]', x=18.52, y=85.88, z=-326.79, cpos=[1, -21], tl=431, v=true] died: Restless Spirit starved to death
-[20:55:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7814, uuid='c04336c6-03a8-4e24-940b-6ffd070d830e', l='ServerLevel[world_nether]', x=-51.22, y=68.00, z=-293.68, cpos=[-4, -19], tl=429, v=true] died: Restless Spirit starved to death
-[20:55:08] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7817, uuid='f0351368-72af-41d0-abc6-e7a087d26fb5', l='ServerLevel[world_nether]', x=50.77, y=46.64, z=-242.76, cpos=[3, -16], tl=426, v=true] died: Restless Spirit starved to death
-[20:55:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7859, uuid='e2786dbc-72ce-4bc3-b73a-4200012b7cef', l='ServerLevel[world_nether]', x=6.55, y=84.31, z=-225.14, cpos=[0, -15], tl=426, v=true] died: Restless Spirit starved to death
-[20:55:09] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7861, uuid='7651af86-37aa-4c34-b92f-7c7aa3bd518a', l='ServerLevel[world_nether]', x=0.54, y=100.43, z=-226.27, cpos=[0, -15], tl=426, v=true] died: Restless Spirit starved to death
-[20:55:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7902, uuid='6bbab5e1-1d39-4fb3-a423-7eb76e5ee0d7', l='ServerLevel[world_nether]', x=9.10, y=76.23, z=-272.31, cpos=[0, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7891, uuid='2c85a19b-87dc-42e5-9d92-6f12f5e7a029', l='ServerLevel[world_nether]', x=33.40, y=139.08, z=-240.56, cpos=[2, -16], tl=439, v=true] died: Restless Spirit starved to death
-[20:55:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7898, uuid='490a5281-a926-438a-b27a-34eff6705f9f', l='ServerLevel[world_nether]', x=-63.08, y=72.92, z=-286.05, cpos=[-4, -18], tl=429, v=true] died: Restless Spirit starved to death
-[20:55:11] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7907, uuid='5fa38796-a999-4e62-9364-1580230f40a9', l='ServerLevel[world_nether]', x=116.92, y=62.27, z=-352.48, cpos=[7, -23], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:12] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7914, uuid='717a530d-4346-4f50-ac33-1f26ebce045c', l='ServerLevel[world_nether]', x=-71.03, y=110.31, z=-315.59, cpos=[-5, -20], tl=438, v=true] died: Restless Spirit starved to death
-[20:55:12] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7929, uuid='6fc8ad99-87b9-49d8-b5f0-962d66df1779', l='ServerLevel[world_nether]', x=-13.60, y=62.62, z=-258.62, cpos=[-1, -17], tl=425, v=true] died: Restless Spirit starved to death
-[20:55:12] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7932, uuid='2ef70b5f-e3e4-444b-b508-aca0db47ffc8', l='ServerLevel[world_nether]', x=-46.85, y=75.37, z=-266.00, cpos=[-3, -17], tl=424, v=true] died: Restless Spirit starved to death
-[20:55:13] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7948, uuid='0b04ca41-b373-4dd8-9987-2c12652c7528', l='ServerLevel[world_nether]', x=-40.62, y=110.47, z=-301.53, cpos=[-3, -19], tl=438, v=true] died: Restless Spirit starved to death
-[20:55:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7984, uuid='dd3f9141-5bcd-40bd-a68d-fdb40acb612e', l='ServerLevel[world_nether]', x=12.90, y=71.14, z=-351.07, cpos=[0, -22], tl=438, v=true] died: Restless Spirit starved to death
-[20:55:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/7993, uuid='cc807ce8-53c4-4cba-8fd6-e2ef1159cfe2', l='ServerLevel[world_nether]', x=-54.24, y=111.28, z=-262.35, cpos=[-4, -17], tl=433, v=true] died: Restless Spirit starved to death
-[20:55:14] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8001, uuid='04d26659-fb47-4094-9e01-c4759ea61145', l='ServerLevel[world_nether]', x=86.76, y=67.82, z=-329.57, cpos=[5, -21], tl=425, v=true] died: Restless Spirit starved to death
-[20:55:15] [Server thread/INFO]: Pacifico was blown up by Creeper
-[20:55:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8023, uuid='1e607e16-f64d-4356-b68c-9ed971f564db', l='ServerLevel[world_nether]', x=108.83, y=45.79, z=-267.57, cpos=[6, -17], tl=436, v=true] died: Restless Spirit starved to death
-[20:55:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8025, uuid='b16a04e5-874f-476b-9c8f-a097a0ce1508', l='ServerLevel[world_nether]', x=119.82, y=60.35, z=-279.42, cpos=[7, -18], tl=436, v=true] died: Restless Spirit starved to death
-[20:55:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8041, uuid='075e66d4-86ad-4aed-9c9e-24e5e9278469', l='ServerLevel[world_nether]', x=-46.78, y=113.53, z=-275.48, cpos=[-3, -18], tl=422, v=true] died: Restless Spirit starved to death
-[20:55:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8051, uuid='262f78d7-8507-438c-8ed1-24fba827f449', l='ServerLevel[world_nether]', x=33.29, y=74.54, z=-275.59, cpos=[2, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:16] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8061, uuid='3169766e-ee97-46ce-803b-6992e206a1dc', l='ServerLevel[world_nether]', x=-46.14, y=119.47, z=-309.77, cpos=[-3, -20], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:17] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8068, uuid='b424f0d5-e68e-4ef5-94ee-f86d8fb0f684', l='ServerLevel[world_nether]', x=12.38, y=67.10, z=-224.87, cpos=[0, -15], tl=429, v=true] died: Restless Spirit starved to death
-[20:55:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8082, uuid='f52953e5-69e6-4f22-b091-157a2ec5602b', l='ServerLevel[world_nether]', x=-28.23, y=94.45, z=-287.66, cpos=[-2, -18], tl=439, v=true] died: Restless Spirit starved to death
-[20:55:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8088, uuid='a107ae0d-985e-4143-8beb-21cf891c7ad7', l='ServerLevel[world_nether]', x=-22.19, y=114.84, z=-281.82, cpos=[-2, -18], tl=430, v=true] died: Restless Spirit starved to death
-[20:55:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8095, uuid='b5a1f23c-792b-4a18-8409-760e2f86f16f', l='ServerLevel[world_nether]', x=21.74, y=75.26, z=-380.89, cpos=[1, -24], tl=427, v=true] died: Restless Spirit starved to death
-[20:55:18] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8097, uuid='5ea5c88a-22b9-4c70-8188-045698785c58', l='ServerLevel[world_nether]', x=12.70, y=74.70, z=-397.74, cpos=[0, -25], tl=427, v=true] died: Restless Spirit starved to death
-[20:55:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8129, uuid='2b38e2c9-4c7e-4c45-80c3-cc26d46f9461', l='ServerLevel[world_nether]', x=-40.05, y=114.09, z=-270.97, cpos=[-3, -17], tl=428, v=true] died: Restless Spirit starved to death
-[20:55:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8139, uuid='29cb3eb7-82aa-4699-b2bf-ff3737ee453e', l='ServerLevel[world_nether]', x=36.46, y=72.93, z=-388.99, cpos=[2, -25], tl=422, v=true] died: Restless Spirit starved to death
-[20:55:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8142, uuid='bd2b6da3-3b11-4d77-82ae-d14a688c0c72', l='ServerLevel[world_nether]', x=56.62, y=62.22, z=-362.23, cpos=[3, -23], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:21] [Async Chat Thread - #2/INFO]: [Not Secure] <rCesar_> hola, si davs el nether y end tiene cambios
-[20:55:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8147, uuid='40098060-4a2c-4fb3-bc55-8dda2bd5e42b', l='ServerLevel[world_nether]', x=-4.68, y=117.75, z=-291.39, cpos=[-1, -19], tl=431, v=true] died: Restless Spirit starved to death
-[20:55:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8158, uuid='94906ac2-b45f-4188-a1fa-1b301e03a853', l='ServerLevel[world_nether]', x=-26.42, y=122.92, z=-280.56, cpos=[-2, -18], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:22] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8171, uuid='c9214194-759e-45b7-88f4-509557359db0', l='ServerLevel[world_nether]', x=7.05, y=64.08, z=-394.41, cpos=[0, -25], tl=430, v=true] died: Restless Spirit starved to death
-[20:55:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8182, uuid='38d56348-1ce0-49af-8ce7-211d983d87e5', l='ServerLevel[world_nether]', x=68.55, y=35.64, z=-322.70, cpos=[4, -21], tl=440, v=true] died: Restless Spirit starved to death
-[20:55:23] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8187, uuid='b948e039-9131-4ea5-a3da-99a2130b0228', l='ServerLevel[world_nether]', x=68.67, y=61.23, z=-387.36, cpos=[4, -25], tl=431, v=true] died: Restless Spirit starved to death
-[20:55:24] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8264, uuid='9b51b356-2b6f-496f-b81d-799e939b6090', l='ServerLevel[world_nether]', x=29.50, y=45.25, z=-246.50, cpos=[1, -16], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:26] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8363, uuid='60132d9b-bfca-429a-8b3d-808f825f95c2', l='ServerLevel[world_nether]', x=-14.39, y=124.79, z=-317.80, cpos=[-1, -20], tl=437, v=true] died: Restless Spirit starved to death
-[20:55:27] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8447, uuid='2324902b-3c87-4192-83f5-55500d43a0cd', l='ServerLevel[world_nether]', x=-34.58, y=107.66, z=-282.49, cpos=[-3, -18], tl=423, v=true] died: Restless Spirit starved to death
-[20:55:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8498, uuid='5f9ab831-642f-4898-9f5d-e7b2f6dd34b6', l='ServerLevel[world_nether]', x=52.60, y=87.52, z=-236.23, cpos=[3, -15], tl=421, v=true] died: Restless Spirit starved to death
-[20:55:31] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8506, uuid='09ff0d05-c081-4805-b9cc-defa037b393d', l='ServerLevel[world_nether]', x=-27.76, y=88.00, z=-243.30, cpos=[-2, -16], tl=439, v=true] died: Restless Spirit starved to death
-[20:55:32] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8528, uuid='bcb18cfb-b143-4b2f-bb2b-54b0f20ad480', l='ServerLevel[world_nether]', x=-66.61, y=95.65, z=-317.83, cpos=[-5, -20], tl=437, v=true] died: Restless Spirit starved to death
-[20:55:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8546, uuid='7f9840c6-fb76-408e-8470-547ef4383690', l='ServerLevel[world_nether]', x=-20.53, y=63.83, z=-264.40, cpos=[-2, -17], tl=434, v=true] died: Restless Spirit starved to death
-[20:55:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8554, uuid='0ea2eded-4b96-4d59-a558-06ed8dfc4840', l='ServerLevel[world_nether]', x=-5.63, y=86.71, z=-275.38, cpos=[-1, -18], tl=433, v=true] died: Restless Spirit starved to death
-[20:55:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8573, uuid='dedcdcd9-b7a6-4996-a722-e61189a44d94', l='ServerLevel[world_nether]', x=-37.70, y=59.23, z=-292.15, cpos=[-3, -19], tl=422, v=true] died: Restless Spirit starved to death
-[20:55:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8592, uuid='284540fb-e4a1-4bf4-9d42-964f047b7d76', l='ServerLevel[world_nether]', x=5.99, y=74.17, z=-391.91, cpos=[0, -25], tl=425, v=true] died: Restless Spirit starved to death
-[20:55:36] [Server thread/INFO]: rCesar_ issued server command: /tpa xMega10_
-[20:55:36] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8606, uuid='bff803e6-35de-4d73-bb53-7411ddfa0eb9', l='ServerLevel[world_nether]', x=-10.09, y=83.28, z=-238.54, cpos=[-1, -15], tl=436, v=true] died: Restless Spirit starved to death
-[20:55:42] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8670, uuid='dd1d2fb7-7da5-4c70-a93b-3f03e3a46b4f', l='ServerLevel[world_nether]', x=141.71, y=56.51, z=-302.66, cpos=[8, -19], tl=431, v=true] died: Restless Spirit starved to death
-[20:55:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8686, uuid='8ead0c00-ba67-4dce-af96-63388b6b187c', l='ServerLevel[world_nether]', x=149.56, y=37.77, z=-244.21, cpos=[9, -16], tl=434, v=true] died: Restless Spirit starved to death
-[20:55:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8695, uuid='aa3f0dc7-1664-4b91-b600-469fd81127a3', l='ServerLevel[world_nether]', x=-21.87, y=53.74, z=-350.22, cpos=[-2, -22], tl=431, v=true] died: Restless Spirit starved to death
-[20:55:43] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8698, uuid='50a4ae09-698f-4ea7-974c-0d131621c78a', l='ServerLevel[world_nether]', x=-54.29, y=60.12, z=-358.81, cpos=[-4, -23], tl=430, v=true] died: Restless Spirit starved to death
-[20:55:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8709, uuid='a0d99de0-c2f6-4e07-910d-40a165ddf11f', l='ServerLevel[world_nether]', x=137.91, y=57.77, z=-302.67, cpos=[8, -19], tl=440, v=true] died: Restless Spirit starved to death
-[20:55:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8711, uuid='cded7358-ce11-45c7-a97b-4f237ff16e66', l='ServerLevel[world_nether]', x=141.78, y=51.89, z=-307.18, cpos=[8, -20], tl=440, v=true] died: Restless Spirit starved to death
-[20:55:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8718, uuid='b20ff17b-5666-42f5-b1f5-d262077df2ce', l='ServerLevel[world_nether]', x=-49.25, y=43.30, z=-329.60, cpos=[-4, -21], tl=434, v=true] died: Restless Spirit starved to death
-[20:55:44] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8726, uuid='09fbf49a-a30c-4286-90e5-c9b2219a4777', l='ServerLevel[world_nether]', x=-3.38, y=110.73, z=-306.67, cpos=[-1, -20], tl=429, v=true] died: Restless Spirit starved to death
-[20:55:45] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8736, uuid='30ceaf8e-b0ea-47da-b615-4697e3d87d74', l='ServerLevel[world_nether]', x=-51.30, y=119.28, z=-322.42, cpos=[-4, -21], tl=436, v=true] died: Restless Spirit starved to death
-[20:55:45] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8751, uuid='2c71846b-c0e9-4004-91ec-8316aeab4c3b', l='ServerLevel[world_nether]', x=-15.92, y=64.47, z=-304.50, cpos=[-1, -20], tl=428, v=true] died: Restless Spirit starved to death
-[20:55:45] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/8753, uuid='056ca7a9-537d-44ea-8121-64b50b6f67bd', l='ServerLevel[world_nether]', x=-39.16, y=118.75, z=-316.05, cpos=[-3, -20], tl=428, v=true] died: Restless Spirit starved to death
-[20:55:46] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
-[20:55:47] [Server thread/INFO]: voned has made the advancement [Monster Hunter]
-[20:55:49] [Async Chat Thread - #3/INFO]: [Not Secure] <EnginerGianex> cesar  si lo haces vanila
-[20:55:58] [Async Chat Thread - #2/INFO]: [Not Secure] <EnginerGianex> ninguno de nosotros ha avanzado
-[20:56:04] [Async Chat Thread - #3/INFO]: [Not Secure] <Leenxy> yo si
-[20:56:04] [Async Chat Thread - #2/INFO]: [Not Secure] <xMega10_> y si hacemos el amor
-[20:56:14] [Server thread/INFO]: EnginerGianex was slain by Spider
-[20:56:27] [Server thread/INFO]: voned has made the advancement [Stone Age]
-[20:56:37] [Server thread/INFO]: xMega10_ was blown up by Creeper
-[20:56:37] [Server thread/INFO]: Leenxy has made the advancement [Strange Biomes]
-[20:56:40] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9496, uuid='1e4efda9-364e-4af7-ba5b-0eaa0dc0a6cd', l='ServerLevel[world_nether]', x=225.25, y=87.30, z=2.33, cpos=[14, 0], tl=435, v=true] died: Restless Spirit starved to death
-[20:56:43] [Async Chat Thread - #3/INFO]: [Not Secure] <rCesar_> pero porque se andan matando wn, osea coincido en que está difícil pero no le hechas toda la culpa a los datapacks y cambios que metí, lo haré vanilla pero en otro host porque este es para cosas importantes
-[20:56:44] [Async Chat Thread - #2/INFO]: [Not Secure] <xMega10_> haganlo en vanilla ples
-[20:56:45] [Server thread/INFO]: xMega10_ issued server command: /back
-[20:56:58] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9690, uuid='ca4e3c64-4641-4b90-8f2e-92ffe104e4b1', l='ServerLevel[world_nether]', x=268.97, y=79.38, z=46.95, cpos=[16, 2], tl=421, v=true] died: Restless Spirit starved to death
-[20:56:58] [Async Chat Thread - #3/INFO]: [Not Secure] <Leenxy> buuuu
-[20:57:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Leenxy> no lo cambien
-[20:57:06] [Server thread/INFO]: xMega10_ was shot by Skeleton
-[20:57:08] [Server thread/INFO]: xMega10_ lost connection: Disconnected
-[20:57:08] [Server thread/INFO]: [voicechat] Disconnecting client xMega10_
-[20:57:08] [Server thread/INFO]: xMega10_ left the game
-[20:57:08] [Async Chat Thread - #3/INFO]: [Not Secure] <EnginerGianex> davs tu eres el unico en una version reciente
-[20:57:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Leenxy> en vanilla el sv se muere en 2 dias
-[20:57:09] [Async Chat Thread - #3/INFO]: [Not Secure] <voned> y si mejor hacemos de dia y ya
-[20:57:18] [Server thread/INFO]: rCesar_ issued server command: /time set day
-[20:57:18] [Server thread/INFO]: [rCesar_: Set the time to 1000]
-[20:57:20] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9825, uuid='7afe320b-122a-4f2e-8130-1dc4031adc38', l='ServerLevel[world_nether]', x=243.52, y=97.25, z=87.98, cpos=[15, 5], tl=421, v=true] died: Restless Spirit starved to death
-[20:57:21] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9828, uuid='d1bf5d8b-c049-415c-89b2-61902c6e3ce5', l='ServerLevel[world_nether]', x=274.58, y=105.25, z=11.99, cpos=[17, 0], tl=431, v=true] died: Restless Spirit starved to death
-[20:57:22] [Async Chat Thread - #2/INFO]: [Not Secure] <EnginerGianex> si ya esta muerto
-[20:57:24] [Server thread/INFO]: rCesar_ issued server command: /tpa voned
-[20:57:25] [Async Chat Thread - #3/INFO]: [Not Secure] <EnginerGianex> ninguno ha avanzado
-[20:57:29] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9895, uuid='3899406e-ceeb-4682-b10a-3c45b76d9251', l='ServerLevel[world_nether]', x=304.61, y=71.40, z=158.63, cpos=[19, 9], tl=427, v=true] died: Restless Spirit starved to death
-[20:57:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Leenxy> io si
-[20:57:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9929, uuid='0f21d076-6a65-400d-8490-4f6e791b4f7b', l='ServerLevel[world_nether]', x=314.66, y=32.33, z=9.55, cpos=[19, 0], tl=423, v=true] died: Restless Spirit starved to death
-[20:57:33] [Server thread/INFO]: voned issued server command: /tpaccept
-[20:57:34] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9940, uuid='f589fc23-4404-4691-a07a-fc07ed77406d', l='ServerLevel[world_nether]', x=273.13, y=79.04, z=-6.42, cpos=[17, -1], tl=435, v=true] died: Restless Spirit starved to death
-[20:57:35] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9951, uuid='79c3175b-5b6e-47a6-b7da-f6a5657853df', l='ServerLevel[world_nether]', x=250.54, y=104.39, z=121.00, cpos=[15, 7], tl=438, v=true] died: Restless Spirit starved to death
-[20:57:36] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/9969, uuid='c5ef86d8-68e0-4ba0-9ed0-60d0555c43df', l='ServerLevel[world_nether]', x=242.41, y=78.80, z=10.34, cpos=[15, 0], tl=435, v=true] died: Restless Spirit starved to death
-[20:57:41] [Async Chat Thread - #3/INFO]: [Not Secure] <EnginerGianex> pero uno solo de 10
-[20:57:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Leenxy> ya ya
-[20:57:46] [Async Chat Thread - #3/INFO]: [Not Secure] <voned> dame comida
-[20:57:50] [Async Chat Thread - #2/INFO]: [Not Secure] <voned> me muero
-[20:57:50] [Async Chat Thread - #2/INFO]: [Not Secure] <EnginerGianex> tenemos que jugar vanilla para que odos jueguen chaval
-[20:57:50] [Async Chat Thread - #3/INFO]: [Not Secure] <Leenxy> mneos lloros
-[20:57:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Leenxy> mejor cambien a vanilla
-[20:58:15] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/10244, uuid='e11b51d0-f031-4edf-86ad-5bdbb4bbe70a', l='ServerLevel[world_nether]', x=244.07, y=94.05, z=9.93, cpos=[15, 0], tl=437, v=true] died: Restless Spirit starved to death
-[20:58:19] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/10285, uuid='f36f830f-51e6-4e52-99c0-d11dd53228c7', l='ServerLevel[world_nether]', x=261.35, y=164.93, z=149.12, cpos=[16, 9], tl=423, v=true] died: Restless Spirit starved to death
-[20:58:25] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/10328, uuid='899dc048-e02e-42c5-90c0-a9aede2e46c2', l='ServerLevel[world_nether]', x=314.86, y=101.80, z=80.32, cpos=[19, 5], tl=436, v=true] died: Restless Spirit starved to death
-[20:58:29] [Async Chat Thread - #3/INFO]: [Not Secure] <rCesar_> ya vengo
-[20:58:31] [Async Chat Thread - #2/INFO]: [Not Secure] <EnginerGianex> esperemso que cesar lo haga
-[20:58:32] [Server thread/INFO]: voned has made the advancement [Getting an Upgrade]
-[20:58:33] [Server thread/INFO]: Named entity EntityVex['Restless Spirit'/10384, uuid='bc58e389-7987-47aa-a03f-66e05de31c99', l='ServerLevel[world_nether]', x=295.82, y=94.40, z=47.90, cpos=[18, 2], tl=427, v=true] died: Restless Spirit starved to death
-[20:58:34] [Server thread/INFO]: EnginerGianex lost connection: Disconnected
-[20:58:34] [Server thread/INFO]: [voicechat] Disconnecting client EnginerGianex
-[20:58:34] [Server thread/INFO]: EnginerGianex left the game
-[20:58:34] [Server thread/INFO]: rCesar_ lost connection: Disconnected
-[20:58:34] [Server thread/INFO]: [voicechat] Disconnecting client rCesar_
-[20:58:34] [Server thread/INFO]: rCesar_ left the game
-[20:58:41] [Server thread/INFO]: Stopping the server
-[20:58:41] [Server thread/INFO]: Stopping server
-[20:58:41] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
-[20:58:41] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[20:58:41] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[20:58:41] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[20:58:41] [Server thread/INFO]: [BloodMoon] Disabling BloodMoon v0.8.1
-[20:58:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
-[20:58:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[20:58:41] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[20:58:41] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
-[20:58:41] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[20:58:41] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
-[20:58:41] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.11
-[20:58:41] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[20:58:41] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
-[20:58:41] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[20:58:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[20:58:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
-[20:58:41] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:58:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[20:58:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[20:58:41] [Server thread/INFO]: Saving players
-[20:58:41] [Server thread/INFO]: Leenxy lost connection: Server closed
-[20:58:41] [WebSocketConnectReadThread-89/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[20:58:41] [Server thread/INFO]: Leenxy left the game
-[20:58:41] [Server thread/INFO]: voned lost connection: Server closed
-[20:58:41] [Server thread/INFO]: voned left the game
-[20:58:41] [Server thread/INFO]: Pacifico lost connection: Server closed
-[20:58:41] [Server thread/INFO]: Pacifico left the game
-[20:58:41] [Server thread/INFO]: Saving worlds
-[20:58:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:58:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:58:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:58:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:58:42] [Server thread/INFO]: [ChunkHolderManager] Saved 119 block chunks, 258 entity chunks, 0 poi chunks in world 'world' in 0.37s
-[20:58:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:58:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:58:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:58:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:58:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 1618 block chunks, 872 entity chunks, 0 poi chunks in world 'world_nether' in 1.85s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_panacea]'/bracken:panacea
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_panacea'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_panacea'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_panacea'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_bracken_panacea' in 0.01s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (panacea): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_omnidrome]'/bracken:omnidrome
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_omnidrome'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_omnidrome'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_omnidrome'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_omnidrome' in 0.01s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (omnidrome): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_glacium]'/bracken:glacium
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_glacium'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_glacium'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_glacium'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_glacium' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacium): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_underdark]'/bracken:the_underdark
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_underdark'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_underdark'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_underdark'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_bracken_the_underdark' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_underdark): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_void]'/bracken:void
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_void'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_void'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_void'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_bracken_void' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_dormis]'/bracken:dormis
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_dormis'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_dormis'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_dormis'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_dormis' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (dormis): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_sanctum]'/bracken:sanctum
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_sanctum'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_sanctum'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_sanctum'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_bracken_sanctum' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (sanctum): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_brine]'/bracken:the_brine
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_brine'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_brine'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_brine'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_bracken_the_brine' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_brine): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_pax]'/bracken:pax
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_pax'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_pax'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_pax'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_bracken_pax' in 0.00s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (pax): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_the_faewild]'/bracken:the_faewild
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_the_faewild'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_the_faewild'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_the_faewild'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 50 entity chunks, 0 poi chunks in world 'world_bracken_the_faewild' in 0.02s
-[20:58:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_faewild): All chunks are saved
-[20:58:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_bracken_varskspace]'/bracken:varskspace
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_bracken_varskspace'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_bracken_varskspace'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_bracken_varskspace'
-[20:58:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_bracken_varskspace' in 0.00s
-[20:58:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (varskspace): All chunks are saved
-[20:58:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:58:45] [Server thread/INFO]: Flushing Chunk IO
-[20:58:45] [Server thread/INFO]: Closing Thread Pool
-[20:58:45] [Server thread/INFO]: Closing Server
+[05:20:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[05:20:55] [Server thread/INFO]: Default game type: SURVIVAL
+[05:20:55] [Server thread/INFO]: Generating keypair
+[05:20:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:20:55] [Server thread/INFO]: Using epoll channel type
+[05:20:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:20:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[05:20:56] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[05:20:57] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[05:20:57] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[05:20:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:20:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:20:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:20:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:20:58] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[05:20:58] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:20:59] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:20:59] [Server thread/INFO]: [floodgate] Took 926ms to boot Floodgate
+[05:20:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[05:20:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[05:20:59] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[05:20:59] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[05:20:59] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[05:20:59] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.11
+[05:20:59] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
+[05:20:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
+[05:21:00] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:21:00] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:21:00] [Server thread/INFO]: [BloodMoon] Loading server plugin BloodMoon v0.8.1
+[05:21:00] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[05:21:00] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[05:21:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:21:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[05:21:00] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:21:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[05:21:01] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:21:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:21:01] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[05:21:01] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[05:21:01] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[05:21:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:21:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:21:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:21:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:21:01] [Server thread/INFO]: Preparing level "world"
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.5.1) is available! Downloading update...
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:21:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[05:21:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 599ms
+[05:21:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer (1).jar
+[05:21:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[05:21:03] [Server thread/WARN]: Creating a MIN function between two non-overlapping inputs: j[function=Direct{a[type=MIN, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=SQUARE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_layer]=a[firstOctave=-8, amplitudes=[1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@281f1f76], xzScale=1.0, yScale=8.0]}], minValue=0.0, maxValue=11.111111111111109]}], minValue=0.0, maxValue=44.444444444444436]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=0.27]}], argument2=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:cave_cheese]=a[firstOctave=-8, amplitudes=[0.5, 1.0, 2.0, 1.0, 2.0, 1.0, 0.0, 2.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@29a038f8], xzScale=1.0, yScale=0.6666666666666666]}], minValue=-5.0749527959331875, maxValue=5.614952795933187], minValue=-1.0, maxValue=1.0]}], argument2=j[function=Direct{g[input=a[type=ADD, argument1=j[function=Direct{h[value=1.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-0.64]}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=4.0]}], argument2=j[function=Direct{k[type=QUARTER_NEGATIVE, input=j[function=Direct{a[type=MUL, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=ADD, argument1=j[function=Direct{aa[fromY=0, toY=256, fromValue=1.5, toValue=-1.5]}], argument2=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=1.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{h[value=-1.0]}], argument2=j[function=Direct{l[type=CacheOnce, wrapped=j[function=Direct{INSTANCE}]]}], minValue=-1.0, maxValue=-1.0]}], minValue=0.0, maxValue=0.0]}], minValue=0.0, maxValue=0.0]}], argument2=j[function=Direct{w[spline=e[coordinate=Coordinate[Direct{l[type=FlatCache, wrapped=j[function=Direct{v[shiftX=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{s[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@7fd23e36]]}]]}]]}], shiftY=j[function=Direct{h[value=0.0]}], shiftZ=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{t[offsetNoise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:offset]=a[firstOctave=-3, amplitudes=[1.0, 1.0, 1.0, 0.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@7fd23e36]]}]]}]]}], xzScale=0.25, yScale=0.0, noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:continentalness]=a[firstOctave=-9, amplitudes=[1.0, 1.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@101b2176]]}]]}], locations=[F@2f93c02b, values=[c[value=-1.0], c[value=2.0]], derivatives=[F@395b5488, minValue=-1.0, maxValue=2.0]]}], minValue=-1.0, maxValue=2.0]}]]}]]}], minValue=-2.5, maxValue=3.5]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{l[type=FlatCache, wrapped=j[function=Direct{l[type=Cache2D, wrapped=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{a[type=MUL, argument1=j[function=Direct{INSTANCE}], argument2=j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=-0.0]}], argument2=j[function=Direct{h[value=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}], minValue=1.5, maxValue=1.5]}]]}]]}], argument2=j[function=Direct{k[type=HALF_NEGATIVE, input=j[function=Direct{o[noise=c[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / minecraft:jagged]=a[firstOctave=-16, amplitudes=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]]}, noise=net.minecraft.world.level.levelgen.synth.NoiseGeneratorNormal@25f60ce0], xzScale=1500.0, yScale=0.0]}], minValue=-3.137254901960784, maxValue=6.274509803921568]}], minValue=-4.705882352941176, maxValue=9.411764705882351]}], minValue=-7.205882352941176, maxValue=12.911764705882351]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], minValue=-0.0, maxValue=0.0]}], argument2=j[function=Direct{net.minecraft.world.level.levelgen.synth.BlendedNoise@14d512ed}], minValue=-8.844120000000002, maxValue=8.844120000000002]}], minValue=-5.660236800000002, maxValue=5.660236800000002]}], minValue=-4.160236800000002, maxValue=7.160236800000002], minValue=0.0, maxValue=0.5]}], minValue=-1.0, maxValue=1.5]}], minValue=-1.0, maxValue=45.944444444444436]}], argument2=j[function=Direct{h[value=0.0]}], minValue=-1.0, maxValue=0.0]}] and j[function=Direct{a[type=ADD, argument1=j[function=Direct{h[value=0.0]}], argument2=j[function=Direct{h[value=0.0]}], minValue=0.0, maxValue=0.0]}]
+[05:21:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:21:04] [Server thread/INFO]: Time elapsed: 331 ms
+[05:21:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:21:04] [Server thread/INFO]: Time elapsed: 68 ms
+[05:21:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:21:04] [Server thread/INFO]: Time elapsed: 64 ms
+[05:21:04] [Server thread/INFO]: Preparing start region for dimension bracken:glacium
+[05:21:05] [Server thread/INFO]: Time elapsed: 127 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:dormis
+[05:21:05] [Server thread/INFO]: Time elapsed: 64 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:the_faewild
+[05:21:05] [Server thread/INFO]: Time elapsed: 82 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:varskspace
+[05:21:05] [Server thread/INFO]: Time elapsed: 54 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:pax
+[05:21:05] [Server thread/INFO]: Time elapsed: 37 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:omnidrome
+[05:21:05] [Server thread/INFO]: Time elapsed: 28 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:sanctum
+[05:21:05] [Server thread/INFO]: Time elapsed: 24 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:panacea
+[05:21:05] [Server thread/INFO]: Time elapsed: 28 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:the_brine
+[05:21:05] [Server thread/INFO]: Time elapsed: 28 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:void
+[05:21:05] [Server thread/INFO]: Time elapsed: 27 ms
+[05:21:05] [Server thread/INFO]: Preparing start region for dimension bracken:the_underdark
+[05:21:05] [Server thread/INFO]: Time elapsed: 21 ms
+[05:21:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[05:21:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[05:21:05] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[05:21:05] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[05:21:05] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:21:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[05:21:06] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[05:21:06] [Server thread/INFO]:          __
+[05:21:06] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[05:21:06] [Server thread/INFO]:    |  | |        by OliPulse
+[05:21:06] [Server thread/INFO]:  
+[05:21:06] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[05:21:06] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
+[05:21:06] [Server thread/INFO]: [voicechat] Compatibility version 18
+[05:21:06] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[05:21:06] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[05:21:06] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.11
+[05:21:06] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
+[05:21:06] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
+[05:21:06] [Server thread/INFO]: [ZombieApocalypse] PaperMC detected! Changing spawning algorithm accordingly
+[05:21:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
+[05:21:06] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[05:21:06] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
+[05:21:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[05:21:06] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
+[05:21:07] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8.1
+[05:21:08] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[05:21:08] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[05:21:08] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[05:21:11] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[05:21:12] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:trapped_chest",Properties:{facing:"up"}}
+[05:21:14] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[05:21:15] [Server thread/INFO]: [DeathChest] 5 death chests loaded in world "world"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 5 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_glacium"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_dormis"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_faewild"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_varskspace"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_pax"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_omnidrome"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_sanctum"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_panacea"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_brine"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_void"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_underdark"
+[05:21:15] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[05:21:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:21:15] [Server thread/INFO]: [Geyser-Spigot] 
+[05:21:15] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
+[05:21:15] [Server thread/INFO]: [Geyser-Spigot] 
+[05:21:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:21:20] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[05:21:20] [Server thread/INFO]: [Geyser-Spigot] Done (4.424s)! Run /geyser help for help!
+[05:21:20] [Server thread/INFO]: Running delayed init tasks
+[05:21:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:21:21] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.2.0
+[05:21:21] [Server thread/INFO]: Done (27.263s)! For help, type "help"
+[05:21:21] [Server thread/INFO]: Timings Reset
+[05:21:21] [Server thread/INFO]: [voicechat] Loading plugins
+[05:21:21] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[05:21:21] [Server thread/INFO]: [voicechat] Initializing plugins
+[05:21:21] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[05:21:21] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[05:21:21] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'summary-demanding.gl.at.ply.gg:2221'
+[05:21:21] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 2221
+[05:21:21] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
+[05:21:21] [Craft Scheduler Thread - 2 - ZombieApocalypse/INFO]: [ZombieApocalypse] You are running the latest version.
+[05:21:22] [Tuinity Chunk System Worker #0/WARN]: Unable to read property: facing with value: up for blockstate: {Name:"minecraft:chest",Properties:{facing:"up"}}
+[05:21:30] [Server thread/INFO]: [Not Secure] [Server] h
+[05:21:58] [Server thread/INFO]: [Not Secure] [Server] asd
+[05:22:06] [Server thread/INFO]: Nothing changed. The player already is an operator
+[05:22:48] [User Authenticator #0/INFO]: UUID of player rCesar_ is c81e10d8-a2b3-370d-a0ee-7688f0683cc9
+[05:22:48] [Server thread/INFO]: rCesar_ joined the game
+[05:22:48] [Server thread/INFO]: rCesar_[/127.116.219.136:55213] logged in with entity id 596 at ([world]160.0, 67.0, 32.0)
+[05:23:27] [Server thread/INFO]: rCesar_ issued server command: /apocalypse start
+[05:25:50] [Server thread/INFO]: rCesar_ issued server command: /gamemode creative
+[05:25:50] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
+[05:26:01] [Server thread/INFO]: rCesar_ has made the advancement [Hot Stuff]
+[05:27:48] [Server thread/INFO]: rCesar_ has completed the challenge [Cover Me in Debris]
+[05:29:43] [Server thread/INFO]: rCesar_ has made the advancement [Hidden in the Depths]
+[05:30:00] [Server thread/INFO]: rCesar_ issued server command: /gamemode survival
+[05:30:00] [Server thread/INFO]: [rCesar_: Set own game mode to Survival Mode]
+[05:30:26] [Server thread/INFO]: rCesar_ issued server command: /gamemode creative
+[05:30:26] [Server thread/INFO]: [rCesar_: Set own game mode to Creative Mode]
+[05:30:30] [Server thread/INFO]: rCesar_ issued server command: /time set day
+[05:30:30] [Server thread/INFO]: [rCesar_: Set the time to 1000]
