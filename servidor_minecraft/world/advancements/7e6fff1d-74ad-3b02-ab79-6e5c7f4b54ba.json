@@ -1,79 +1,7 @@
 {
-  "nova_structures:root": {
-    "criteria": {
-      "nova_structures:adventure/find_illager_manor": "2025-01-04 23:48:19 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/scroll_of_returning": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
-  "nova_structures:adventure/find_all_illager_structures": {
-    "criteria": {
-      "illager_manor": "2025-01-04 23:48:19 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-04 23:49:08 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/using/ragnarok": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-01-04 23:42:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-01-04 23:50:34 +0000"
     },
     "done": true
   },
@@ -83,23 +11,71 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/emerald_block": {
+  "bracken:root": {
     "criteria": {
-      "has_emerald": "2025-01-04 23:48:55 +0000"
+      "start": "2025-01-04 23:42:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lectern": {
+  "incendium:technical/new_player": {
     "criteria": {
-      "has_book": "2025-01-04 23:49:08 +0000"
+      "requirement": "2025-01-04 23:42:50 +0000"
     },
     "done": true
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
+    },
+    "done": false
   },
   "incendium:technical/using/trailblazer": {
     "criteria": {
       "log_spam_fixer": "2025-01-04 23:42:51 +0000"
     },
     "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2025-01-04 23:42:51 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
+    },
+    "done": false
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_illager_manor": "2025-01-04 23:48:19 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_manor": "2025-01-04 23:48:19 +0000"
+    },
+    "done": false
+  },
+  "nova_structures:adventure/find_illager_manor": {
+    "criteria": {
+      "nova_structures:illager_manor": "2025-01-04 23:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-04 23:48:55 +0000"
+    },
+    "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
@@ -114,41 +90,29 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-04 23:49:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:vindicator": "2025-01-04 23:48:55 +0000"
     },
     "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
+      "has_book": "2025-01-04 23:49:08 +0000"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-01-04 23:42:51 +0000"
+      "has_book": "2025-01-04 23:49:08 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
+      "has_book": "2025-01-04 23:49:08 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
@@ -156,45 +120,81 @@
     },
     "done": true
   },
-  "nova_structures:adventure/find_illager_manor": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "nova_structures:illager_manor": "2025-01-04 23:48:19 +0000"
+      "has_lots_of_items": "2025-01-04 23:50:34 +0000"
     },
     "done": true
   },
-  "incendium:technical/using/shield": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:42:51 +0000"
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
     },
     "done": false
   },
-  "bracken:root": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "start": "2025-01-04 23:42:50 +0000"
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
+    },
+    "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
     },
     "done": false
   },
-  "incendium:technical/new_player": {
-    "criteria": {
-      "requirement": "2025-01-04 23:42:50 +0000"
-    },
-    "done": true
-  },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 23:54:04 +0000"
+      "log_spam_fixer": "2025-01-05 23:58:39 +0000"
     },
     "done": false
   },
