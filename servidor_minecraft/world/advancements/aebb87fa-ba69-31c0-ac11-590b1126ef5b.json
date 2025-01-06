@@ -255,6 +255,8 @@
       "minecraft:ghast": "2025-01-06 01:28:16 +0000",
       "minecraft:vindicator": "2025-01-06 01:05:06 +0000",
       "minecraft:magma_cube": "2025-01-06 01:33:04 +0000",
+      "minecraft:piglin_brute": "2025-01-06 01:40:23 +0000",
+      "minecraft:spider": "2025-01-06 01:36:57 +0000",
       "minecraft:creeper": "2025-01-06 01:33:10 +0000",
       "minecraft:evoker": "2025-01-06 01:27:19 +0000",
       "minecraft:wither_skeleton": "2025-01-06 00:51:53 +0000",
@@ -835,6 +837,7 @@
   },
   "incendium:misc/soul_searcher": {
     "criteria": {
+      "incendium:ash_barrens": "2025-01-06 01:39:54 +0000",
       "incendium:infernal_dunes": "2025-01-06 00:23:23 +0000",
       "incendium:quartz_flats": "2025-01-06 01:22:52 +0000"
     },
@@ -1010,73 +1013,73 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+      "log_spam_fixer": "2025-01-06 01:46:00 +0000"
     },
     "done": false
   },
@@ -1144,6 +1147,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-06 01:38:25 +0000"
+    },
+    "done": true
+  },
   "incendium:quartz_flats/sanctum/root": {
     "criteria": {
       "requirement": "2025-01-06 01:23:54 +0000"
@@ -1156,9 +1165,21 @@
     },
     "done": true
   },
+  "incendium:ash_barrens/enter_castle": {
+    "criteria": {
+      "requirement": "2025-01-06 01:39:59 +0000"
+    },
+    "done": true
+  },
   "bracken:the_underdark/gravel": {
     "criteria": {
       "bracken:the_underdark/gravel1": "2025-01-06 01:32:17 +0000"
+    },
+    "done": true
+  },
+  "incendium:ash_barrens/root": {
+    "criteria": {
+      "requirement": "2025-01-06 01:39:54 +0000"
     },
     "done": true
   },
