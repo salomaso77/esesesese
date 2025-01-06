@@ -332,3 +332,105 @@
 [00:56:42] [Server thread/INFO]: Named entity EntitySkeletonWither['Proto-Golem'/1247, uuid='66930be9-d95e-44ac-acb1-aadae4d45edc', l='ServerLevel[world_bracken_sanctum]', x=-959.94, y=124.00, z=-57.11, cpos=[-60, -4], tl=15831, v=true] died: Proto-Golem was slain by ImZumy
 [00:56:57] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> porque ni de coña podrían con esto estando full neth
 [00:57:07] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> aun vimos el 40% del server
+[00:58:27] [Async Chat Thread - #6/INFO]: [Not Secure] <ImZumy> tp
+[00:58:29] [Async Chat Thread - #6/INFO]: [Not Secure] <ImZumy> a tiu
+[00:58:30] [Async Chat Thread - #7/INFO]: [Not Secure] <ImZumy> plox
+[00:58:41] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[00:58:41] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[00:58:45] [Async Chat Thread - #6/INFO]: [Not Secure] <sCesar_> no subas
+[00:58:48] [Async Chat Thread - #7/INFO]: [Not Secure] <sCesar_> X
+[00:58:49] [Async Chat Thread - #6/INFO]: [Not Secure] <ImZumy> XD
+[00:58:50] [Async Chat Thread - #7/INFO]: [Not Secure] <sCesar_> D
+[00:58:53] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[00:58:53] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[00:59:06] [Async Chat Thread - #6/INFO]: [Not Secure] <sCesar_> si subes a la capa 250 te tpea
+[00:59:10] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[00:59:10] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[00:59:30] [Async Chat Thread - #7/INFO]: [Not Secure] <sCesar_> en esa estructura nomás hay bichos de esos
+[00:59:37] [Server thread/INFO]: sCesar_ has made the advancement [Vitrified Lands]
+[00:59:42] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[00:59:42] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[00:59:59] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[00:59:59] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[01:00:02] [Server thread/WARN]: ImZumy moved too quickly! 0.0,10.03630515839339,0.0
+[01:00:13] [Server thread/INFO]: sCesar_ has made the advancement [Otherworldly Waypoint]
+[01:00:15] [Server thread/INFO]: ImZumy has made the advancement [Otherworldly Waypoint]
+[01:00:23] [Tuinity Chunk System Worker #0/WARN]: Skipping Entity with id 
+[01:00:23] [Tuinity Chunk System Worker #0/WARN]: Skipping Entity with id 
+[01:00:23] [Server thread/INFO]: ImZumy has made the advancement [Nothing here.]
+[01:00:23] [Server thread/INFO]: sCesar_ has made the advancement [Nothing here.]
+[01:00:33] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[01:00:33] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[01:00:33] [Tuinity Chunk System Worker #0/WARN]: Skipping Entity with id 
+[01:00:33] [Tuinity Chunk System Worker #0/WARN]: Skipping Entity with id 
+[01:00:36] [Async Chat Thread - #8/INFO]: [Not Secure] <sCesar_> qe
+[01:00:47] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[01:00:47] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[01:01:01] [Async Chat Thread - #9/INFO]: [Not Secure] <ImZumy> y esto qu es
+[01:01:03] [Async Chat Thread - #8/INFO]: [Not Secure] <sCesar_> estamos en el vacil
+[01:01:07] [Async Chat Thread - #9/INFO]: [Not Secure] <sCesar_> o
+[01:01:20] [Async Chat Thread - #8/INFO]: [Not Secure] <ImZumy> en el void
+[01:01:24] [Async Chat Thread - #9/INFO]: [Not Secure] <ImZumy> omg
+[01:01:27] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[01:01:36] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[01:01:36] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[01:01:41] [Async Chat Thread - #8/INFO]: [Not Secure] <sCesar_> nooo
+[01:01:44] [Async Chat Thread - #9/INFO]: [Not Secure] <ImZumy> q fe
+[01:01:46] [Async Chat Thread - #8/INFO]: [Not Secure] <ImZumy> fue
+[01:01:57] [Async Chat Thread - #9/INFO]: [Not Secure] <sCesar_> estamos en el overwo
+[01:01:57] [Server thread/WARN]: ImZumy moved too quickly! 0.5645696565015896,11.004649633089329,-4.718203885560797
+[01:03:03] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> que
+[01:03:23] [Server thread/INFO]: ImZumy has made the advancement [Out of the Blue, Into the Black]
+[01:03:30] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> que
+[01:03:35] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumt
+[01:03:38] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:03:38] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:03:38] [Server thread/INFO]: sCesar_ has made the advancement [Out of the Blue, Into the Black]
+[01:03:42] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> que
+[01:03:45] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> que carajos
+[01:03:45] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> overworl
+[01:03:49] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> ?
+[01:03:50] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> NO
+[01:03:54] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> esto no es el overworld
+[01:03:54] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> es el overworld?
+[01:03:55] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> XDD
+[01:03:59] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> que
+[01:04:01] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> bueno ni idea
+[01:04:13] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> parece
+[01:04:18] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:04:18] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:04:21] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> el cielo es aguamarina
+[01:04:35] [Server thread/INFO]: sCesar_ issued server command: /tp @a sCesar_
+[01:04:35] [Server thread/INFO]: [sCesar_: Teleported 2 entities to sCesar_]
+[01:04:46] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> ah creo que se dónde andamos
+[01:04:51] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> acá debe estar el jefe slime
+[01:04:51] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> donde
+[01:04:57] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> COMO EN TERRARIA
+[01:04:58] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> omg
+[01:05:08] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> si pero este es rarisimo
+[01:05:18] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> en terraria es azul
+[01:05:21] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> el rey slime
+[01:05:21] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> este se divide tanto que peta el sv
+[01:05:44] [Server thread/INFO]: sCesar_ issued server command: /tps
+[01:05:53] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> me dices si lo ves
+[01:06:01] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> esta asi nomas?
+[01:06:05] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> en el mundo
+[01:06:05] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> XD
+[01:06:09] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> si, te sale una bossbar
+[01:06:15] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> bale
+[01:07:11] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> ah si hay otro jefe en el nether, nos saltamos 2
+[01:07:18] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> aya
+[01:08:02] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:08:02] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:08:06] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> Que
+[01:08:11] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> esto es el overworld?
+[01:08:14] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> NO
+[01:08:17] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> seguimos
+[01:08:20] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> en la misma wea
+[01:08:28] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> es que se parece wtf
+[01:08:31] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> q
+[01:08:37] [Async Chat Thread - #11/INFO]: [Not Secure] <ImZumy> QUE
+[01:08:41] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:08:41] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:08:49] [Async Chat Thread - #11/INFO]: [Not Secure] <sCesar_> el barco pirata
+[01:08:50] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> tremendo pirata

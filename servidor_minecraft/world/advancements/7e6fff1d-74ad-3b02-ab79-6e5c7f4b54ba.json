@@ -50,6 +50,7 @@
       "minecraft:snowy_plains": "2025-01-06 00:07:09 +0000",
       "minecraft:snowy_taiga": "2025-01-06 00:08:21 +0000",
       "minecraft:cold_ocean": "2025-01-06 00:14:33 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-06 01:01:16 +0000",
       "minecraft:ocean": "2025-01-06 00:09:19 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-04 23:42:51 +0000"
     },
@@ -69,7 +70,8 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
-      "illager_manor": "2025-01-04 23:48:19 +0000"
+      "illager_manor": "2025-01-04 23:48:19 +0000",
+      "illager_camp": "2025-01-06 01:04:09 +0000"
     },
     "done": false
   },
@@ -308,6 +310,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-01-06 01:02:35 +0000",
       "minecraft:nether_wastes": "2025-01-06 00:23:00 +0000"
     },
     "done": false
@@ -464,73 +467,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 00:55:00 +0000"
+      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
     },
     "done": false
   },
@@ -558,6 +561,18 @@
     },
     "done": true
   },
+  "bracken:bri": {
+    "criteria": {
+      "bracken:bri1": "2025-01-06 01:03:38 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/sanctum_to_void": {
+    "criteria": {
+      "requirement": "2025-01-06 01:00:17 +0000"
+    },
+    "done": true
+  },
   "bracken:sanctum/netherite": {
     "criteria": {
       "bracken:sanctum/netherite1": "2025-01-06 00:42:33 +0000"
@@ -582,6 +597,12 @@
     },
     "done": true
   },
+  "bracken:the_brine/enter_the_brine": {
+    "criteria": {
+      "bracken:the_brine/bri1": "2025-01-06 01:03:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-06 00:40:37 +0000"
@@ -600,6 +621,18 @@
     },
     "done": true
   },
+  "bracken:voi": {
+    "criteria": {
+      "bracken:voi1": "2025-01-06 01:00:23 +0000"
+    },
+    "done": true
+  },
+  "bracken:sanctum/voidship": {
+    "criteria": {
+      "bracken:sanctum/dune_biome1": "2025-01-06 01:00:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-06 00:40:37 +0000"
@@ -615,6 +648,12 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_redstone": "2025-01-06 00:40:37 +0000"
+    },
+    "done": true
+  },
+  "bracken:sanctum/dune_biome": {
+    "criteria": {
+      "bracken:sanctum/dune_biome1": "2025-01-06 00:59:37 +0000"
     },
     "done": true
   },
