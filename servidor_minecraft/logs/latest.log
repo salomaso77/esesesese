@@ -64,3 +64,109 @@
 [00:05:41] [Server thread/INFO]: sCesar_ issued server command: /gamemode creative ImZumy
 [00:05:41] [Server thread/INFO]: [sCesar_: Set ImZumy's game mode to Creative Mode]
 [00:05:42] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> q
+[00:05:45] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> y esto
+[00:05:46] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:05:46] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:05:47] [Server thread/INFO]: sCesar_ has made the advancement [Cherenkovicious]
+[00:05:50] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> que es esto
+[00:05:55] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> NOSE
+[00:05:56] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> AJJA
+[00:05:58] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> cakina
+[00:06:06] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> camina
+[00:06:41] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> ola q paso
+[00:06:42] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> y esto
+[00:06:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6827ms or 136 ticks behind
+[00:07:08] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:07:08] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:07:12] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:07:12] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:07:20] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> que paso
+[00:07:23] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> idk
+[00:07:27] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> que cojones fue eso
+[00:07:36] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> el ping va estable es bueno
+[00:07:41] [Server thread/INFO]: Villager EntityVillager['Villager'/3838, uuid='36f3ecca-2f0d-45a5-9b21-1e4e7c22ef82', l='ServerLevel[world]', x=-3427.50, y=72.00, z=-1045.70, cpos=[-215, -66], tl=308, v=true] died, message: 'Villager was slain by Zombie'
+[00:07:49] [Server thread/INFO]: ImZumy has made the advancement [Acquire Hardware]
+[00:07:52] [Server thread/INFO]: sCesar_ has made the advancement [Surge Protector]
+[00:07:52] [Server thread/INFO]: ImZumy has made the advancement [Surge Protector]
+[00:08:13] [Server thread/INFO]: ImZumy has made the advancement [Monster Hunter]
+[00:08:15] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:08:15] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:08:17] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> q
+[00:08:30] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> wn me va horrible els erver
+[00:08:31] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> server
+[00:08:32] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> en cuanto a rendimiento es lo de menos esto
+[00:08:33] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> XD
+[00:08:36] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> qe
+[00:08:41] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> pica acá aver
+[00:08:43] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> mira mi ping
+[00:08:46] [Server thread/INFO]: sCesar_ issued server command: /gamemode survival ImZum6
+[00:08:48] [Server thread/INFO]: sCesar_ issued server command: /gamemode survival ImZumy
+[00:08:48] [Server thread/INFO]: [sCesar_: Set ImZumy's game mode to Survival Mode]
+[00:08:54] [Server thread/INFO]: ImZumy was shot by Skeleton during a BloodMoon!
+[00:08:56] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:08:56] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:08:58] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> ay we
+[00:09:00] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> xDjskw
+[00:09:05] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:09:05] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:09:10] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> pica acá aver
+[00:09:16] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> ah si Spawn protection
+[00:09:37] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[00:09:37] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[00:09:49] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:09:49] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:09:50] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> ah si Spawn protection
+[00:09:52] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> si va feo
+[00:09:52] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> pica acá aver
+[00:10:00] [Server thread/INFO]: ImZumy withered away whilst fighting Zombie during a BloodMoon!
+[00:10:09] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:10:09] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:10:15] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> mm
+[00:10:17] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> se nota el lag
+[00:10:23] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> es k voy como ha 180ms
+[00:10:46] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> quizás sea tu net,por lo menos acá veo sigue en 20 tps
+[00:10:48] [Server thread/INFO]: ImZumy was shot by Skeleton during a BloodMoon!
+[00:10:49] [Server thread/INFO]: sCesar_ issued server command: /tps
+[00:10:55] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> puta madre
+[00:10:56] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:10:56] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:11:01] [Server thread/INFO]: sCesar_ issued server command: /gamemode creative ImZumy
+[00:11:01] [Server thread/INFO]: [sCesar_: Set ImZumy's game mode to Creative Mode]
+[00:11:20] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> duran un huevo las bloodmoon
+[00:11:26] [Server thread/INFO]: sCesar_ issued server command: /tps
+[00:11:28] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> q
+[00:11:32] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:11:32] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:11:43] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> pasa que los rayos te envían a otras dimensiones
+[00:11:57] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> XDD
+[00:11:58] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:11:58] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:12:21] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> y el mazo
+[00:12:48] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> estamos en la 1.20.1, pienso actualizarlo a la 1.21 si aún estás los plugins y datapacks en esas versiones
+[00:12:55] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> a
+[00:12:57] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> ahya
+[00:13:17] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> q mas agregastes
+[00:13:25] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> voy
+[00:13:30] [Server thread/INFO]: sCesar_ issued server command: /bloodmoon stop
+[00:13:48] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> ponte elytras y cohetes
+[00:13:54] [Server thread/INFO]: sCesar_ has reached the goal [Sky's the Limit]
+[00:14:02] [Server thread/INFO]: ImZumy has reached the goal [Sky's the Limit]
+[00:14:10] [Server thread/INFO]: sCesar_ has made the advancement [Ice Bucket Challenge]
+[00:14:14] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> ven
+[00:14:27] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> ve todo hasta arriba sigueme
+[00:14:56] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> WE
+[00:14:59] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> q
+[00:15:02] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> no se puede volar en creativo
+[00:15:05] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> con las elytras
+[00:15:12] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> pero si yo ando en creativo
+[00:15:18] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> en pc
+[00:15:22] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> le doy 2 veces al espacio
+[00:15:25] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> nomás saltas
+[00:15:27] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> y vuela normal
+[00:15:32] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy sCesar_
+[00:15:32] [Server thread/INFO]: [sCesar_: Teleported ImZumy to sCesar_]
+[00:15:44] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> e
+[00:15:52] [Async Chat Thread - #4/INFO]: [Not Secure] <sCesar_> saltas una vez y luego otra vez para activar elytras
+[00:16:01] [Async Chat Thread - #5/INFO]: [Not Secure] <ImZumy> soy down
+[00:16:05] [Async Chat Thread - #4/INFO]: [Not Secure] <ImZumy> down
+[00:16:07] [Async Chat Thread - #5/INFO]: [Not Secure] <sCesar_> bueno sube
