@@ -252,7 +252,11 @@
       "minecraft:blaze": "2025-01-06 00:29:52 +0000",
       "minecraft:pillager": "2025-01-06 01:05:12 +0000",
       "minecraft:skeleton": "2025-01-06 00:11:54 +0000",
+      "minecraft:ghast": "2025-01-06 01:28:16 +0000",
       "minecraft:vindicator": "2025-01-06 01:05:06 +0000",
+      "minecraft:magma_cube": "2025-01-06 01:33:04 +0000",
+      "minecraft:creeper": "2025-01-06 01:33:10 +0000",
+      "minecraft:evoker": "2025-01-06 01:27:19 +0000",
       "minecraft:wither_skeleton": "2025-01-06 00:51:53 +0000",
       "minecraft:zombie": "2025-01-06 00:08:13 +0000"
     },
@@ -831,7 +835,8 @@
   },
   "incendium:misc/soul_searcher": {
     "criteria": {
-      "incendium:infernal_dunes": "2025-01-06 00:23:23 +0000"
+      "incendium:infernal_dunes": "2025-01-06 00:23:23 +0000",
+      "incendium:quartz_flats": "2025-01-06 01:22:52 +0000"
     },
     "done": false
   },
@@ -883,99 +888,9 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "bracken:technical/dimension_border_text/nether_to_sanctum": {
     "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-06 01:05:00 +0000"
-    },
-    "done": false
-  },
-  "bracken:bri": {
-    "criteria": {
-      "bracken:bri1": "2025-01-06 01:03:23 +0000"
-    },
-    "done": true
-  },
-  "bracken:technical/dimension_border_text/sanctum_to_void": {
-    "criteria": {
-      "requirement": "2025-01-06 01:00:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2025-01-06 00:55:42 +0000"
-    },
-    "done": true
-  },
-  "bracken:sanctum/netherite": {
-    "criteria": {
-      "bracken:sanctum/netherite1": "2025-01-06 00:42:43 +0000"
+      "requirement": "2025-01-06 00:41:55 +0000"
     },
     "done": true
   },
@@ -985,33 +900,9 @@
     },
     "done": true
   },
-  "bracken:the_brine/enter_the_brine": {
-    "criteria": {
-      "bracken:the_brine/bri1": "2025-01-06 01:03:23 +0000"
-    },
-    "done": true
-  },
   "bracken:technical/dimension_border_text/sanctum_to_nether": {
     "criteria": {
       "requirement": "2025-01-06 00:42:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-01-06 00:55:27 +0000"
-    },
-    "done": true
-  },
-  "bracken:voi": {
-    "criteria": {
-      "bracken:voi1": "2025-01-06 01:00:23 +0000"
-    },
-    "done": true
-  },
-  "bracken:sanctum/voidship": {
-    "criteria": {
-      "bracken:sanctum/dune_biome1": "2025-01-06 01:00:15 +0000"
     },
     "done": true
   },
@@ -1021,9 +912,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coal_block": {
+  "bracken:sanctum/netherite": {
     "criteria": {
-      "has_coal": "2025-01-06 00:55:42 +0000"
+      "bracken:sanctum/netherite1": "2025-01-06 00:42:43 +0000"
     },
     "done": true
   },
@@ -1033,9 +924,265 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_border_text/nether_to_sanctum": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "requirement": "2025-01-06 00:41:55 +0000"
+      "has_bone": "2025-01-06 00:55:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-01-06 00:55:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-06 00:55:42 +0000"
+    },
+    "done": true
+  },
+  "bracken:sanctum/voidship": {
+    "criteria": {
+      "bracken:sanctum/dune_biome1": "2025-01-06 01:00:15 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/sanctum_to_void": {
+    "criteria": {
+      "requirement": "2025-01-06 01:00:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:voi": {
+    "criteria": {
+      "bracken:voi1": "2025-01-06 01:00:23 +0000"
+    },
+    "done": true
+  },
+  "bracken:bri": {
+    "criteria": {
+      "bracken:bri1": "2025-01-06 01:03:23 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_brine/enter_the_brine": {
+    "criteria": {
+      "bracken:the_brine/bri1": "2025-01-06 01:03:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-01-06 01:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_leggings": "2025-01-06 01:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_leggings": "2025-01-06 01:10:57 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_brine/blackwater": {
+    "criteria": {
+      "bracken:the_brine/blackwater1": "2025-01-06 01:12:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-01-06 01:19:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-01-06 01:19:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-06 01:35:03 +0000"
+    },
+    "done": false
+  },
+  "bracken:the_underdark/gas": {
+    "criteria": {
+      "bracken:the_underdark/gas1": "2025-01-06 01:31:32 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/petrified": {
+    "criteria": {
+      "bracken:the_underdark/petrified_forest1": "2025-01-06 01:31:05 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/allbiomes": {
+    "criteria": {
+      "bracken:biome4": "2025-01-06 01:31:43 +0000",
+      "bracken:biome5": "2025-01-06 01:21:16 +0000",
+      "bracken:biome1": "2025-01-06 01:32:18 +0000",
+      "bracken:biome2": "2025-01-06 01:32:17 +0000",
+      "bracken:biome3": "2025-01-06 01:31:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/floor_is_tears": {
+    "criteria": {
+      "requirement": "2025-01-06 01:24:14 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/enter_underdark": {
+    "criteria": {
+      "bracken:the_underdark/und2": "2025-01-06 01:21:16 +0000"
+    },
+    "done": true
+  },
+  "bracken:und": {
+    "criteria": {
+      "bracken:und1": "2025-01-06 01:21:16 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/underdark_to_overworld": {
+    "criteria": {
+      "requirement": "2025-01-06 01:34:47 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/eroded": {
+    "criteria": {
+      "bracken:the_underdark/eroded1": "2025-01-06 01:32:18 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2025-01-06 01:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-01-06 01:30:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/sanctum/root": {
+    "criteria": {
+      "requirement": "2025-01-06 01:23:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-01-06 01:30:08 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/gravel": {
+    "criteria": {
+      "bracken:the_underdark/gravel1": "2025-01-06 01:32:17 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/nether_to_underdark": {
+    "criteria": {
+      "requirement": "2025-01-06 01:21:15 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/crystal": {
+    "criteria": {
+      "bracken:the_underdark/crystal1": "2025-01-06 01:21:16 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/fungus": {
+    "criteria": {
+      "bracken:the_underdark/fungus1": "2025-01-06 01:31:43 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/loot_piglin_village": {
+    "criteria": {
+      "incendium:medium": "2025-01-06 01:23:29 +0000"
     },
     "done": true
   },
