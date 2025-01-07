@@ -241,3 +241,82 @@
 [23:29:05] [Server thread/INFO]: yCesar_ issued server command: /kill @a
 [23:29:05] [Server thread/INFO]: yCesar_ was killed
 [23:29:05] [Server thread/INFO]: [yCesar_: Killed yCesar_]
+[23:31:48] [Server thread/INFO]: yCesar_ issued server command: /plugins l
+[23:32:02] [Server thread/INFO]: yCesar_ issued server command: /gamemode survival
+[23:32:02] [Server thread/INFO]: [yCesar_: Set own game mode to Survival Mode]
+[23:32:27] [Server thread/INFO]: yCesar_ lost connection: Disconnected
+[23:32:27] [Server thread/INFO]: yCesar_ left the game
+[23:36:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ssysay say h<--[HERE]
+[23:36:09] [Server thread/INFO]: [Not Secure] [Server] h
+[23:36:12] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[23:42:37] [Server thread/INFO]: [Not Secure] [Server] h
+[23:42:39] [User Authenticator #1/INFO]: UUID of player ImRandom is 187638ca-2c7e-3bcf-b685-0893b6b63936
+[23:42:40] [Server thread/INFO]: ImRandom joined the game
+[23:42:40] [Server thread/INFO]: ImRandom[/127.198.237.23:49859] logged in with entity id 1018 at ([world]-12.5, 73.0, 276.5)
+[23:42:40] [Server thread/INFO]: ImRandom has made the advancement [A Sincere Thanks.]
+[23:42:42] [User Authenticator #1/INFO]: UUID of player ItzzTsp is 82d160a2-12a0-3b0f-b571-42c7c0bd871a
+[23:42:42] [Server thread/INFO]: ItzzTsp joined the game
+[23:42:42] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[23:42:42] [Server thread/INFO]: ItzzTsp[/127.193.96.49:45125] logged in with entity id 1036 at ([world]-28.5, 73.0, 278.5)
+[23:42:42] [Server thread/INFO]: ItzzTsp has made the advancement [A Sincere Thanks.]
+[23:42:55] [User Authenticator #1/INFO]: UUID of player ItsMari01_ is f82b930d-04f7-3059-9494-da25d7696285
+[23:42:55] [Server thread/INFO]: ItsMari01_ joined the game
+[23:42:55] [Server thread/INFO]: ItsMari01_[/127.153.12.117:60473] logged in with entity id 1049 at ([world]-30.5, 73.0, 283.5)
+[23:42:55] [Server thread/INFO]: ItsMari01_ has made the advancement [A Sincere Thanks.]
+[23:43:01] [User Authenticator #1/INFO]: UUID of player sCesar_ is 7e6fff1d-74ad-3b02-ab79-6e5c7f4b54ba
+[23:43:02] [Server thread/INFO]: sCesar_ joined the game
+[23:43:02] [Server thread/INFO]: sCesar_[/127.21.131.167:42287] logged in with entity id 1058 at ([world]-23.5, 73.0, 272.5)
+[23:43:02] [Server thread/INFO]: sCesar_ has made the advancement [A Sincere Thanks.]
+[23:43:30] [Server thread/INFO]: ImRandom issued server command: /trigger bp.frostkin
+[23:43:30] [Server thread/INFO]: [ImRandom: Triggered [bp.frostkin]]
+[23:43:33] [Async Chat Thread - #2/INFO]: [Not Secure] <ItsMari01_> HOLA
+[23:43:36] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> holaa
+[23:43:40] [User Authenticator #1/INFO]: UUID of player Justleenx is 516aacea-907c-31c1-9d26-df6e284c84e1
+[23:43:44] [Server thread/INFO]: Justleenx joined the game
+[23:43:44] [Server thread/INFO]: Justleenx[/127.183.225.72:37035] logged in with entity id 1120 at ([world]-30.5, 73.0, 271.5)
+[23:43:44] [Server thread/INFO]: Justleenx has made the advancement [A Sincere Thanks.]
+[23:43:44] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> porque apareci en el techo
+[23:43:45] [Server thread/INFO]: Made sCesar_ a server operator
+[23:43:46] [Async Chat Thread - #2/INFO]: [Not Secure] <ItzzTsp> cuantas barras de internet tengo
+[23:43:59] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> cesar mira
+[23:44:02] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> te gusta mi capa
+[23:44:08] [Server thread/INFO]: Justleenx issued server command: /skin set Leenxrr
+[23:44:09] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> no hay
+[23:44:13] [Async Chat Thread - #2/INFO]: [Not Secure] <ItzzTsp> random
+[23:44:14] [User Authenticator #1/INFO]: UUID of player TheMario_SM is 4fbc7bf1-ecc0-3ede-ac20-90acfbd824d1
+[23:44:16] [Server thread/INFO]: TheMario_SM joined the game
+[23:44:16] [Server thread/INFO]: TheMario_SM[/127.127.110.35:38053] logged in with entity id 1174 at ([world]-31.5, 73.0, 281.5)
+[23:44:16] [Server thread/INFO]: TheMario_SM has made the advancement [A Sincere Thanks.]
+[23:44:17] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> como q no hay
+[23:44:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Justleenx> HOLA
+[23:44:23] [Async Chat Thread - #2/INFO]: [Not Secure] <ItzzTsp> a mi tampoco me sale
+[23:44:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Justleenx> GOLA A TODOZ
+[23:44:36] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> tengohambre
+[23:44:37] [Server thread/INFO]: ItzzTsp has made the advancement [Monster Hunter]
+[23:44:38] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> valepene
+[23:44:40] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> iremos asi
+[23:44:43] [Async Chat Thread - #2/INFO]: [Not Secure] <TheMario_SM> el mejor team
+[23:44:46] [Async Chat Thread - #2/INFO]: [Not Secure] <TheMario_SM> uga uga
+[23:44:47] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> solo a mario le sale la capa
+[23:44:51] [Async Chat Thread - #2/INFO]: [Not Secure] <ItzzTsp> PORQUE ME VA TAN MAL
+[23:44:56] [Server thread/INFO]: ItsMari01_ lost connection: Timed out
+[23:44:56] [Server thread/INFO]: ItsMari01_ left the game
+[23:45:00] [Server thread/INFO]: ItzzTsp lost connection: Timed out
+[23:45:00] [Server thread/INFO]: ItzzTsp left the game
+[23:45:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Justleenx> jaja povres
+[23:45:05] [Async Chat Thread - #2/INFO]: [Not Secure] <TheMario_SM> apagaron
+[23:45:07] [Server thread/INFO]: ImRandom issued server command: /trigger bp.faefolk
+[23:45:07] [Server thread/INFO]: [ImRandom: Triggered [bp.faefolk]]
+[23:45:17] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> por ahora este es el lobby provisional luego lo mejórate , andamos en fase beta nonlo olviden
+[23:45:21] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> no lo*
+[23:45:26] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> y q hacemos
+[23:45:28] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> teclado de mrd
+[23:45:34] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> yo cerre el dc porque me va del culo el juego
+[23:45:41] [Async Chat Thread - #2/INFO]: [Not Secure] <TheMario_SM> x2
+[23:45:41] [User Authenticator #2/INFO]: UUID of player ItzzTsp is 82d160a2-12a0-3b0f-b571-42c7c0bd871a
+[23:45:42] [Server thread/INFO]: ItzzTsp joined the game
+[23:45:42] [Server thread/INFO]: ItzzTsp[/127.193.96.49:45641] logged in with entity id 1319 at ([world]-21.364351115414195, 64.0625, 276.0974928703409)
+[23:45:43] [Async Chat Thread - #2/INFO]: [Not Secure] <sCesar_> pues jueguen su survival normal, iré haciendo unas cosas
+[23:45:50] [Async Chat Thread - #2/INFO]: [Not Secure] <ImRandom> bien entonces tcp
+[23:45:50] [Async Chat Thread - #2/INFO]: [Not Secure] <TheMario_SM> random nos vamos o q
