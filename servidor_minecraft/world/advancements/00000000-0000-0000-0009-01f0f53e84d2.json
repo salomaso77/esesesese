@@ -586,7 +586,9 @@
       "bread": "2025-01-08 02:24:04 +0000",
       "rotten_flesh": "2025-01-08 01:09:55 +0000",
       "cooked_mutton": "2025-01-08 00:26:10 +0000",
+      "cooked_beef": "2025-01-08 23:53:53 +0000",
       "baked_potato": "2025-01-08 01:37:40 +0000",
+      "melon_slice": "2025-01-08 23:41:19 +0000",
       "porkchop": "2025-01-08 23:20:56 +0000",
       "tropical_fish": "2025-01-08 23:14:26 +0000",
       "carrot": "2025-01-08 02:27:30 +0000"
@@ -1435,80 +1437,85 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-01-08 23:35:24 +0000",
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:35:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:55:20 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:38:31 +0000"
     },
     "done": true
   },
@@ -1581,6 +1588,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-01-08 23:49:18 +0000"
     },
     "done": true
   },
@@ -1692,6 +1705,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:38:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
@@ -1755,6 +1774,12 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-01-08 23:33:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:38:31 +0000"
     },
     "done": true
   },

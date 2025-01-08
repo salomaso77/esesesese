@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:40:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2025-01-08 23:00:55 +0000"
@@ -67,7 +73,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -103,9 +109,15 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-08 23:40:48 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
@@ -307,7 +319,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -326,6 +338,12 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-01-08 23:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-01-08 23:40:12 +0000"
     },
     "done": true
   },
@@ -373,7 +391,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -410,6 +428,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-01-08 23:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2025-01-08 23:41:04 +0000"
     },
     "done": true
   },
@@ -494,6 +518,12 @@
       "minecraft:zombie_villager": "2025-01-08 23:04:51 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-08 23:44:25 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
@@ -587,7 +617,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -627,6 +657,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-01-08 22:52:31 +0000"
@@ -657,6 +693,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-01-08 23:40:13 +0000"
+    },
+    "done": true
+  },
   "bracken:root": {
     "criteria": {
       "start": "2025-01-08 22:51:14 +0000"
@@ -683,7 +725,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -777,9 +819,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-01-08 23:40:12 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -789,11 +837,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
   },
   "bracken:technical/equipment/glacium_glider/off": {
     "criteria": {
@@ -834,6 +894,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-01-08 22:52:28 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-01-08 23:39:47 +0000"
     },
     "done": true
   },
@@ -879,6 +945,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:40:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 23:06:24 +0000"
@@ -921,9 +993,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-08 23:40:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-01-08 22:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-01-08 23:44:25 +0000"
     },
     "done": true
   },
@@ -941,7 +1025,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -993,6 +1077,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_jungle": "2025-01-08 23:39:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_coal": "2025-01-08 22:57:34 +0000"
@@ -1002,6 +1092,12 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 23:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
     },
     "done": true
   },
@@ -1103,9 +1199,15 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
@@ -1131,6 +1233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2025-01-08 22:56:12 +0000"
@@ -1146,6 +1254,12 @@
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-08 22:52:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-08 23:40:14 +0000"
     },
     "done": true
   },
@@ -1221,9 +1335,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-01-08 23:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
     },
     "done": true
   },
@@ -1302,17 +1428,19 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2025-01-08 22:51:56 +0000",
-      "minecraft:old_growth_birch_forest": "2025-01-08 22:53:41 +0000",
       "minecraft:beach": "2025-01-08 23:23:46 +0000",
-      "minecraft:desert": "2025-01-08 22:51:15 +0000",
       "minecraft:dark_forest": "2025-01-08 23:18:33 +0000",
       "minecraft:forest": "2025-01-08 22:53:33 +0000",
       "minecraft:taiga": "2025-01-08 23:23:20 +0000",
       "minecraft:sparse_jungle": "2025-01-08 23:35:15 +0000",
       "minecraft:river": "2025-01-08 23:03:42 +0000",
-      "minecraft:birch_forest": "2025-01-08 23:17:41 +0000",
+      "minecraft:lukewarm_ocean": "2025-01-08 23:40:20 +0000",
       "minecraft:lush_caves": "2025-01-08 22:57:57 +0000",
-      "minecraft:dripstone_caves": "2025-01-08 23:24:18 +0000"
+      "minecraft:dripstone_caves": "2025-01-08 23:24:18 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-08 22:53:41 +0000",
+      "minecraft:desert": "2025-01-08 22:51:15 +0000",
+      "minecraft:jungle": "2025-01-08 23:38:40 +0000",
+      "minecraft:birch_forest": "2025-01-08 23:17:41 +0000"
     },
     "done": false
   },
@@ -1324,7 +1452,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
@@ -1352,15 +1480,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-01-08 23:40:12 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
+      "log_spam_fixer": "2025-01-08 23:50:21 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-01-08 22:53:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-08 23:40:13 +0000"
     },
     "done": true
   },
@@ -1482,6 +1622,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-01-08 22:59:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-01-08 23:40:53 +0000"
     },
     "done": true
   },

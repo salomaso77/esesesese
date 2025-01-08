@@ -55,6 +55,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2025-01-08 23:58:28 +0000",
       "minecraft:beach": "2025-01-08 01:25:34 +0000",
       "minecraft:old_growth_pine_taiga": "2025-01-08 00:30:41 +0000",
       "minecraft:dark_forest": "2025-01-08 00:28:05 +0000",
@@ -1298,79 +1299,127 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:33:13 +0000"
+      "log_spam_fixer": "2025-01-08 23:58:21 +0000"
     },
     "done": false
+  },
+  "minecraft:wander_add_map": {
+    "criteria": {
+      "wandering": "2025-01-08 23:52:37 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_faewild/fly_boat": {
+    "criteria": {
+      "bracken:the_faewild/fly_boat1": "2025-01-08 23:57:12 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_faewild/village": {
+    "criteria": {
+      "bracken:the_faewild/village1": "2025-01-08 23:50:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2025-01-08 23:47:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-08 23:52:11 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/faewild_to_overworld": {
+    "criteria": {
+      "requirement": "2025-01-08 23:57:39 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-01-08 23:31:08 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_faewild/enter_the_faewild": {
+    "criteria": {
+      "requirement": "2025-01-08 23:37:39 +0000"
+    },
+    "done": true
+  },
+  "bracken:fae": {
+    "criteria": {
+      "bracken:fae1": "2025-01-08 23:37:39 +0000"
     },
     "done": true
   },
