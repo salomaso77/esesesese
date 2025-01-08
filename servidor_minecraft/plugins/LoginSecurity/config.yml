@@ -19,14 +19,14 @@ join:
   blindness: true
   # Temporarily login location until player has logged in.
   # Available options: DEFAULT, SPAWN
-  location: DEFAULT
+  location: SPAWN
   # Safely hides the player's inventory until the player is logged in
   # This required ProtocolLib to be installed
   hide-inventory-safe: false
 username:
   # Remove special characters like @ and # from the username.
   # Disabling this can be a security risk!
-  filter-special-chars: true
+  filter-special-chars: false
   min-length: 3
   max-length: 16
 registration:
@@ -35,7 +35,7 @@ registration:
   disabled-message: '&cRegistrations are currently disabled!'
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: false
+  enabled: true
   login: /l
   register: /reg
 updater:
