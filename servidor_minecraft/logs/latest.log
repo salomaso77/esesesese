@@ -644,3 +644,6 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.
 [10:02:12] [Server thread/INFO]: Player: sCesar_
 [10:02:12] [Server thread/INFO]: Lines - 1: [ TIENDA ] - 2: Zona de Aldeanos
 [10:02:12] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:07:05] [Server thread/INFO]: [Not Secure] [Server] h
+[10:08:52] [Server thread/INFO]: sCesar_ issued server command: /give sCesar_ minecraft:command_block 1
+[10:08:52] [Server thread/INFO]: [sCesar_: Gave 1 [Command Block] to sCesar_]
