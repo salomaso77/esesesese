@@ -674,3 +674,38 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.
 [10:33:11] [Server thread/INFO]: Named entity Villager['Juanetes'/9096, uuid='ec87cc26-ddc7-4f96-8116-0f461750dca7', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=185, v=true] died: Juanetes was slain by sCesar_
 [10:33:31] [Server thread/INFO]: Villager Villager['Juanetes'/9130, uuid='4456fa2c-71ef-4bbe-a67c-2417e038f1bc', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=121, v=true] died, message: 'Juanetes was slain by sCesar_'
 [10:33:31] [Server thread/INFO]: Named entity Villager['Juanetes'/9130, uuid='4456fa2c-71ef-4bbe-a67c-2417e038f1bc', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=121, v=true] died: Juanetes was slain by sCesar_
+[10:34:05] [Server thread/INFO]: Villager Villager['Juanetes'/9164, uuid='7aa1c201-c3d1-469f-8c23-25f22dd80f03', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=302, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:34:05] [Server thread/INFO]: Named entity Villager['Juanetes'/9164, uuid='7aa1c201-c3d1-469f-8c23-25f22dd80f03', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=302, v=true] died: Juanetes was slain by sCesar_
+[10:34:29] [Server thread/INFO]: Villager Villager['Juanetes'/9201, uuid='11b4bdbf-da33-453d-be6c-36243d05a9ed', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=83, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:34:29] [Server thread/INFO]: Named entity Villager['Juanetes'/9201, uuid='11b4bdbf-da33-453d-be6c-36243d05a9ed', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=83, v=true] died: Juanetes was slain by sCesar_
+[10:35:48] [Server thread/INFO]: Villager Villager['Juanetes'/9277, uuid='21225279-e081-4092-a128-bab2273c51f9', l='ServerLevel[world]', x=1127.73, y=60.00, z=1220.64, cpos=[70, 76], tl=468, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:35:48] [Server thread/INFO]: Named entity Villager['Juanetes'/9277, uuid='21225279-e081-4092-a128-bab2273c51f9', l='ServerLevel[world]', x=1127.73, y=60.00, z=1220.64, cpos=[70, 76], tl=468, v=true] died: Juanetes was slain by sCesar_
+[10:36:35] [Server thread/INFO]: Villager Villager['Juanetes'/9326, uuid='a7bae39b-f1c7-43d5-96b4-845cc63446d3', l='ServerLevel[world]', x=1127.70, y=60.00, z=1219.70, cpos=[70, 76], tl=600, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:36:35] [Server thread/INFO]: Named entity Villager['Juanetes'/9326, uuid='a7bae39b-f1c7-43d5-96b4-845cc63446d3', l='ServerLevel[world]', x=1127.70, y=60.00, z=1219.70, cpos=[70, 76], tl=600, v=true] died: Juanetes was slain by sCesar_
+[10:36:57] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 62, z: 1217, world: world
+[10:36:57] [Server thread/INFO]: Player: sCesar_
+[10:36:57] [Server thread/INFO]: Lines - 1: JUANETON - 2: POCIONES
+[10:36:57] [Server thread/INFO]: Lines - 3: & - 4: RAREZAS
+[10:37:03] [Server thread/INFO]: Sign Spy - Location: x: 1125, y: 62, z: 1219, world: world
+[10:37:03] [Server thread/INFO]: Player: sCesar_
+[10:37:03] [Server thread/INFO]: Lines - 1: JUANELO - 2: OBJETOS UNICOS
+[10:37:03] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:37:35] [Server thread/INFO]: Villager Villager['Juanetes'/9442, uuid='47dab668-7020-4f05-81e2-948dd7801d8a', l='ServerLevel[world]', x=1119.50, y=60.50, z=1219.50, cpos=[69, 76], tl=264, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:37:35] [Server thread/INFO]: Named entity Villager['Juanetes'/9442, uuid='47dab668-7020-4f05-81e2-948dd7801d8a', l='ServerLevel[world]', x=1119.50, y=60.50, z=1219.50, cpos=[69, 76], tl=264, v=true] died: Juanetes was slain by sCesar_
+[10:38:31] [Server thread/INFO]: Villager Villager['Juaneton'/9508, uuid='e589246f-4f35-450c-809a-72fe16ed4619', l='ServerLevel[world]', x=1128.23, y=61.25, z=1223.82, cpos=[70, 76], tl=296, v=true] died, message: 'Juaneton was slain by sCesar_'
+[10:38:31] [Server thread/INFO]: Named entity Villager['Juaneton'/9508, uuid='e589246f-4f35-450c-809a-72fe16ed4619', l='ServerLevel[world]', x=1128.23, y=61.25, z=1223.82, cpos=[70, 76], tl=296, v=true] died: Juaneton was slain by sCesar_
+[10:39:17] [Server thread/INFO]: Villager Villager['Juanetes'/9559, uuid='ad9d50fa-b963-4f54-bf28-4640146111ed', l='ServerLevel[world]', x=1123.70, y=60.00, z=1215.30, cpos=[70, 75], tl=237, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:39:17] [Server thread/INFO]: Named entity Villager['Juanetes'/9559, uuid='ad9d50fa-b963-4f54-bf28-4640146111ed', l='ServerLevel[world]', x=1123.70, y=60.00, z=1215.30, cpos=[70, 75], tl=237, v=true] died: Juanetes was slain by sCesar_
+[10:41:13] [Server thread/INFO]: [Not Secure] [Server] h
+[10:42:37] [Server thread/INFO]: Sign Spy - Location: x: 1116, y: 62, z: 1223, world: world
+[10:42:37] [Server thread/INFO]: Player: sCesar_
+[10:42:37] [Server thread/INFO]: Lines - 1: Pronto... - 2: 
+[10:42:37] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:42:47] [Server thread/INFO]: Sign Spy - Location: x: 1116, y: 62, z: 1238, world: world
+[10:42:47] [Server thread/INFO]: Player: sCesar_
+[10:42:47] [Server thread/INFO]: Lines - 1: Pronto.. - 2: 
+[10:42:47] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:42:56] [Server thread/INFO]: Sign Spy - Location: x: 1130, y: 62, z: 1238, world: world
+[10:42:56] [Server thread/INFO]: Player: sCesar_
+[10:42:56] [Server thread/INFO]: Lines - 1: Pronto.. - 2: 
+[10:42:56] [Server thread/INFO]: Lines - 3:  - 4: 
