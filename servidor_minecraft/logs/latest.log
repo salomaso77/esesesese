@@ -709,3 +709,9 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.
 [10:42:56] [Server thread/INFO]: Player: sCesar_
 [10:42:56] [Server thread/INFO]: Lines - 1: Pronto.. - 2: 
 [10:42:56] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:44:51] [Server thread/INFO]: Villager Villager['JuanMecanico'/10001, uuid='7e505997-d3b3-4748-acd1-3e7d17017598', l='ServerLevel[world]', x=1121.50, y=67.50, z=1230.50, cpos=[70, 76], tl=121, v=true] died, message: 'JuanMecanico was slain by sCesar_'
+[10:44:51] [Server thread/INFO]: Named entity Villager['JuanMecanico'/10001, uuid='7e505997-d3b3-4748-acd1-3e7d17017598', l='ServerLevel[world]', x=1121.50, y=67.50, z=1230.50, cpos=[70, 76], tl=121, v=true] died: JuanMecanico was slain by sCesar_
+[10:53:09] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1238, world: world
+[10:53:09] [Server thread/INFO]: Player: sCesar_
+[10:53:09] [Server thread/INFO]: Lines - 1: [ RECUERDA ] - 2: Alejate unos 300
+[10:53:09] [Server thread/INFO]: Lines - 3: bloques de aqui - 4: 
