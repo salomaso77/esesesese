@@ -300,3 +300,5 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [09:13:34] [Server thread/INFO]: Lines - 1: Pones [RP] - 2: Y abajo el name
 [09:13:34] [Server thread/INFO]: Lines - 3:  - 4: 
 [09:16:44] [Server thread/INFO]: [Not Secure] [Server] h
+[09:29:35] [Server thread/INFO]: sCesar_ issued server command: /time set night
+[09:29:35] [Server thread/INFO]: [sCesar_: Set the time to 13000]
