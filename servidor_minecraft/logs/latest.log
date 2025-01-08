@@ -648,3 +648,29 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.
 [10:08:52] [Server thread/INFO]: sCesar_ issued server command: /give sCesar_ minecraft:command_block 1
 [10:08:52] [Server thread/INFO]: [sCesar_: Gave 1 [Command Block] to sCesar_]
 [10:18:24] [Server thread/INFO]: [Not Secure] [Server] h
+[10:24:11] [Server thread/INFO]: Sign Spy - Location: x: 1121, y: 62, z: 1219, world: world
+[10:24:11] [Server thread/INFO]: Player: sCesar_
+[10:24:11] [Server thread/INFO]: Lines - 1: JUANETES - 2: COMIDAS
+[10:24:11] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:24:41] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 62, z: 1217, world: world
+[10:24:41] [Server thread/INFO]: Player: sCesar_
+[10:24:41] [Server thread/INFO]: Lines - 1: JUANELO - 2: POCIONES
+[10:24:41] [Server thread/INFO]: Lines - 3: & - 4: RAREZAS
+[10:25:12] [Server thread/INFO]: Sign Spy - Location: x: 1125, y: 62, z: 1219, world: world
+[10:25:12] [Server thread/INFO]: Player: sCesar_
+[10:25:12] [Server thread/INFO]: Lines - 1: JUANETON - 2: OBJETOS UNICOS
+[10:25:12] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:26:35] [Server thread/INFO]: ☀ [¡Alerta Cosmica! ] Un Meteorito Volcanico a aterrizado en las coordenadas X:163 Z:109, ¿Que podria ser?
+[10:29:18] [Server thread/INFO]: sCesar_ issued server command: /give sCesar_ minecraft:command_block 1
+[10:29:18] [Server thread/INFO]: [sCesar_: Gave 1 [Command Block] to sCesar_]
+[10:30:02] [Server thread/INFO]: Sign Spy - Location: x: 1128, y: 62, z: 1223, world: world
+[10:30:02] [Server thread/INFO]: Player: sCesar_
+[10:30:02] [Server thread/INFO]: Lines - 1: [ WARN ] - 2: Solo Admins
+[10:30:02] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:31:33] [Server thread/INFO]: [Not Secure] [Server] h
+[10:32:45] [Server thread/INFO]: Villager Villager['Juanetes'/9063, uuid='c8b74c78-7bc1-45dc-b337-0f06460a2582', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=157, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:32:45] [Server thread/INFO]: Named entity Villager['Juanetes'/9063, uuid='c8b74c78-7bc1-45dc-b337-0f06460a2582', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=157, v=true] died: Juanetes was slain by sCesar_
+[10:33:11] [Server thread/INFO]: Villager Villager['Juanetes'/9096, uuid='ec87cc26-ddc7-4f96-8116-0f461750dca7', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=185, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:33:11] [Server thread/INFO]: Named entity Villager['Juanetes'/9096, uuid='ec87cc26-ddc7-4f96-8116-0f461750dca7', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=185, v=true] died: Juanetes was slain by sCesar_
+[10:33:31] [Server thread/INFO]: Villager Villager['Juanetes'/9130, uuid='4456fa2c-71ef-4bbe-a67c-2417e038f1bc', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=121, v=true] died, message: 'Juanetes was slain by sCesar_'
+[10:33:31] [Server thread/INFO]: Named entity Villager['Juanetes'/9130, uuid='4456fa2c-71ef-4bbe-a67c-2417e038f1bc', l='ServerLevel[world]', x=1127.50, y=60.50, z=1219.50, cpos=[70, 76], tl=121, v=true] died: Juanetes was slain by sCesar_
