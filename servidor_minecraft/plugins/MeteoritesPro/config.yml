@@ -230,19 +230,19 @@ treasure-content:
     item-type: DIAMOND_AXE
     amount: 1
     #The chance that this item has to appear in the treasure (0-100)
-    chance: 100
+    chance: 10
     display-name: '§e§e§l[ La Hacha §6§lMitica §e§l]'
     lore:
       - ''
-      - '§e§lCreada por los mismos §6§lDioses, §e§luna arma capaz de vencer hasta a la mas grande §4§loscuridad..'
+      - '§eCreada por los mismos §6§lDioses, §euna arma capaz de vencer hasta a la mas grande §4§loscuridad..'
       - ''
     #Defines whether the item will be unbreakable or not.
     unbreakable: true
     #Only use the enchantment names like on this list (minus the 'minecraft:'):
     #https://www.spigotmc.org/threads/1-13-enchantment-namespacedkeys.351275/
     enchants:
-      sharpness: 10
-      knockback: 7
+      sharpness: 20
+      knockback: 10
       unbreaking: 10
     #Set the custom model data for this item. Remove this line or use '0' to use default settings.
     custom-model-data: 0
@@ -252,8 +252,8 @@ treasure-content:
 
   '2':
     enabled: true
-    item-type: EMERALD
-    amount: 1
+    item-type: NETHERITE_INGOT
+    amount: 2
     chance: 10
     display-name: '&e* &6The Arkenstone &e*'
     unbreakable: false
@@ -263,13 +263,13 @@ treasure-content:
       - '&7to be &3King &7of the &2Lonely Mountain &7. . .'
       - ''
     enchants:
-      infinity: 10
+      infinity: 20
 
   '3':
     enabled: true
     item-type: DIAMOND
-    amount: 
-    chance: 200
+    amount: 12
+    chance: 10
     display-name: '&3Meteorite Diamond'
     lore:
       - ''
@@ -332,7 +332,7 @@ possible-guardians:
     #Use 'default' to leave the mob's health unaltered. Check this table for the default health per mob: https://minecraft.gamepedia.com/Health
     #Keep the value from 1 - 2000
     #1 health = 1/2 heart, 2 health = 1 heart, ..., 20 health =  10 hearts
-    guardian-health: 110
+    guardian-health: 150
 
     #Set guardian movement speed.
     #Use 'default' to leave the mob's movement speed unaltered. Check this table for the default movement speed per mob: https://minecraft.gamepedia.com/Attribute
@@ -363,7 +363,7 @@ possible-guardians:
 
     guardian-mob-type: ZOMBIE
     chance: 10
-    guardian-display-name: '&eGolden Guardian'
+    guardian-display-name: '&eGuardian del Tiempo'
 
     guardian-attack-damage: 9
     guardian-health: 150
@@ -386,7 +386,7 @@ possible-guardians:
     guardian-spawn-sound: ''
 
     guardian-mob-type: ZOMBIE
-    chance: 0
+    chance: 
     guardian-display-name: ''
 
     guardian-attack-damage: default
