@@ -1118,12 +1118,6 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/leave/sanctum": {
-    "criteria": {
-      "changed_dimension": "2025-01-08 23:25:50 +0000"
-    },
-    "done": true
-  },
   "bracken:san": {
     "criteria": {
       "bracken:san1": "2025-01-08 01:45:21 +0000"
@@ -2584,79 +2578,91 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:27:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:37:21 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2025-01-08 23:36:47 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-08 23:26:13 +0000"
+    },
+    "done": true
+  },
+  "bracken:dor": {
+    "criteria": {
+      "bracken:dor1": "2025-01-08 23:31:38 +0000"
     },
     "done": true
   },
@@ -2696,15 +2702,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/golden_apple": {
+  "bracken:sanctum/marauder": {
     "criteria": {
-      "has_gold_ingot": "2025-01-08 23:26:15 +0000"
+      "bracken:sanctum/marauder1": "2025-01-08 23:29:33 +0000"
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/overworld": {
+  "minecraft:recipes/food/golden_apple": {
     "criteria": {
-      "changed_dimension": "2025-01-08 23:15:51 +0000"
+      "has_gold_ingot": "2025-01-08 23:26:15 +0000"
     },
     "done": true
   },
@@ -2726,15 +2732,27 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/the_nether": {
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
     "criteria": {
-      "changed_dimension": "2025-01-08 23:26:59 +0000"
+      "has_smooth_red_sandstone": "2025-01-08 23:36:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2025-01-08 23:36:47 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-01-08 23:26:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2025-01-08 23:36:47 +0000"
     },
     "done": true
   },

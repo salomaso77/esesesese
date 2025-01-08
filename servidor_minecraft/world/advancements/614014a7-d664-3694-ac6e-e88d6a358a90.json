@@ -67,7 +67,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -103,7 +103,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -130,6 +130,12 @@
       "has_iron_ingot": "2025-01-08 22:59:50 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:rusty": "2025-01-08 23:35:46 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
@@ -301,7 +307,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -367,7 +373,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -484,6 +490,7 @@
       "minecraft:skeleton": "2025-01-08 23:03:47 +0000",
       "minecraft:spider": "2025-01-08 23:03:57 +0000",
       "minecraft:zombie": "2025-01-08 23:04:02 +0000",
+      "minecraft:creeper": "2025-01-08 23:28:10 +0000",
       "minecraft:zombie_villager": "2025-01-08 23:04:51 +0000"
     },
     "done": false
@@ -580,7 +587,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -676,7 +683,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -772,7 +779,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -784,7 +791,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -890,6 +897,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-08 23:35:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2025-01-08 22:56:12 +0000"
@@ -928,7 +941,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -1090,7 +1103,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -1295,6 +1308,7 @@
       "minecraft:dark_forest": "2025-01-08 23:18:33 +0000",
       "minecraft:forest": "2025-01-08 22:53:33 +0000",
       "minecraft:taiga": "2025-01-08 23:23:20 +0000",
+      "minecraft:sparse_jungle": "2025-01-08 23:35:15 +0000",
       "minecraft:river": "2025-01-08 23:03:42 +0000",
       "minecraft:birch_forest": "2025-01-08 23:17:41 +0000",
       "minecraft:lush_caves": "2025-01-08 22:57:57 +0000",
@@ -1310,7 +1324,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -1340,7 +1354,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:26:12 +0000"
+      "log_spam_fixer": "2025-01-08 23:36:21 +0000"
     },
     "done": false
   },
@@ -1365,6 +1379,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-01-08 23:02:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-01-08 23:28:12 +0000"
     },
     "done": true
   },
@@ -1408,6 +1428,12 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2025-01-08 23:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-08 23:28:12 +0000"
     },
     "done": true
   },
