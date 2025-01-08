@@ -310,3 +310,43 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [09:35:49] [Server thread/INFO]: [sCesar_: Set own game mode to Survival Mode]
 [09:36:08] [Server thread/INFO]: sCesar_ issued server command: /gamemode creative
 [09:36:08] [Server thread/INFO]: [sCesar_: Set own game mode to Creative Mode]
+[09:44:22] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1238, world: world
+[09:44:22] [Server thread/INFO]: Player: sCesar_
+[09:44:22] [Server thread/INFO]: Lines - 1: [ Spawn ] - 2: No joder
+[09:44:22] [Server thread/INFO]: Lines - 3:  - 4: 
+[09:44:39] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1238, world: world
+[09:44:39] [Server thread/INFO]: Player: sCesar_
+[09:44:39] [Server thread/INFO]: Lines - 1: [ Spawn ] - 2: No joder
+[09:44:39] [Server thread/INFO]: Lines - 3:  - 4: 
+[09:44:41] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1238, world: world
+[09:44:41] [Server thread/INFO]: Player: sCesar_
+[09:44:41] [Server thread/INFO]: Lines - 1: [ Spawn ] - 2: No joder
+[09:44:41] [Server thread/INFO]: Lines - 3:  - 4: 
+[09:44:55] [Server thread/INFO]: sCesar_ issued server command: /spawnpoint
+[09:44:55] [Server thread/INFO]: [sCesar_: Set spawn point to 1123, 60, 1240 [0.0] in minecraft:overworld for sCesar_]
+[09:45:07] [Server thread/INFO]: sCesar_ issued server command: /setworldspawn
+[09:45:07] [Server thread/INFO]: [sCesar_: Set the world spawn point to 1123, 60, 1240 [0.0]]
+[09:45:29] [Server thread/INFO]: sCesar_ issued server command: /spawn set
+[09:46:54] [Server thread/INFO]: [Not Secure] [Server] h
+[09:48:41] [Server thread/INFO]: sCesar_ issued server command: /spawn setspawn
+[09:48:57] [Server thread/INFO]: sCesar_ issued server command: /spawntp
+[09:49:10] [Server thread/INFO]: sCesar_ issued server command: /spawntp setspawn
+[09:49:15] [Server thread/INFO]: sCesar_ issued server command: /spawntp
+[09:49:19] [Server thread/INFO]: sCesar_ issued server command: /span
+[09:49:22] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:49:26] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:49:31] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:49:41] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawn
+[09:50:11] [Server thread/INFO]: Made sCesar_ no longer a server operator
+[09:50:29] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:50:35] [Server thread/INFO]: sCesar_ issued server command: /spawntp
+[09:50:46] [Server thread/INFO]: sCesar_ issued server command: /spawntp help
+[09:50:52] [Server thread/INFO]: sCesar_ issued server command: /spawntp spawn
+[09:51:06] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:51:17] [Server thread/INFO]: sCesar_ issued server command: /spawn spawn
+[09:51:31] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawn
+[09:51:34] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawntp
+[09:51:39] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawn
+[09:52:30] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawn
+[09:52:37] [Server thread/INFO]: sCesar_ issued server command: /espawn
+[09:52:46] [Server thread/INFO]: sCesar_ issued server command: /spawn
