@@ -647,3 +647,4 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.
 [10:07:05] [Server thread/INFO]: [Not Secure] [Server] h
 [10:08:52] [Server thread/INFO]: sCesar_ issued server command: /give sCesar_ minecraft:command_block 1
 [10:08:52] [Server thread/INFO]: [sCesar_: Gave 1 [Command Block] to sCesar_]
+[10:18:24] [Server thread/INFO]: [Not Secure] [Server] h
