@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-01-08 23:03:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-01-08 22:51:34 +0000"
@@ -91,7 +97,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -115,9 +121,15 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
   },
   "minecraft:story/iron_tools": {
     "criteria": {
@@ -134,6 +146,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2025-01-08 22:52:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
     },
     "done": true
   },
@@ -191,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2025-01-08 22:52:12 +0000"
@@ -206,6 +230,12 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-01-08 22:52:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
     },
     "done": true
   },
@@ -257,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-01-08 22:54:07 +0000"
@@ -265,9 +301,15 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
@@ -311,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2025-01-08 22:52:45 +0000"
@@ -325,8 +373,13 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-01-08 22:55:13 +0000",
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-01-08 23:05:35 +0000"
     },
     "done": true
   },
@@ -369,6 +422,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-01-08 22:46:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-01-08 23:05:42 +0000"
     },
     "done": true
   },
@@ -464,6 +523,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-08 22:55:18 +0000"
@@ -526,7 +591,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -622,7 +687,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -659,6 +724,12 @@
   "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-01-08 22:45:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
     },
     "done": true
   },
@@ -718,13 +789,13 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -892,7 +963,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -1048,7 +1119,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -1094,6 +1165,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-01-08 22:45:05 +0000"
@@ -1123,6 +1200,12 @@
       "log_spam_fixer": "2025-01-08 22:35:56 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
@@ -1247,7 +1330,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -1277,7 +1360,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 22:55:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
     },
     "done": false
   },
@@ -1290,6 +1373,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-01-08 22:47:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
     },
     "done": true
   },
@@ -1446,6 +1535,12 @@
   "minecraft:recipes/building_blocks/waxed_cut_copper_stairs": {
     "criteria": {
       "has_waxed_cut_copper": "2025-01-08 22:55:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-08 23:05:18 +0000"
     },
     "done": true
   },
