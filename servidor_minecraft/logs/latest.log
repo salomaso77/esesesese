@@ -350,3 +350,297 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [09:52:30] [Server thread/INFO]: sCesar_ issued server command: /spawntp:spawn
 [09:52:37] [Server thread/INFO]: sCesar_ issued server command: /espawn
 [09:52:46] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:56:04] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[09:56:10] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[09:56:10] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[09:56:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:56:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:56:10] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[09:56:10] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[09:56:10] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[09:56:10] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[09:56:10] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[09:56:10] [Server thread/INFO]: [BloodMoon] Disabling BloodMoon v0.8.1
+[09:56:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[09:56:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[09:56:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[09:56:11] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[09:56:11] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
+[09:56:11] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[09:56:11] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
+[09:56:11] [Server thread/INFO]: [ZombieApocalypse] Disabling ZombieApocalypse v1.4.11
+[09:56:11] [Server thread/INFO]: [MeteoritesPro] Disabling MeteoritesPro v1.5.3
+[09:56:11] [Server thread/INFO]: [Spawntp] Disabling Spawntp v4.0.4
+[09:56:11] [Server thread/INFO]: [RedProtect] Disabling RedProtect v8.1.2-SNAPSHOT
+[09:56:11] [Server thread/ERROR]: Error occurred while disabling RedProtect v8.1.2-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.unregister(org.bukkit.command.CommandMap)" because the return value of "br.net.fabiozumbi12.RedProtect.Bukkit.RedProtect.getCommand(String)" is null
+	at RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar/br.net.fabiozumbi12.RedProtect.Bukkit.commands.CommandHandler.unregisterAll(CommandHandler.java:273) ~[RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar:?]
+	at RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar/br.net.fabiozumbi12.RedProtect.Bukkit.RedProtect.shutDown(RedProtect.java:299) ~[RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar:?]
+	at RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar/br.net.fabiozumbi12.RedProtect.Bukkit.RedProtect.onDisable(RedProtect.java:126) ~[RedProtect-8.1.2-SNAPSHOT-b444-Spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.clearPlugins(PaperPluginInstanceManager.java:167) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.clearPlugins(PaperPluginManagerImpl.java:102) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:607) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1092) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[09:56:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[09:56:11] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[09:56:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[09:56:11] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[09:56:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[09:56:11] [WebSocketConnectReadThread-115/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[09:56:12] [Server thread/INFO]: Loaded 1473 recipes
+[09:56:12] [Server thread/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[09:56:12] [Server thread/INFO]: Loaded 1732 advancements
+[09:56:12] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:56:12] [Server thread/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[09:56:12] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - BloodMoon (0.8.1), DeathChest (2.2.7), Geyser-Spigot (2.6.0-SNAPSHOT), LoginSecurity (3.3.0), MeteoritesPro (1.5.3), RedProtect (8.1.2-SNAPSHOT), SimpleTpa (7.4), SkinsRestorer (15.5.1), Spawntp (4.0.4), ViaBackwards (5.2.1), ViaRewind (4.0.5), ViaVersion (5.2.1), ZombieApocalypse (1.4.11), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loading 1 libraries... please wait
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [Spawntp] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[09:56:13] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /workspaces/esesesese/servidor_minecraft/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[09:56:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[09:56:13] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[09:56:13] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[09:56:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:56:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:56:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:56:16] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:56:18] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[09:56:18] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[09:56:20] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[09:56:20] [Server thread/INFO]: [floodgate] Took 1,459ms to boot Floodgate
+[09:56:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[09:56:20] [Server thread/INFO]: [RedProtect] Loading server plugin RedProtect v8.1.2-SNAPSHOT
+[09:56:20] [Server thread/INFO]: [Spawntp] Loading server plugin Spawntp v4.0.4
+[09:56:20] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[09:56:20] [Server thread/INFO]: [ZombieApocalypse] Loading server plugin ZombieApocalypse v1.4.11
+[09:56:20] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
+[09:56:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[09:56:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[09:56:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[09:56:22] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[09:56:22] [Server thread/INFO]: [BloodMoon] Loading server plugin BloodMoon v0.8.1
+[09:56:22] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[09:56:22] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.5
+[09:56:22] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
+[09:56:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:56:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[09:56:22] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[09:56:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[09:56:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[09:56:23] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[09:56:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:56:24] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[09:56:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[09:56:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[09:56:24] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.5.1
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: d5d8613
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[09:56:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[09:56:24] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[09:56:24] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[09:56:24] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[09:56:24] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[09:56:24] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[09:56:24] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[09:56:24] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[09:56:24] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[09:56:24] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[09:56:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[09:56:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1132)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1027)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000)
+[09:56:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985)
+[09:56:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526)
+[09:56:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474)
+[09:56:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598)
+[09:56:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304)
+[09:56:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+[09:56:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[09:56:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[09:56:25] [Server thread/INFO]: [RedProtect] Enabling RedProtect v8.1.2-SNAPSHOT
+[09:56:25] [Server thread/INFO]: [RedProtect] Server version: 1.21-R0.1-SNAPSHOT
+[09:56:25] [Server thread/INFO]: [RedProtect] All configurations loaded!
+[09:56:25] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US
+[09:56:25] [Server thread/INFO]: [RedProtect] Registering commands...
+[09:56:26] [Server thread/INFO]: [RedProtect] Registering listeners...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_pax's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_the_brine's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_varskspace's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_omnidrome's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_sanctum's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_the_underdark's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_the_faewild's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_glacium's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_dormis's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_void's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] - Loading world_bracken_panacea's regions...
+[09:56:26] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes!
+[09:56:26] [Server thread/INFO]: [RedProtect] There are 0 regions on (file) database!
+[09:56:26] [Server thread/INFO]: [RedProtect] Helper version: Latest
+[09:56:26] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+
+[09:56:26] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect
+[09:56:26] [Server thread/INFO]: [RedProtect] Loading API...
+[09:56:26] [Server thread/INFO]: [RedProtect] API Loaded!
+[09:56:26] [Server thread/INFO]:  _   _  _   _   _   _  _ _  _  _ _ _  _
+[09:56:26] [Server thread/INFO]: |_| |_ | \ |_| |_| | |  |  |_ |   |  |_|
+[09:56:26] [Server thread/INFO]: | \ |_ |_/ |   | \ |_|  |  |_ |_  |  |_|
+[09:56:26] [Server thread/INFO]: » RedProtect v8.1.2-SNAPSHOT enabled
+[09:56:26] [Server thread/INFO]: 
+[09:56:26] [Server thread/INFO]: [Spawntp] Enabling Spawntp v4.0.4
+[09:56:27] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[09:56:27] [Server thread/INFO]:          __
+[09:56:27] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[09:56:27] [Server thread/INFO]:    |  | |        by OliPulse
+[09:56:27] [Server thread/INFO]:  
+[09:56:27] [Server thread/INFO]: [MeteoritesPro] Invalid particle type: 'SMOKE_LARGE' for particle '2'
+[09:56:27] [Server thread/INFO]: [ZombieApocalypse] Enabling ZombieApocalypse v1.4.11
+[09:56:27] [Server thread/INFO]: [ZombieApocalypse] Configuration has been successfully loaded!
+[09:56:27] [Server thread/INFO]: [ZombieApocalypse] If you really love this project, you could consider donating to help me keep this project alive! https://paypal.me/3ricL
+[09:56:27] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
+[09:56:27] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[09:56:27] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
+[09:56:27] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[09:56:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[09:56:27] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8.1
+[09:56:28] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[09:56:28] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[09:56:28] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_pax"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_brine"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_varskspace"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_omnidrome"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_sanctum"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_underdark"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_the_faewild"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_glacium"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_dormis"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_void"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_bracken_panacea"
+[09:56:28] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[09:56:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:56:28] [Server thread/INFO]: [Geyser-Spigot] 
+[09:56:28] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b742 (git-master-ddd1afa)
+[09:56:28] [Server thread/INFO]: [Geyser-Spigot] 
+[09:56:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:56:35] [epollEventLoopGroup-9-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2336
+[09:56:35] [Server thread/INFO]: [Geyser-Spigot] Done (6.955s)! Run /geyser help for help!
+[09:56:35] [Server thread/INFO]: CONSOLE: Reload complete.
+[09:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25431ms or 508 ticks behind
+[09:56:35] [Server thread/INFO]: Timings Reset
+[09:56:35] [Server thread/INFO]: [Not Secure] [Server] h
+[09:56:35] [Craft Scheduler Thread - 104 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:56:35] [Craft Scheduler Thread - 107 - ZombieApocalypse/INFO]: [ZombieApocalypse] Checking for updates...
+[09:56:35] [Craft Scheduler Thread - 107 - ZombieApocalypse/INFO]: [ZombieApocalypse] You are running the latest version.
+[09:56:44] [Server thread/INFO]: [Not Secure] [Server] h
+[09:57:05] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:57:11] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:57:18] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[09:58:18] [Server thread/INFO]: Made sCesar_ a server operator
+[10:02:11] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1223, world: world
+[10:02:11] [Server thread/INFO]: Player: sCesar_
+[10:02:11] [Server thread/INFO]: Lines - 1: [ TIENDA ] - 2: Zona de Aldeanos
+[10:02:11] [Server thread/INFO]: Lines - 3:  - 4: 
+[10:02:12] [Server thread/INFO]: Sign Spy - Location: x: 1123, y: 60, z: 1223, world: world
+[10:02:12] [Server thread/INFO]: Player: sCesar_
+[10:02:12] [Server thread/INFO]: Lines - 1: [ TIENDA ] - 2: Zona de Aldeanos
+[10:02:12] [Server thread/INFO]: Lines - 3:  - 4: 
