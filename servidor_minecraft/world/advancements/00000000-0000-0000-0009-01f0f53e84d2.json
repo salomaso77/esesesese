@@ -586,6 +586,7 @@
       "rotten_flesh": "2025-01-08 01:09:55 +0000",
       "cooked_mutton": "2025-01-08 00:26:10 +0000",
       "baked_potato": "2025-01-08 01:37:40 +0000",
+      "tropical_fish": "2025-01-08 23:14:26 +0000",
       "carrot": "2025-01-08 02:27:30 +0000"
     },
     "done": false
@@ -1364,12 +1365,6 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/overworld": {
-    "criteria": {
-      "changed_dimension": "2025-01-08 02:10:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-01-08 02:12:29 +0000"
@@ -1438,73 +1433,74 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "requirement": "2025-01-08 23:15:28 +0000",
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -1526,9 +1522,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-01-08 23:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
     },
     "done": true
   },
@@ -1574,6 +1582,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
@@ -1595,6 +1609,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
     },
     "done": true
   },
@@ -1652,6 +1672,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:59:24 +0000"
@@ -1685,6 +1717,12 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-01-08 22:59:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-08 23:06:33 +0000"
     },
     "done": true
   },

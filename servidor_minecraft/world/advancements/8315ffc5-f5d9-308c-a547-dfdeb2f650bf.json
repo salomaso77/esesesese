@@ -97,7 +97,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -121,7 +121,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-01-08 23:08:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-01-08 22:54:07 +0000"
@@ -301,7 +307,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -371,11 +377,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-08 23:14:39 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "requirement": "2025-01-08 23:15:25 +0000",
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/under_lock_and_key": {
     "criteria": {
@@ -494,6 +507,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:cave_spider": "2025-01-08 22:46:57 +0000",
+      "minecraft:skeleton": "2025-01-08 23:13:12 +0000",
       "minecraft:spider": "2025-01-08 22:47:27 +0000",
       "minecraft:zombie": "2025-01-08 22:53:16 +0000"
     },
@@ -565,6 +579,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-01-08 23:13:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-08 22:55:49 +0000"
@@ -591,7 +611,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -687,7 +707,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -789,13 +809,13 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -963,7 +983,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -1119,7 +1139,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -1330,7 +1350,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -1360,7 +1380,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-08 23:05:09 +0000"
+      "log_spam_fixer": "2025-01-08 23:15:09 +0000"
     },
     "done": false
   },
@@ -1397,6 +1417,12 @@
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2025-01-08 22:55:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-01-08 23:08:36 +0000"
     },
     "done": true
   },
