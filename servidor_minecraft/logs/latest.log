@@ -302,3 +302,11 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [09:16:44] [Server thread/INFO]: [Not Secure] [Server] h
 [09:29:35] [Server thread/INFO]: sCesar_ issued server command: /time set night
 [09:29:35] [Server thread/INFO]: [sCesar_: Set the time to 13000]
+[09:33:56] [Server thread/INFO]: [Not Secure] [Server] h
+[09:34:25] [Server thread/INFO]: ☀ [¡Alerta Cosmica! ] Un Meteorito Volcanico a aterrizado en las coordenadas X:162 Z:-142, ¿Que podria ser?
+[09:34:36] [Server thread/INFO]: sCesar_ issued server command: /time set day
+[09:34:36] [Server thread/INFO]: [sCesar_: Set the time to 1000]
+[09:35:49] [Server thread/INFO]: sCesar_ issued server command: /gamemode survival
+[09:35:49] [Server thread/INFO]: [sCesar_: Set own game mode to Survival Mode]
+[09:36:08] [Server thread/INFO]: sCesar_ issued server command: /gamemode creative
+[09:36:08] [Server thread/INFO]: [sCesar_: Set own game mode to Creative Mode]
