@@ -306,3 +306,29 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [08:45:36] [Server thread/INFO]: [sCesar_: Successfully filled 587 block(s)]
 [08:45:59] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1227 1112 60 1238 minecraft:air
 [08:45:59] [Server thread/INFO]: [sCesar_: Successfully filled 576 block(s)]
+[08:47:32] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1227 1135 65 1224 minecraft:spruce_planks
+[08:47:32] [Server thread/INFO]: [sCesar_: Successfully filled 20 block(s)]
+[08:47:54] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1237 1135 65 1224 minecraft:spruce_planks
+[08:47:54] [Server thread/INFO]: [sCesar_: Successfully filled 50 block(s)]
+[08:48:39] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1237 1135 65 1224 minecraft:cobblestone
+[08:48:39] [Server thread/INFO]: [sCesar_: Successfully filled 70 block(s)]
+[08:48:57] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1237 1135 65 1224 minecraft:quartz
+[08:49:05] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1237 1135 65 1224 minecraft:quartz_block
+[08:49:05] [Server thread/INFO]: [sCesar_: Successfully filled 70 block(s)]
+[08:50:06] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1237 1135 65 1222 minecraft:quartz_bloc
+[08:50:21] [Server thread/INFO]: sCesar_ issued server command: /fill 1113 61 1222 1135 65 1222 minecraft:quartz_bloc
+[08:50:26] [Server thread/INFO]: sCesar_ issued server command: /fill 1113 61 1222 1135 65 1222 minecraft:quartz_block
+[08:50:26] [Server thread/INFO]: [sCesar_: Successfully filled 115 block(s)]
+[08:51:24] [Server thread/INFO]: sCesar_ issued server command: /fill 1113 61 1239 1113 65 1239 minecraft:quartz_block
+[08:51:24] [Server thread/INFO]: [sCesar_: Successfully filled 5 block(s)]
+[08:51:32] [Server thread/INFO]: sCesar_ issued server command: /fill 1113 61 1239 1133 65 1239 minecraft:quartz_block
+[08:51:32] [Server thread/INFO]: [sCesar_: Successfully filled 100 block(s)]
+[08:52:07] [Server thread/INFO]: sCesar_ issued server command: /fill 1113 61 1222 111 65 1224 minecraft:quartz_bloc
+[08:52:26] [Server thread/INFO]: sCesar_ issued server command: /fill 1111 61 1237 1111 65 1224 minecraft:quartz_bloc
+[08:52:28] [Server thread/INFO]: sCesar_ issued server command: /fill 1111 61 1237 1111 65 1224 minecraft:quartz_blocl
+[08:52:33] [Server thread/INFO]: sCesar_ issued server command: /fill 1111 61 1237 1111 65 1224 minecraft:quartz_block
+[08:52:33] [Server thread/INFO]: [sCesar_: Successfully filled 70 block(s)]
+[08:53:06] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1227 1112 60 1238 minecraft:ai
+[08:53:19] [Server thread/INFO]: sCesar_ issued server command: /fill 1135 61 1227 1112 60 1237 minecraft:ai
+[08:54:14] [Server thread/INFO]: sCesar_ issued server command: /fill 1134 66 1224 1112 66 1237 minecraft:green_stained_glass
+[08:54:14] [Server thread/INFO]: [sCesar_: Successfully filled 322 block(s)]
