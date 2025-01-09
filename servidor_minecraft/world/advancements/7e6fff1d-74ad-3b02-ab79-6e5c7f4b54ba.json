@@ -63,6 +63,7 @@
       "minecraft:deep_ocean": "2025-01-08 01:27:32 +0000",
       "minecraft:river": "2025-01-08 00:07:22 +0000",
       "minecraft:lukewarm_ocean": "2025-01-08 00:53:17 +0000",
+      "minecraft:snowy_plains": "2025-01-09 02:27:15 +0000",
       "minecraft:lush_caves": "2025-01-08 00:21:46 +0000",
       "minecraft:dripstone_caves": "2025-01-08 02:01:23 +0000",
       "minecraft:frozen_peaks": "2025-01-08 00:50:24 +0000",
@@ -70,7 +71,9 @@
       "minecraft:frozen_ocean": "2025-01-08 01:33:06 +0000",
       "minecraft:desert": "2025-01-08 00:27:00 +0000",
       "minecraft:ocean": "2025-01-08 01:11:47 +0000",
+      "minecraft:cherry_grove": "2025-01-09 02:29:56 +0000",
       "minecraft:swamp": "2025-01-08 02:00:11 +0000",
+      "minecraft:meadow": "2025-01-09 02:28:35 +0000",
       "minecraft:birch_forest": "2025-01-07 23:43:03 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-08 00:05:36 +0000",
       "minecraft:snowy_beach": "2025-01-08 01:32:47 +0000",
@@ -847,6 +850,7 @@
     "criteria": {
       "tavern_dark_oak": "2025-01-09 01:01:14 +0000",
       "illager_manor": "2025-01-08 01:00:39 +0000",
+      "illager_camp": "2025-01-09 02:27:32 +0000",
       "illager_hideout": "2025-01-08 00:53:33 +0000",
       "toxic_lair": "2025-01-08 01:59:32 +0000"
     },
@@ -3262,73 +3266,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
+      "log_spam_fixer": "2025-01-09 02:31:00 +0000"
     },
     "done": false
   },
@@ -3365,6 +3369,30 @@
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-01-09 02:06:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-01-09 02:23:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-01-09 02:23:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-09 02:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-09 02:22:50 +0000"
     },
     "done": true
   },

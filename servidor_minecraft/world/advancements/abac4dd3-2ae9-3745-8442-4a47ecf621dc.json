@@ -31,7 +31,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -49,7 +49,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -89,12 +89,6 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/overworld": {
-    "criteria": {
-      "changed_dimension": "2025-01-09 02:10:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-01-09 02:09:50 +0000"
@@ -103,7 +97,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -115,7 +109,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -145,7 +139,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -175,7 +169,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -193,13 +187,13 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -241,7 +235,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -265,7 +259,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
@@ -284,6 +278,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-01-09 02:14:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-01-09 02:25:49 +0000"
     },
     "done": true
   },
@@ -314,13 +314,13 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:17:59 +0000"
+      "log_spam_fixer": "2025-01-09 02:27:59 +0000"
     },
     "done": false
   },
