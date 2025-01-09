@@ -71,6 +71,7 @@
       "minecraft:jungle": "2025-01-08 00:14:34 +0000",
       "minecraft:birch_forest": "2025-01-07 23:46:26 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-08 00:06:24 +0000",
+      "minecraft:plains": "2025-01-09 00:58:48 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-08 01:28:56 +0000"
     },
     "done": false
@@ -1641,12 +1642,6 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/leave/overworld": {
-    "criteria": {
-      "changed_dimension": "2025-01-09 00:42:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_core": "2025-01-08 23:47:06 +0000"
@@ -1847,74 +1842,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-01-09 00:49:33 +0000",
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:49:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:59:21 +0000"
     },
     "done": false
   },
@@ -1933,6 +1927,12 @@
   "incendium:root": {
     "criteria": {
       "requirement": "2025-01-09 00:42:46 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_travel/enter/overworld": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 00:50:17 +0000"
     },
     "done": true
   },

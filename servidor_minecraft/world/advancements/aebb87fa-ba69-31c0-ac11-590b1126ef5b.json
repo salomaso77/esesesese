@@ -550,6 +550,7 @@
       "potato": "2025-01-08 00:07:27 +0000",
       "glow_berries": "2025-01-09 00:00:11 +0000",
       "sweet_berries": "2025-01-08 00:15:39 +0000",
+      "cooked_beef": "2025-01-09 00:57:08 +0000",
       "baked_potato": "2025-01-08 23:50:59 +0000",
       "carrot": "2025-01-08 01:53:56 +0000"
     },
@@ -1422,7 +1423,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-08 23:53:41 +0000",
+      "minecraft:phantom": "2025-01-09 00:53:52 +0000",
       "minecraft:spider": "2025-01-08 23:53:35 +0000",
+      "minecraft:vex": "2025-01-09 00:57:59 +0000",
       "minecraft:zombie": "2025-01-08 01:03:41 +0000",
       "minecraft:creeper": "2025-01-09 00:02:57 +0000",
       "minecraft:zombie_villager": "2025-01-08 01:03:48 +0000"
@@ -1923,6 +1926,7 @@
   },
   "incendium:misc/soul_searcher": {
     "criteria": {
+      "incendium:weeping_valley": "2025-01-09 00:57:30 +0000",
       "incendium:toxic_heap": "2025-01-09 00:43:10 +0000"
     },
     "done": false
@@ -2061,85 +2065,116 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "requirement": "2025-01-09 00:57:25 +0000",
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:47:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
     },
     "done": false
   },
   "bracken:technical/dimension_travel/enter/the_nether": {
     "criteria": {
-      "changed_dimension": "2025-01-09 00:47:57 +0000"
+      "changed_dimension": "2025-01-09 00:49:08 +0000"
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/overworld": {
+  "incendium:withered_forest/kill_spirit": {
     "criteria": {
-      "changed_dimension": "2025-01-09 00:45:25 +0000"
+      "requirement": "2025-01-09 00:57:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2025-01-09 00:53:50 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-09 00:53:34 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/slime_poison": {
+    "criteria": {
+      "poison": "2025-01-09 00:52:28 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:weeping_valley": "2025-01-09 00:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-01-09 00:53:26 +0000"
     },
     "done": true
   },

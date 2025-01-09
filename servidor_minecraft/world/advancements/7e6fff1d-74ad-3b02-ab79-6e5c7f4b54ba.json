@@ -842,6 +842,7 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
+      "tavern_dark_oak": "2025-01-09 01:01:14 +0000",
       "illager_manor": "2025-01-08 01:00:39 +0000",
       "illager_hideout": "2025-01-08 00:53:33 +0000",
       "toxic_lair": "2025-01-08 01:59:32 +0000"
@@ -2818,12 +2819,6 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/overworld": {
-    "criteria": {
-      "changed_dimension": "2025-01-09 00:06:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-01-09 00:07:35 +0000"
@@ -2958,75 +2953,81 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:51:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:01:21 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-09 00:57:46 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
@@ -3157,6 +3158,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-09 00:51:21 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_travel/leave/overworld": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 00:52:39 +0000"
     },
     "done": true
   },
