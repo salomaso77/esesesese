@@ -1583,3 +1583,393 @@ java.util.ConcurrentModificationException: null
 [00:30:42] [Async Chat Thread - #12/INFO]: [Not Secure] <ImRandom> MIRA MARIO
 [00:30:42] [Server thread/INFO]: sCesar_ issued server command: /spawn
 [00:30:45] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> XD
+[00:30:46] [Async Chat Thread - #12/INFO]: [Not Secure] <ImRandom> CONSEGUI LA MEJOR PUTA MONEDA DEL JUEGO
+[00:30:58] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mattx11053> que le paso a la base xddd
+[00:30:59] [Server thread/WARN]: .ItzzTsp moved too quickly! -6.8896000000002005,0.0,-9.736799999999903
+[00:30:59] [Server thread/WARN]: .ItzzTsp moved too quickly! 6.8896000000002005,0.0,9.736799999999903
+[00:31:00] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> los babosos estos no tradeaban con obi?
+[00:31:09] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> que le paso a MI base xd
+[00:31:18] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> mario
+[00:31:20] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> q
+[00:31:24] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> so
+[00:31:25] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> aztral
+[00:31:26] [Server thread/INFO]: sCesar_ issued server command: /tp aaaguuusss
+[00:31:26] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to aaaguuusss]
+[00:31:26] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> en dc dijiste encontraste aldea
+[00:31:28] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> vamos al nether
+[00:31:28] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> q
+[00:31:29] [Server thread/INFO]: ImZumy issued server command: /back
+[00:31:30] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> es verdad o now
+[00:31:31] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> vamos
+[00:31:32] [epollEventLoopGroup-10-4/INFO]: [Geyser-Spigot] Player connected with username Ferpedo1leiva
+[00:31:32] [localSession-13-1/INFO]: [Geyser-Spigot] Ferpedo1leiva (logged in as: Ferpedo1leiva) has connected to the Java server
+[00:31:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Ferpedo1leiva joined (UUID: 00000000-0000-0000-0009-01fd7e90f04a)
+[00:31:32] [Server thread/INFO]: .Ferpedo1leiva joined the game
+[00:31:32] [Server thread/INFO]: .Ferpedo1leiva[/127.0.0.1:0] logged in with entity id 161446 at ([world]1123.0, 60.0, 1240.0)
+[00:31:33] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> si
+[00:31:36] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> tpa
+[00:31:36] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> aver
+[00:31:42] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> xd
+[00:31:43] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[00:31:46] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[00:31:47] [Server thread/INFO]: Korite issued server command: /tpa .Mokouver
+[00:31:48] [Server thread/INFO]: .ItzzTsp issued server command: /tpa TheMario_SM
+[00:31:49] [Server thread/INFO]: TheMario_SM issued server command: /tpaccept
+[00:31:50] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> mi terroncito no se unio
+[00:31:53] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> pipi
+[00:31:56] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> cake acepta
+[00:31:56] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> bro
+[00:31:58] [Server thread/INFO]: xMega10_ issued server command: /tpa EduardoKeith
+[00:31:59] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> intenta de nuevo tpa
+[00:31:59] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[00:32:00] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[00:32:00] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> siokentiendo
+[00:32:00] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> me hago tpa a eduardo
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -622.4143600000001,-57.0,-692.6282999999999
+[00:32:06] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> ah ya hay portal
+[00:32:07] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[00:32:09] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> pq coño soy invisible
+[00:32:10] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[00:32:13] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> a
+[00:32:14] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> XD
+[00:32:16] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> matate
+[00:32:17] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> y ya
+[00:32:24] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> gracias cesar
+[00:32:26] [Server thread/WARN]: .Ferpedo1leiva moved wrongly!
+[00:32:26] [Server thread/WARN]: .Ferpedo1leiva moved wrongly!
+[00:32:27] [Server thread/INFO]: Korite issued server command: /tpa TheMario_SM
+[00:32:29] [Server thread/INFO]: TheMario_SM issued server command: /tpaccept
+[00:32:35] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> me quitaron los hacks
+[00:32:36] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> mario dame diamantes
+[00:32:40] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> te doy 2 ekoins
+[00:32:44] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> siiiiiiii
+[00:32:45] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> espera reinicio mnc
+[00:32:46] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> mc
+[00:32:47] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[00:32:47] [Server thread/INFO]: xMega10_ left the game
+[00:32:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> gg
+[00:32:50] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> mi rp
+[00:32:52] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> ya
+[00:32:54] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> ahora q
+[00:33:01] [Server thread/INFO]: EduardoKeith has made the advancement [Incendium]
+[00:33:01] [Server thread/INFO]: EduardoKeith has made the advancement [We Need to Go Deeper]
+[00:33:01] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player EduardoKeith
+[00:33:01] [Server thread/INFO]: EduardoKeith has made the advancement [Radioactive]
+[00:33:02] [Async Chat Thread - #12/INFO]: [Not Secure] <ImRandom> como verga se hace un pico de netherita
+[00:33:04] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> todo exploto
+[00:33:04] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> Q
+[00:33:05] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> con razon todos se pueden meter a mi base
+[00:33:08] [Server thread/INFO]: EduardoKeith has made the advancement [Diggy Diggy Hole]
+[00:33:08] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_bracken_the_underdark for player EduardoKeith
+[00:33:09] [Paper Common Worker #0/WARN]: Empty height range: [6 above bottom--1 absolute]
+[00:33:10] [Server thread/INFO]: EduardoKeith has made the advancement [Swept Away]
+[00:33:11] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [22, 87], pos: BlockPos{x=356, y=154, z=1400}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:12] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [18, 84], pos: BlockPos{x=303, y=235, z=1347}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:13] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [21, 85], pos: BlockPos{x=351, y=144, z=1375}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:13] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [23, 87], pos: BlockPos{x=369, y=157, z=1394}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:13] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [21, 83], pos: BlockPos{x=350, y=240, z=1328}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:13] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [21, 85], pos: BlockPos{x=343, y=140, z=1363}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:14] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> XDDD
+[00:33:14] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [21, 84], pos: BlockPos{x=348, y=131, z=1344}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:15] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> xdd
+[00:33:15] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [20, 82], pos: BlockPos{x=331, y=240, z=1326}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:15] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [21, 82], pos: BlockPos{x=344, y=240, z=1316}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:16] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [20, 83], pos: BlockPos{x=325, y=143, z=1339}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:17] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport
+[00:33:17] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> la casa mano
+[00:33:17] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [23, 84], pos: BlockPos{x=378, y=156, z=1344}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:19] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [26, 85], pos: BlockPos{x=431, y=235, z=1362}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:19] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose
+[00:33:20] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 86], pos: BlockPos{x=439, y=234, z=1386}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:20] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [30, 86], pos: BlockPos{x=485, y=236, z=1377}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:20] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [29, 88], pos: BlockPos{x=471, y=163, z=1408}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:23] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [30, 85], pos: BlockPos{x=494, y=232, z=1374}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:23] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 87], pos: BlockPos{x=445, y=232, z=1405}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:25] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [28, 89], pos: BlockPos{x=461, y=236, z=1434}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:26] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [28, 88], pos: BlockPos{x=455, y=234, z=1421}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:26] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [26, 90], pos: BlockPos{x=426, y=239, z=1441}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:27] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [25, 92], pos: BlockPos{x=412, y=233, z=1486}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:28] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [30, 92], pos: BlockPos{x=484, y=159, z=1472}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:28] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 89], pos: BlockPos{x=447, y=238, z=1439}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:28] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> diamantes gratis
+[00:33:28] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [26, 92], pos: BlockPos{x=428, y=234, z=1486}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:28] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [31, 89], pos: BlockPos{x=508, y=233, z=1437}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:29] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [26, 92], pos: BlockPos{x=428, y=233, z=1486}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:29] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [30, 93], pos: BlockPos{x=480, y=237, z=1496}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:29] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [28, 92], pos: BlockPos{x=452, y=168, z=1479}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:30] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 93], pos: BlockPos{x=440, y=236, z=1497}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:30] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [29, 91], pos: BlockPos{x=472, y=236, z=1470}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:30] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 93], pos: BlockPos{x=439, y=236, z=1497}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:30] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [24, 96], pos: BlockPos{x=389, y=237, z=1541}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:30] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [28, 97], pos: BlockPos{x=456, y=145, z=1556}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:31] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [30, 97], pos: BlockPos{x=480, y=241, z=1552}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:31] [Paper Common Worker #0/ERROR]: Detected setBlock in a far chunk [27, 96], pos: BlockPos{x=435, y=238, z=1544}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / bracken:underdark/large_dripstone]
+[00:33:33] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> condones
+[00:33:36] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> sexo
+[00:33:36] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> q
+[00:33:38] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mattx11053> negros
+[00:33:38] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> balde de lava
+[00:33:39] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> canserbero
+[00:33:41] [Async Chat Thread - #12/INFO]: [Not Secure] <sCesar_> que sugerian
+[00:33:44] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> encontré una stronghold rara yo
+[00:33:44] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> XDDD
+[00:33:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Korite> Y MIS PAPAS
+[00:33:53] [Async Chat Thread - #10/INFO]: [Not Secure] <Korite> QUIEN AGARRO MIS PAPAS
+[00:33:55] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163444, uuid='b21ae6f1-21fe-4616-8d42-c6a9dfe5c59f', l='ServerLevel[world_bracken_the_underdark]', x=297.84, y=128.00, z=1387.53, cpos=[18, 86], tl=154, v=true] died: Smeaglin was blown up by Creeper
+[00:33:55] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> aaa
+[00:33:55] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> una tnt poder 100 (?
+[00:33:58] [Server thread/INFO]: sCesar_ issued server command: /list
+[00:34:01] [Async Chat Thread - #10/INFO]: [Not Secure] <Korite> MARIO
+[00:34:02] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163571, uuid='0448ba49-f4da-4144-adc4-c698992fadb6', l='ServerLevel[world_bracken_the_underdark]', x=300.65, y=64.00, z=1458.02, cpos=[18, 91], tl=172, v=true] died: Smeaglin was blown up by Creeper
+[00:34:03] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163275, uuid='2203b662-9668-4c75-9e7d-d3aac1487698', l='ServerLevel[world_bracken_the_underdark]', x=372.05, y=88.00, z=1454.33, cpos=[23, 90], tl=507, v=true] died: Smeaglin was blown up by Creeper
+[00:34:03] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> q
+[00:34:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Korite> QUIEN AGARRO MIS PAPAS ASADAS
+[00:34:07] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163641, uuid='f19769bf-22af-48b5-9446-462c44ce734d', l='ServerLevel[world_bracken_the_underdark]', x=307.49, y=82.17, z=1485.66, cpos=[19, 92], tl=157, v=true] died: Smeaglin was blown up by Creeper
+[00:34:07] [Server thread/INFO]: Named entity Piglin['Smeaglin'/162846, uuid='f9b4ae05-a083-4c63-b7d9-93737b5a12ee', l='ServerLevel[world_bracken_the_underdark]', x=343.77, y=96.75, z=1369.66, cpos=[21, 85], tl=931, v=true] died: Smeaglin was blown up by Creeper
+[00:34:08] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mattx11053> donde esta la tienda de cpcoins
+[00:34:09] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> nose w
+[00:34:12] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> LAS DEJE COCINANDO
+[00:34:12] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163541, uuid='005d2f6a-5dde-417b-9675-7f2b0aac905d', l='ServerLevel[world_bracken_the_underdark]', x=350.06, y=124.18, z=1369.96, cpos=[21, 85], tl=397, v=true] died: Smeaglin was blown up by Creeper
+[00:34:13] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> yo no tengo nada
+[00:34:14] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> XDDDDDD
+[00:34:14] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163555, uuid='8e0d2dfd-edb2-4ee9-9b7a-4d1d87ed2878', l='ServerLevel[world_bracken_the_underdark]', x=245.27, y=79.25, z=1378.74, cpos=[15, 86], tl=418, v=true] died: Smeaglin was killed by Poisonous Gas using magic
+[00:34:15] [Server thread/INFO]: Named entity Piglin['Smeaglin'/163171, uuid='5622d6bf-50ca-4be6-8c4d-ed3ee44cfc09', l='ServerLevel[world_bracken_the_underdark]', x=321.14, y=70.25, z=1446.50, cpos=[20, 90], tl=835, v=true] died: Smeaglin was blown up by Creeper
+[00:34:15] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> DONDE ESTOY
+[00:34:15] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> :sob:
+[00:34:15] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> se ve mi skin
+[00:34:21] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> gato sarnoso
+[00:34:21] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> si tsp
+[00:34:30] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> ocupas?
+[00:34:35] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> miren tengo mi cabeza
+[00:34:37] [Server thread/INFO]: Named entity Piglin['Smeaglin'/164230, uuid='a73e27df-c0bc-4ef8-b63c-fd935afa675e', l='ServerLevel[world_bracken_the_underdark]', x=295.50, y=95.00, z=1487.50, cpos=[18, 92], tl=38, v=true] died: Smeaglin was blown up by Creeper
+[00:34:42] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> un pene
+[00:34:43] [Server thread/INFO]: EduardoKeith issued server command: /tpa ImZumy
+[00:34:45] [Server thread/INFO]: ImZumy issued server command: /tpaccept
+[00:34:56] [Server thread/INFO]: [Not Secure] [Server] h
+[00:35:00] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport
+[00:35:01] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose
+[00:35:05] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> h
+[00:35:06] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> esta shulker que
+[00:35:07] [Async Chat Thread - #12/INFO]: [Not Secure] <ImRandom> tio cual es el coso ese
+[00:35:08] [User Authenticator #13/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[00:35:08] [Server thread/INFO]: xMega10_ joined the game
+[00:35:08] [Server thread/INFO]: xMega10_[/127.241.59.21:45497] logged in with entity id 164626 at ([world]1123.0, 60.0, 1240.0)
+[00:35:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[00:35:10] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> me la pela de quien sea
+[00:35:11] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport
+[00:35:13] [Async Chat Thread - #12/INFO]: [Not Secure] <ImRandom> que deja mejorar cosos
+[00:35:14] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> ahora es miw
+[00:35:15] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose world
+[00:35:17] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> no hay mesa?
+[00:35:21] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> ya no porfavor
+[00:35:23] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> el lado misterioso de la isla
+[00:35:26] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> mega
+[00:35:29] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> hay mesa?
+[00:35:33] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> y los esclavos
+[00:35:33] [Server thread/INFO]: EduardoKeith issued server command: /tpa .Mattx11053
+[00:35:33] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> de enchant?
+[00:35:37] [Server thread/WARN]: .Mokouver moved wrongly!
+[00:35:37] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> obio
+[00:35:41] [Server thread/INFO]: .Mattx11053 issued server command: /tpaccept
+[00:35:41] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> no hay
+[00:35:44] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> pero tengo pa craftear
+[00:35:47] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> ya se murieron tus novios tsp
+[00:35:48] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> dale
+[00:35:48] [Server thread/WARN]: .Ferpedo1leiva moved wrongly!
+[00:35:49] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> y creo que para hacerla level 30
+[00:35:49] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose
+[00:35:51] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> para encantarme
+[00:35:53] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> TIO COMO HAGO UN PUTO PICO
+[00:35:54] [Server thread/WARN]: [DeathChest] Task #581276 for DeathChest v2.2.7 generated an exception
+java.lang.IllegalArgumentException: Invalid model
+	at deathchest.jar/com.github.devcyntrix.deathchest.controller.DeathChestController.destroyChest(DeathChestController.java:180) ~[deathchest.jar:?]
+	at deathchest.jar/com.github.devcyntrix.deathchest.tasks.ExpirationRunnable.run(ExpirationRunnable.java:41) ~[deathchest.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:35:58] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> joder chaval nadie hizo ninguna misión sob
+[00:35:59] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> RANDOM
+[00:36:00] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> unos aldeanos se murieron xd
+[00:36:02] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ESTAS TONTO O QUE
+[00:36:05] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose
+[00:36:05] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> ah no tengo
+[00:36:07] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> me falta un diamond
+[00:36:10] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> QUE W
+[00:36:10] [Server thread/INFO]: Sign Spy - Location: x: 115, y: 64, z: 1392, world: world
+[00:36:10] [Server thread/INFO]: Player: EduardoKeith
+[00:36:10] [Server thread/INFO]: Lines - 1: [RP]: Done. - 2: nose
+[00:36:10] [Server thread/INFO]: Lines - 3:  - 4: 
+[00:36:11] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> tirense otro meteorito
+[00:36:15] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> quien tiene
+[00:36:17] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> 1 diamante
+[00:36:18] [Server thread/INFO]: Sign Spy - Location: x: 115, y: 64, z: 1392, world: world
+[00:36:18] [Server thread/INFO]: Player: EduardoKeith
+[00:36:18] [Server thread/INFO]: Lines - 1: [RP]:  - 2: nose
+[00:36:18] [Server thread/INFO]: Lines - 3:  - 4: 
+[00:36:20] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> para netri
+[00:36:21] [Server thread/INFO]: EduardoKeith issued server command: /rp teleport nose
+[00:36:23] [Server thread/INFO]: EduardoKeith issued server command: /rp
+[00:36:24] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ah
+[00:36:25] [Server thread/INFO]: sCesar_ issued server command: /tp .Mokouver
+[00:36:25] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to .Mokouver]
+[00:36:28] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> suni va a entrar
+[00:36:30] [Server thread/INFO]: EduardoKeith issued server command: /rp claim
+[00:36:31] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> a sus órdenes señora
+[00:36:34] [Server thread/INFO]: .Mattx11053 issued server command: /spawn
+[00:36:35] [Server thread/INFO]: EduardoKeith issued server command: /rp 2
+[00:36:36] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> tirame meteoro
+[00:36:37] [Server thread/INFO]: sCesar_ issued server command: /mp shoot 1
+[00:36:37] [Server thread/INFO]: ☀ [¡Alerta Cosmica! ] Un Meteorito Volcanico a aterrizado en las coordenadas X:316 Z:600, ¿Que podria ser?
+[00:36:40] [Server thread/INFO]: EduardoKeith issued server command: /rp ?
+[00:36:41] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> tirame uno a mi secar
+[00:36:42] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> XDD
+[00:36:44] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> SI SECAR
+[00:36:45] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> mira cake
+[00:36:45] [Server thread/INFO]: EduardoKeith issued server command: /rp ? 2
+[00:36:46] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> a mega
+[00:36:47] [Server thread/INFO]: .Mattx11053 issued server command: /tpa EduardoKeith
+[00:36:47] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ploc
+[00:36:49] [Server thread/INFO]: EduardoKeith issued server command: /tpaccept
+[00:36:54] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[00:36:57] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[00:37:02] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> tirame meteorito cesar
+[00:37:03] [Server thread/INFO]: TheMario_SM withered away
+[00:37:05] [Server thread/INFO]: TheMario_SM issued server command: /back
+[00:37:10] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> XdxdXD
+[00:37:11] [Server thread/INFO]: ImRandom withered away while fighting Custodio Sagrado
+[00:37:14] [Server thread/INFO]: ImRandom issued server command: /back
+[00:37:18] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> FILO 20
+[00:37:19] [Server thread/INFO]: .Mattx11053 issued server command: /spawntp
+[00:37:22] [Server thread/INFO]: EduardoKeith issued server command: /plugins
+[00:37:22] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> NO
+[00:37:23] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> cesar tirame meteorito verga
+[00:37:25] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> JODASW
+[00:37:26] [Server thread/INFO]: ImRandom was slain by Custodio Sagrado
+[00:37:29] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> pasen el hacha
+[00:37:30] [Server thread/INFO]: ImRandom issued server command: /back
+[00:37:31] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> coño cesar
+[00:37:33] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> no
+[00:37:39] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> pasen el hacha
+[00:37:41] [Server thread/INFO]: ImRandom was slain by Custodio Sagrado
+[00:37:42] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> yo no la tengo
+[00:37:43] [Server thread/INFO]: .Mattx11053 issued server command: /spawntp:spawn
+[00:37:44] [Server thread/INFO]: Sign Spy - Location: x: 214, y: 74, z: 1327, world: world
+[00:37:44] [Server thread/INFO]: Player: aaaguuusss
+[00:37:44] [Server thread/INFO]: Lines - 1: [rp] - 2: home
+[00:37:44] [Server thread/INFO]: Lines - 3:  - 4: 
+[00:37:44] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> mejor vamonos aztral
+[00:37:45] [Server thread/INFO]: ImRandom issued server command: /back
+[00:37:51] [Server thread/INFO]: aaaguuusss issued server command: /rp settp
+[00:38:09] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> oigan los meteoros estos técnicamente no seria hacer trampa
+[00:38:09] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> amo y odio los meteoritos
+[00:38:23] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> shhh
+[00:38:24] [Async Chat Thread - #12/INFO]: [Not Secure] <sCesar_> no porque caen naturalmente
+[00:38:34] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> Y COMO CAYO UNA EN UNA PUTA CASA Q IBA ENTRAR
+[00:38:35] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> cesar tirame meteorito
+[00:38:35] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> themario esqueletico
+[00:38:37] [Server thread/INFO]: .ItzzTsp has made the advancement [Monster Hunter]
+[00:38:37] [Server thread/INFO]: Named entity WitherSkeleton['Custodio Sagrado'/166119, uuid='b20e886f-9af7-4191-bf58-7554914616e7', l='ServerLevel[world]', x=337.57, y=59.47, z=620.84, cpos=[21, 38], tl=2056, v=true] died: Custodio Sagrado was slain by .ItzzTsp using [[ La Hacha Mitica ]]
+[00:38:38] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> mejor vamonos aztral
+[00:38:44] [Server thread/INFO]: sCesar_ issued server command: /gamemode spectatoe
+[00:38:44] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> no se si los amo o lo odio lo unico es que me carbonizaron la base casi
+[00:38:47] [Server thread/INFO]: sCesar_ issued server command: /gamemode spectator
+[00:38:47] [Server thread/INFO]: [sCesar_: Set own game mode to Spectator Mode]
+[00:38:48] [Async Chat Thread - #12/INFO]: [Not Secure] <Korite> un mago lo hizo
+[00:38:52] [Server thread/INFO]: sCesar_ issued server command: /tp xMega10_
+[00:38:52] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to xMega10_]
+[00:38:56] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> pera
+[00:38:57] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> ola soi eduarod
+[00:38:57] [Server thread/INFO]: Sign Spy - Location: x: 236, y: 67, z: 1405, world: world
+[00:38:57] [Server thread/INFO]: Player: ImZumy
+[00:38:57] [Server thread/INFO]: Lines - 1: cesar puto - 2: 
+[00:38:57] [Server thread/INFO]: Lines - 3:  - 4: 
+[00:38:57] [Server thread/INFO]: Villager Villager['Nitwit'/103999, uuid='51cd4b26-7145-465a-885b-4a0e63f5b9f6', l='ServerLevel[world]', x=350.70, y=64.00, z=615.50, cpos=[21, 38], tl=48569, v=true] died, message: 'Nitwit was slain by .ItzzTsp using [[ La Hacha Mitica ]]'
+[00:39:04] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> a themario le cayó un meteorito mientras caminaba por la calle
+[00:39:06] [Server thread/INFO]: sCesar_ issued server command: /mp shoot
+[00:39:13] [Server thread/INFO]: Sign Spy - Location: x: 235, y: 66, z: 1405, world: world
+[00:39:13] [Server thread/INFO]: Player: ImZumy
+[00:39:13] [Server thread/INFO]: Lines - 1: ojala borren el s - 2: rver
+[00:39:13] [Server thread/INFO]: Lines - 3:  - 4: 
+[00:39:17] [Server thread/INFO]: sCesar_ issued server command: /mp shoot 1
+[00:39:17] [Server thread/INFO]: ☀ [¡Alerta Cosmica! ] Un Meteorito Volcanico a aterrizado en las coordenadas X:217 Z:1351, ¿Que podria ser?
+[00:39:18] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> esta es la misma aldea de antes?
+[00:39:19] [Server thread/INFO]: ImZumy has made the advancement [Surge Protector]
+[00:39:19] [Server thread/INFO]: xMega10_ has made the advancement [Surge Protector]
+[00:39:20] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> Q
+[00:39:20] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> AY
+[00:39:33] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> quien necesita hueso
+[00:39:34] [Async Chat Thread - #10/INFO]: [Not Secure] <Korite> ghola
+[00:39:38] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> hola
+[00:39:40] [Server thread/INFO]: xMega10_ was slain by Custodio Sagrado
+[00:39:42] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> tengo un stack de bloques de hueso
+[00:39:44] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> ese w
+[00:39:45] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> XD
+[00:39:45] [Server thread/INFO]: xMega10_ issued server command: /back
+[00:39:53] [Async Chat Thread - #10/INFO]: [Not Secure] <aaaguuusss> mega sos o te haces
+[00:39:55] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> vean tengo a supah
+[00:40:00] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> DONDE
+[00:40:08] [Server thread/INFO]: sCesar_ issued server command: /gamemode creative
+[00:40:08] [Server thread/INFO]: [sCesar_: Set own game mode to Creative Mode]
+[00:40:11] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[00:40:11] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> y el guardian?
+[00:40:12] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> ven random
+[00:40:15] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> es que me dio un hit y me quito 8 coras
+[00:40:33] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> man y el guardian?
+[00:40:38] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> desaparecio creo
+[00:40:38] [Async Chat Thread - #12/INFO]: [Not Secure] <EduardoKeith> aqui
+[00:40:44] [Async Chat Thread - #12/INFO]: [Not Secure] <.ItzzTsp> dejare a supah en la pared
+[00:40:46] [Async Chat Thread - #12/INFO]: [Not Secure] <xMega10_> onde
+[00:40:48] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> che
+[00:40:49] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> que
+[00:40:49] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> y el coso
+[00:40:51] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> mario
+[00:40:52] [Async Chat Thread - #12/INFO]: [Not Secure] <ImZumy> agus
+[00:40:54] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> eu
+[00:40:55] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> nadie absolutamente yo
+[00:40:56] [Async Chat Thread - #12/INFO]: [Not Secure] <sCesar_> q
+[00:40:56] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> q paso
+[00:40:58] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mokouver> mira mi puente chistoso
+[00:40:58] [Async Chat Thread - #12/INFO]: [Not Secure] <aaaguuusss> carbon
+[00:41:00] [Async Chat Thread - #12/INFO]: [Not Secure] <TheMario_SM> avr
