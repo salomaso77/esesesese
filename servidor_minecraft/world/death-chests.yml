@@ -1,1 +1,48 @@
-chests: []
+chests:
+- createdAt: 1736381626471
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 338.0
+    y: 62.0
+    z: 617.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1736382226471
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LEATHER
+    amount: 4
+  player: 00000000-0000-0000-0009-01f627c2a281
+- createdAt: 1736381527013
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 286.0
+    y: 74.0
+    z: 1909.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1736382127013
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MOSS_BLOCK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 00000000-0000-0000-0009-01f0f53e84d2
+        name: .Mattx11053
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTYzNDgyNDcyMzkxMywKICAicHJvZmlsZUlkIiA6ICJjNjc3MGJjZWMzZjE0ODA3ODc4MTU0NWRhMGFmMDI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwNmU5YjU3M2RhNTE4ZmQxMmUyMjU1NDkxMGY5NzUzNTEyOWU3ZTkzMGY2ZjYyZmIyZmU4ZTZlYTJlYjgwZDAiCiAgICB9CiAgfQp9
+          signature: AnYfelqCG5mwNjGrKRosumyYum4jZrFv63FYjpqJvaU1ztrFIRAkFgERx/DXJ2ImtEbe8FwcpIp5h8zBNbe7uuudDVgb3iToQbI5UyTFNeG44BAT+UZEjDdEEy7te8wbix+1f4kLTWFbKKtL1KLIu9mB+GoeGnyndZgnj7Fr6D4iTzhcTWW5UJhi3fqu2Ou35x2Z1RhPcDH9rejyzOT+XHA3A1uLMdqQVDSYlAAXFYKxPMaFRrRFHBD+EhUnBu8H8sbFZVZPpkyho+5GkZ1y5vVEjRxHQxgqnIEHfok8rhAPdnAlsn2WjViaZfZPnMxpLZewDGmuc8ew0oPfzxGuxtOY7RihZEzyfRWsiLA4H6Z2185FdOaHYk/2NUgjhkDqfjYMVrfJYz2iFrJoc9LLvlNxxbR4wOZsp4Yu0I88jCKLhVShSSt2xn/xNWl0LLXufEP45z8kHuzb4u5cBmY3foka5BH50ja2X/r8rYilr3sD+/B7YKzAydgaO8T3DcF/6FNKRQf0q+Si2N0HUhs+AHY7ZHYRtapu3D5yXbq/R5bl4ysMfmdvbbCa86GoGgjrSZx+PNMgP3268lC8FLevuNgE2ydf5mHM79oH6avhBqJ+I7oJbSc2kr8qlDIbDD6NH8YF0ejeojGf8rGVa4e/MsuwH54FzTjkSjFSf0D20LU=
+  player: 00000000-0000-0000-0009-01f0f53e84d2

@@ -22,9 +22,9 @@ ItemDropsMinimum: 0
 #Mob experience drop multiplicator. Whole number only
 ExperienceDropMult: 4
 #Mob damage multiplier. Whole number only
-MobDamageMultiplicator: 3
+MobDamageMultiplicator: 5
 #Mob health multiplier. Whole number only
-MobHealthMultiplicator: 3
+MobHealthMultiplicator: 5
 #Should there be a lightning effect on player death?
 LightningEffectOnPlayerDeath: true
 #Adds a lightning effect when a mob dies
@@ -56,9 +56,9 @@ EnableZombieBoss: false
 #When in a permanent BloodMoon, how long (in ticks) before respawning zombie boss after death?
 #20 ticks equals a second, 24000 ticks equals a minecraft day
 ZombieBossRespawn: 24000
-ZombieBossDamage: 10
+ZombieBossDamage: 20
 ZombieBossExpMultiplier: 10
-ZombieBossHealth: 50
+ZombieBossHealth: 70
 ZombieBossItemMultiplier: 10
 #List of items that can drop, using the
 #"[ITEM_CODE]:[STACK AMOUNT]:[WEIGHT]:$name [META NAME]:$desc [META DESCRIPTION]:$enchant [ENCHANTMENT LIST]" format
@@ -133,7 +133,7 @@ HordesEnabled: true
 #The baseline spawn rate of hordes in ticks (1/5th of a second)
 BaselineHordeSpawnrate: 800
 #The variation of hordes spawn time in ticks
-HordeSpawnrateVariation: 200
+HordeSpawnrateVariation: 150
 #Decides which mobs are allowed in hordes
 HordeMobWhitelist:
  - "ZOMBIE"
