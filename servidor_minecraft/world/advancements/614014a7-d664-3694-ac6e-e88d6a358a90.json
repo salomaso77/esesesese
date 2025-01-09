@@ -69,7 +69,9 @@
       "minecraft:desert": "2025-01-08 22:51:15 +0000",
       "minecraft:jungle": "2025-01-08 23:38:40 +0000",
       "minecraft:birch_forest": "2025-01-08 23:17:41 +0000",
-      "minecraft:wooded_badlands": "2025-01-09 00:52:56 +0000"
+      "minecraft:savanna": "2025-01-09 01:05:39 +0000",
+      "minecraft:wooded_badlands": "2025-01-09 00:52:56 +0000",
+      "minecraft:plains": "2025-01-09 01:07:34 +0000"
     },
     "done": false
   },
@@ -723,6 +725,7 @@
       "rotten_flesh": "2025-01-08 23:05:00 +0000",
       "potato": "2025-01-08 23:02:30 +0000",
       "beef": "2025-01-08 23:22:48 +0000",
+      "melon_slice": "2025-01-09 01:08:51 +0000",
       "porkchop": "2025-01-08 23:10:10 +0000",
       "carrot": "2025-01-08 23:03:36 +0000"
     },
@@ -1609,74 +1612,74 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-01-09 01:00:45 +0000",
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "requirement": "2025-01-09 01:20:36 +0000",
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 01:00:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:20:21 +0000"
     },
     "done": false
   },
@@ -1770,9 +1773,9 @@
     },
     "done": true
   },
-  "bracken:technical/dimension_travel/enter/the_nether": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "changed_dimension": "2025-01-09 00:57:15 +0000"
+      "shot_arrow": "2025-01-09 01:02:32 +0000"
     },
     "done": true
   },
@@ -1812,6 +1815,12 @@
       "bracken:the_underdark/titan_dripstone_cavern": "2025-01-09 00:46:28 +0000"
     },
     "done": false
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-01-09 01:02:32 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
@@ -1876,6 +1885,12 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-01-09 01:00:08 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_travel/leave/overworld": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 01:03:35 +0000"
     },
     "done": true
   },

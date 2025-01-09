@@ -3117,3 +3117,623 @@ java.lang.IllegalArgumentException: Invalid model
 [01:01:43] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
 [01:01:45] [Server thread/INFO]: sCesar_ issued server command: /spawn
 [01:01:46] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> CHICOS MIREN CUANTO DINERO HICE
+[01:01:50] [Server thread/INFO]: .Mattx11053 issued server command: /back
+[01:01:50] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
+[01:02:04] [Server thread/INFO]: EduardoKeith issued server command: /tpa ItsMari01_
+[01:02:05] [Server thread/INFO]: Named entity Vex['Restless Spirit'/199099, uuid='bab06f18-6399-4602-9151-83cb4d672972', l='ServerLevel[world_nether]', x=351.32, y=-20.00, z=272.22, cpos=[21, 17], tl=2991, v=true] died: Restless Spirit was killed
+[01:02:09] [Server thread/INFO]: .Mattx11053 burned to death
+[01:02:11] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> PARECEMOS PENDEJOS
+[01:02:11] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
+[01:02:20] [Server thread/INFO]: .Mattx11053 issued server command: /back
+[01:02:20] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
+[01:02:22] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ALGUIEN EN LA ADELA?
+[01:02:22] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> tengo un stack y 16
+[01:02:23] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ALDEA
+[01:02:29] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> ekoins
+[01:02:30] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> No agarre nada
+[01:02:32] [Server thread/INFO]: EduardoKeith has made the advancement [Ol' Betsy]
+[01:02:32] [Server thread/INFO]: EduardoKeith has made the advancement [Take Aim]
+[01:02:33] [User Authenticator #18/INFO]: Disconnecting aaaguuusss (/127.75.31.32:47017): [LoginSecurity] This player is already online!
+[01:02:33] [User Authenticator #18/INFO]: UUID of player aaaguuusss is 5aaefcc7-9215-3022-a662-5bd3c4df8417
+[01:02:33] [Server thread/INFO]: aaaguuusss (/127.75.31.32:47017) lost connection: [LoginSecurity] This player is already online!
+[01:02:36] [Server thread/INFO]: aaaguuusss lost connection: Timed out
+[01:02:36] [Server thread/INFO]: aaaguuusss left the game
+[01:02:37] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> pobre tsp
+[01:02:38] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> MI DEBER LLAMA AMIGOS
+[01:02:42] [User Authenticator #18/INFO]: UUID of player aaaguuusss is 5aaefcc7-9215-3022-a662-5bd3c4df8417
+[01:02:43] [Server thread/INFO]: aaaguuusss joined the game
+[01:02:43] [Server thread/INFO]: aaaguuusss[/127.75.31.32:39871] logged in with entity id 203611 at ([world]1123.0, 60.0, 1240.0)
+[01:02:43] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:02:45] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> ekoins
+[01:02:46] [Server thread/INFO]: Named entity Vex['Restless Spirit'/200189, uuid='4685326c-b0b0-495a-82ea-ee32f894eca1', l='ServerLevel[world_nether]', x=295.67, y=-20.00, z=229.70, cpos=[18, 14], tl=2925, v=true] died: Restless Spirit was killed
+[01:02:47] [Async Chat Thread - #10/INFO]: [Not Secure] <aaaguuusss> wtf
+[01:02:50] [Async Chat Thread - #10/INFO]: [Not Secure] <aaaguuusss> me saco
+[01:02:50] [Server thread/INFO]: .Mattx11053 burned to death
+[01:02:52] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
+[01:02:53] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> cesar carajo manda las misiones
+[01:02:55] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> que necesito plata
+[01:02:56] [Server thread/INFO]: Named entity Vex['Restless Spirit'/200440, uuid='64d611f7-f4d5-423b-8188-5740c8ee387e', l='ServerLevel[world_nether]', x=384.06, y=-20.00, z=304.98, cpos=[24, 19], tl=1987, v=true] died: Restless Spirit was killed
+[01:02:57] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> puamadre cesar
+[01:02:59] [Server thread/INFO]: sCesar_ issued server command: /tp .Mattx11053
+[01:02:59] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to .Mattx11053]
+[01:03:02] [Server thread/INFO]: .Mattx11053 issued server command: /back
+[01:03:02] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player .Mattx11053
+[01:03:02] [Server thread/INFO]: sCesar_ issued server command: /tp .Mattx11053
+[01:03:02] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to .Mattx11053]
+[01:03:07] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> alguien en el overworld?
+[01:03:07] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> nisiquiera se cuales eran las misiones
+[01:03:08] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> MAN
+[01:03:20] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> quew
+[01:03:21] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> yo toy en el overworld
+[01:03:22] [Server thread/INFO]: Named entity Vex['Restless Spirit'/200946, uuid='53b6684f-e1e0-45b0-8290-ac315e6f2796', l='ServerLevel[world_nether]', x=242.68, y=-20.00, z=265.85, cpos=[15, 16], tl=2987, v=true] died: Restless Spirit was killed
+[01:03:23] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> avr hazlo mario
+[01:03:28] [Server thread/INFO]: EduardoKeith issued server command: /tpa .Ferpedo1leiva
+[01:03:28] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mattx11053> gracias cesar
+[01:03:29] [Server thread/INFO]: Named entity Slime['Toxic Slime'/200564, uuid='2bfb283e-ebe5-4793-850a-19cd48bfee1b', l='ServerLevel[world_nether]', x=47.73, y=-20.00, z=210.76, cpos=[2, 13], tl=97, v=true] died: Toxic Slime was killed
+[01:03:29] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> dame bloques
+[01:03:32] [Server thread/INFO]: Named entity Slime['Toxic Slime'/200603, uuid='bf3e21af-0b07-4244-97d0-a4cae3f53d7a', l='ServerLevel[world_nether]', x=47.99, y=-20.00, z=268.77, cpos=[2, 16], tl=398, v=true] died: Toxic Slime was killed
+[01:03:35] [Server thread/INFO]: .Ferpedo1leiva issued server command: /tpaccept
+[01:03:38] [Server thread/INFO]: sCesar_ has made the advancement [Isn't It Iron Pick]
+[01:03:47] [Server thread/INFO]: Named entity Slime['Toxic Slime'/201548, uuid='54d4598e-0651-43c1-910b-b6bd9b793b79', l='ServerLevel[world_nether]', x=157.63, y=-20.00, z=246.64, cpos=[9, 15], tl=2999, v=true] died: Toxic Slime was killed
+[01:03:49] [Server thread/INFO]: Named entity Slime['Toxic Slime'/202667, uuid='76c9f7d1-2d72-4638-b25d-81a952badfab', l='ServerLevel[world_nether]', x=155.28, y=31.85, z=243.98, cpos=[9, 15], tl=2232, v=true] died: Toxic Slime was slain by sCesar_
+[01:03:50] [Server thread/INFO]: Named entity Vex['Restless Spirit'/201656, uuid='e8037d70-7091-4307-8402-2e32518d4b8f', l='ServerLevel[world_nether]', x=248.18, y=-20.00, z=316.84, cpos=[15, 19], tl=2989, v=true] died: Restless Spirit was killed
+[01:03:51] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> eh?
+[01:03:55] [Server thread/INFO]: aaaguuusss issued server command: /rp tp home1
+[01:03:56] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> no tepeo
+[01:03:57] [Server thread/INFO]: aaaguuusss issued server command: /rp tp home
+[01:04:04] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> si tepeo
+[01:04:05] [Server thread/INFO]: Named entity Slime['Toxic Slime'/201479, uuid='a3496441-ec75-48c2-a40e-254310e261c4', l='ServerLevel[world_nether]', x=116.67, y=-20.00, z=127.47, cpos=[7, 7], tl=189, v=true] died: Toxic Slime was killed
+[01:04:05] [Server thread/INFO]: Named entity Slime['Toxic Slime'/201496, uuid='c60ce9f8-4da9-48e9-94ce-70fe132eafb6', l='ServerLevel[world_nether]', x=42.20, y=-20.00, z=196.92, cpos=[2, 12], tl=265, v=true] died: Toxic Slime was killed
+[01:04:08] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> a ok
+[01:04:08] [Server thread/INFO]: sCesar_ issued server command: /tp ImRandom
+[01:04:08] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImRandom]
+[01:04:09] [Server thread/INFO]: Named entity Slime['Toxic Slime'/201665, uuid='a437c1de-0266-457c-a41a-56aad2dcc808', l='ServerLevel[world_nether]', x=51.74, y=-20.00, z=233.78, cpos=[3, 14], tl=218, v=true] died: Toxic Slime was killed
+[01:04:14] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> ya
+[01:04:15] [Async Chat Thread - #10/INFO]: [Not Secure] <ItsMari01_> e
+[01:04:16] [Server thread/INFO]: Named entity Vex['Restless Spirit'/202340, uuid='f936a17b-49b0-4ac4-969d-55017f0c6328', l='ServerLevel[world_nether]', x=251.18, y=-20.00, z=418.64, cpos=[15, 26], tl=274, v=true] died: Restless Spirit was killed
+[01:04:16] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> random ya es hora de chambear
+[01:04:17] [Async Chat Thread - #10/INFO]: [Not Secure] <aaaguuusss> AFK
+[01:04:17] [Server thread/INFO]: Named entity Vex['Restless Spirit'/202349, uuid='1445261a-8cb5-41f4-99a6-5877e5cba49c', l='ServerLevel[world_nether]', x=330.56, y=-20.00, z=200.52, cpos=[20, 12], tl=2999, v=true] died: Restless Spirit was killed
+[01:04:26] [Server thread/INFO]: Named entity Slime['Toxic Slime'/202617, uuid='358273f9-3140-4ad5-8ac4-f7fe88a12901', l='ServerLevel[world_nether]', x=125.90, y=-20.00, z=255.21, cpos=[7, 15], tl=2998, v=true] died: Toxic Slime was killed
+[01:04:31] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> si quieres busca un compañero
+[01:04:33] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> ####
+[01:04:34] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> alaverga
+[01:04:38] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> thehscker
+[01:04:39] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> que compañero
+[01:04:39] [Server thread/INFO]: Named entity Slime['Toxic Slime'/202582, uuid='b414048a-a1eb-4555-9d37-bc3e459ab845', l='ServerLevel[world_nether]', x=114.60, y=-20.00, z=126.66, cpos=[7, 7], tl=216, v=true] died: Toxic Slime was killed
+[01:04:39] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> SE IMAGINAN QUE DE TANTO CAMINAR ENCUENTRO UNA ALEA
+[01:04:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/202609, uuid='cb66727f-bf89-4290-9a6c-3142bb8f4f7e', l='ServerLevel[world_nether]', x=106.96, y=-20.00, z=127.60, cpos=[6, 7], tl=232, v=true] died: Toxic Slime was killed
+[01:04:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/202675, uuid='08cafd98-378b-4a38-8969-7fe7cdad447b', l='ServerLevel[world_nether]', x=47.26, y=-20.00, z=227.26, cpos=[2, 14], tl=264, v=true] died: Toxic Slime was killed
+[01:04:44] [Async Chat Thread - #13/INFO]: [Not Secure] <sCesar_> alguien que te acompañe
+[01:04:45] [Async Chat Thread - #13/INFO]: [Not Secure] <ItsMari01_> porque mierda hay raw copper en cualquier lado y tiene la textura de iron
+[01:04:48] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> ninguno quiere
+[01:04:49] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> zumy
+[01:04:49] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> cfff
+[01:04:51] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> zumy
+[01:04:52] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> zumy
+[01:04:53] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> zumy
+[01:04:54] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> q
+[01:04:56] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ya volvi
+[01:04:57] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> mira grupo
+[01:04:59] [Server thread/INFO]: Named entity Vex['Restless Spirit'/203337, uuid='df183b62-e63d-4ee2-839a-e7db189604cb', l='ServerLevel[world_nether]', x=268.82, y=-20.00, z=333.22, cpos=[16, 20], tl=2983, v=true] died: Restless Spirit was killed
+[01:04:59] [Server thread/INFO]: Named entity Vex['Restless Spirit'/203312, uuid='67f6b0d9-22ed-476a-9b3a-d06a94c54e59', l='ServerLevel[world_nether]', x=155.09, y=-20.00, z=400.60, cpos=[9, 25], tl=902, v=true] died: Restless Spirit was killed
+[01:04:59] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> fast
+[01:05:00] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> eh?
+[01:05:01] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> chicos quien acompaña a random?
+[01:05:05] [Async Chat Thread - #10/INFO]: [Not Secure] <.Ferpedo1leiva> a que?
+[01:05:08] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> yo(?
+[01:05:09] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mattx11053> zumy sigues en la for?
+[01:05:09] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> doy 1 lingote de nether
+[01:05:14] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[01:05:16] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:05:16] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> avr haslo
+[01:05:18] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> o un coso de herrería para el netherite
+[01:05:20] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> observen
+[01:05:21] [Server thread/INFO]: Named entity Vex['Restless Spirit'/203786, uuid='1fc74585-53e5-480e-986f-d46607b30992', l='ServerLevel[world_nether]', x=242.08, y=-20.00, z=416.02, cpos=[15, 26], tl=90, v=true] died: Restless Spirit was killed
+[01:05:21] [Server thread/INFO]: ImZumy issued server command: /back
+[01:05:21] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player ImZumy
+[01:05:24] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> si
+[01:05:29] [Server thread/INFO]: Named entity Vex['Restless Spirit'/203843, uuid='184e3325-7e99-4830-974a-f3fb6dbb5f7b', l='ServerLevel[world_nether]', x=204.51, y=-20.00, z=400.00, cpos=[12, 25], tl=401, v=true] died: Restless Spirit was killed
+[01:05:32] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> cf
+[01:05:33] [Server thread/INFO]: Named entity Vex['Restless Spirit'/203928, uuid='3251d17a-3c9e-4afe-8200-cd4afe36a606', l='ServerLevel[world_nether]', x=201.97, y=-20.00, z=413.37, cpos=[12, 25], tl=280, v=true] died: Restless Spirit was killed
+[01:05:35] [Async Chat Thread - #13/INFO]: [Not Secure] <sCesar_> joder random mala suerte
+[01:05:35] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> la mufaste tsp
+[01:05:37] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204057, uuid='77809e3a-ecd0-4e1b-ad4b-1a2f75f2adb4', l='ServerLevel[world_nether]', x=41.26, y=-20.00, z=238.41, cpos=[2, 14], tl=343, v=true] died: Toxic Slime was killed
+[01:05:39] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204104, uuid='fa73d76c-19fe-42f7-ab51-b0d5e03ffeb5', l='ServerLevel[world_nether]', x=41.50, y=-20.00, z=271.01, cpos=[2, 16], tl=1180, v=true] died: Toxic Slime was killed
+[01:05:39] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> donde tas zumy
+[01:05:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204180, uuid='5f71fb4d-e961-4eb5-b401-74c7303c5a35', l='ServerLevel[world_nether]', x=107.79, y=-20.00, z=143.81, cpos=[6, 8], tl=1243, v=true] died: Toxic Slime was killed
+[01:05:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204174, uuid='c22902a0-5bc0-4247-a9d8-1084843d5345', l='ServerLevel[world_nether]', x=130.35, y=-20.00, z=127.96, cpos=[8, 7], tl=33, v=true] died: Toxic Slime was killed
+[01:05:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204160, uuid='d85527e0-0588-4416-8633-a2662ac2ed68', l='ServerLevel[world_nether]', x=134.30, y=-20.00, z=129.51, cpos=[8, 8], tl=1488, v=true] died: Toxic Slime was killed
+[01:05:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204152, uuid='8244882b-54f4-4533-9e65-882d9b00adab', l='ServerLevel[world_nether]', x=63.97, y=-20.00, z=170.58, cpos=[3, 10], tl=2883, v=true] died: Toxic Slime was killed
+[01:05:41] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204164, uuid='8cb3d94d-5959-4b80-9cba-2d1905333b6b', l='ServerLevel[world_nether]', x=110.04, y=-20.00, z=127.35, cpos=[6, 7], tl=143, v=true] died: Toxic Slime was killed
+[01:05:42] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204224, uuid='bc6e4b50-3c1e-417c-8681-dd6c7282af91', l='ServerLevel[world_nether]', x=72.14, y=-20.00, z=188.83, cpos=[4, 11], tl=2981, v=true] died: Toxic Slime was killed
+[01:05:43] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204239, uuid='ed0168b9-abbd-49ef-8928-a91c6936302b', l='ServerLevel[world_nether]', x=88.25, y=-20.00, z=142.64, cpos=[5, 8], tl=1953, v=true] died: Toxic Slime was killed
+[01:05:43] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> listo
+[01:05:43] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> XDDD
+[01:05:45] [Server thread/INFO]: Named entity Slime['Toxic Slime'/204279, uuid='48c09bc1-57a8-444e-b86a-7688d552feed', l='ServerLevel[world_nether]', x=62.92, y=-20.00, z=187.61, cpos=[3, 11], tl=1567, v=true] died: Toxic Slime was killed
+[01:05:45] [Async Chat Thread - #13/INFO]: [Not Secure] <.Ferpedo1leiva> cesar
+[01:05:45] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[01:05:45] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> no veo a nadie
+[01:05:47] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:05:48] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> MAN
+[01:05:48] [Server thread/INFO]: Named entity Vex['Restless Spirit'/204301, uuid='f8169632-849f-4f2b-9db6-44b879f0adb8', l='ServerLevel[world_nether]', x=304.42, y=-20.00, z=400.12, cpos=[19, 25], tl=882, v=true] died: Restless Spirit was killed
+[01:05:48] [Server thread/INFO]: Named entity Vex['Restless Spirit'/204348, uuid='1f3347d4-c158-4af3-9c9e-891034f8bafd', l='ServerLevel[world_nether]', x=175.99, y=-20.00, z=353.50, cpos=[10, 22], tl=1145, v=true] died: Restless Spirit was killed
+[01:05:48] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:05:49] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:05:49] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:05:50] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> EL DIABLO
+[01:05:51] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> iba hacer mesa de encantamiento pero ni puta ide
+[01:05:51] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> wtf
+[01:05:51] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> thehacker
+[01:05:52] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> me manda al lobby we
+[01:05:55] [Server thread/INFO]: .Mattx11053 issued server command: /tpa xMega10_
+[01:05:57] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:05:58] [Server thread/INFO]: ImZumy issued server command: /tpa xMega10_
+[01:05:59] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ALEDA
+[01:06:00] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> a vegetto tambien
+[01:06:01] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> XD
+[01:06:01] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> wtf
+[01:06:03] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> SIIIIIIIIIIIII
+[01:06:03] [Async Chat Thread - #13/INFO]: [Not Secure] <.Ferpedo1leiva> a que necesita acompañante el random?
+[01:06:08] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:06:13] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> hago otro
+[01:06:16] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> si
+[01:06:16] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> toma
+[01:06:17] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> XD
+[01:06:18] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> yo necesito un compañero asi bien diabolico
+[01:06:22] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> seguime
+[01:06:27] [Server thread/INFO]: .Mattx11053 issued server command: /tpa xMega10_
+[01:06:28] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ME TROLLEARON
+[01:06:28] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> coño tsp
+[01:06:29] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:06:31] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> q
+[01:06:32] [Async Chat Thread - #13/INFO]: [Not Secure] <.Ferpedo1leiva> oh
+[01:06:33] [Async Chat Thread - #13/INFO]: [Not Secure] <sCesar_> a ir al nether para llegar al reactor l, dónde hay un totem, un escudo custom y un bloque es para la mision
+[01:06:37] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> te voy a llevar con 50 negros
+[01:06:39] [Async Chat Thread - #13/INFO]: [Not Secure] <.Ferpedo1leiva> perdon Random
+[01:06:46] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> go
+[01:06:53] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> que haran
+[01:06:56] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> ya no tengo
+[01:06:57] [Async Chat Thread - #13/INFO]: [Not Secure] <.Ferpedo1leiva> no puedo, sigo medio malito de skills
+[01:07:01] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> nimodo
+[01:07:08] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> PENDEJOS QUE HAY GENTE EN LA ALDEA
+[01:07:11] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> Y NI SE DAN CUENTA
+[01:07:19] [Server thread/INFO]: sCesar_ issued server command: /tp xMega10_
+[01:07:19] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to xMega10_]
+[01:07:23] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> y si los raideamos
+[01:07:26] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> SIIIIIIIIIIIIIIIIIII
+[01:07:30] [Server thread/INFO]: Villager Villager['Toolsmith'/103788, uuid='de7c3743-dfb6-43fa-bff7-f853b6ee604f', l='ServerLevel[world]', x=324.36, y=63.00, z=612.30, cpos=[20, 38], tl=69544, v=true] died, message: 'Toolsmith was slain by xMega10_ using [[ La Hacha Mitica ]]'
+[01:07:31] [Server thread/INFO]: Villager Villager['Fisherman'/103878, uuid='5cc9b3bf-05d1-49cc-ad12-2dd8b0fdc53e', l='ServerLevel[world]', x=325.08, y=63.00, z=612.70, cpos=[20, 38], tl=67624, v=true] died, message: 'Fisherman was slain by xMega10_ using [[ La Hacha Mitica ]]'
+[01:07:33] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> afk cominedo
+[01:07:34] [Server thread/INFO]: Villager Villager['Villager'/103726, uuid='5a8f9736-8462-4916-af06-11261ed76fe0', l='ServerLevel[world]', x=324.13, y=64.00, z=613.47, cpos=[20, 38], tl=73238, v=true] died, message: 'Villager was slain by xMega10_ using [[ La Hacha Mitica ]]'
+[01:07:40] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> XDXD
+[01:07:43] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> pq matan a los aldeanos
+[01:07:43] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> que lag
+[01:07:53] [Server thread/WARN]: .Mokouver moved wrongly!
+[01:08:05] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> hola quieren 10 diamantes
+[01:08:07] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[01:08:07] [Server thread/INFO]: xMega10_ left the game
+[01:08:12] [Server thread/INFO]: TheMario_SM burned to death
+[01:08:14] [Async Chat Thread - #10/INFO]: [Not Secure] <ItsMari01_> hola si yo quiero
+[01:08:20] [Server thread/INFO]: EduardoKeith issued server command: /tpa ItsMari01_
+[01:08:21] [Server thread/INFO]: ItsMari01_ issued server command: /tpaccept
+[01:08:25] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> olazumy
+[01:08:31] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> zumy
+[01:08:33] [Server thread/INFO]: TheMario_SM issued server command: /back
+[01:08:36] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> tengo filo 20
+[01:08:40] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> Q
+[01:08:42] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> AHORA SI
+[01:08:56] [User Authenticator #19/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[01:08:56] [Server thread/INFO]: xMega10_ joined the game
+[01:08:56] [Server thread/INFO]: xMega10_[/127.241.59.21:51809] logged in with entity id 211147 at ([world]1123.0, 60.0, 1240.0)
+[01:08:56] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:08:56] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ESTA CORTA
+[01:09:05] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> Dios santo
+[01:09:06] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ES GIGANTE
+[01:09:09] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> DIOS MIO
+[01:09:14] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> hola
+[01:09:21] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> asi
+[01:09:25] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> hola
+[01:09:26] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> hola
+[01:09:29] [Server thread/INFO]: xMega10_ lost connection: Timed out
+[01:09:29] [Server thread/INFO]: xMega10_ left the game
+[01:09:29] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> man crei qeu mattx era un aldeano
+[01:09:31] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> diamantes
+[01:09:33] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> lol q pendejo
+[01:09:36] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> xddd
+[01:09:37] [User Authenticator #19/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[01:09:37] [Server thread/INFO]: xMega10_ joined the game
+[01:09:37] [Server thread/INFO]: xMega10_[/127.241.59.21:45499] logged in with entity id 211729 at ([world]1123.0, 60.0, 1240.0)
+[01:09:37] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:09:43] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> me va chistosote cantv
+[01:09:47] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> zumy donde estas
+[01:09:47] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> miren mis puentes chistosos
+[01:09:59] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> MAZA
+[01:10:01] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> q
+[01:10:02] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> zumy
+[01:10:02] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> XDDD
+[01:10:02] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> y este we
+[01:10:05] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> TRAE HACKS
+[01:10:06] [Server thread/WARN]: .Ferpedo1leiva moved wrongly!
+[01:10:06] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> ES HAKER
+[01:10:07] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> zumy hola
+[01:10:11] [Server thread/INFO]: xMega10_ issued server command: /tpa ImZumy
+[01:10:23] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> acepta pe
+[01:10:26] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> llego zumy
+[01:10:29] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> un negro
+[01:10:31] [Server thread/INFO]: ImZumy issued server command: /tpaccept
+[01:10:31] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> y nose quien mas
+[01:10:46] [Server thread/INFO]: xMega10_ issued server command: /tell ImZumy La lava damela
+[01:10:46] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> semen de tierra
+[01:10:48] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> randim´
+[01:10:49] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> mega
+[01:10:49] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> tsp que haces ahi
+[01:10:50] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> q
+[01:10:50] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> Q
+[01:10:50] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> dejame encantarme
+[01:10:52] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> plox
+[01:10:54] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> andas en base?
+[01:10:56] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ME QUEMO
+[01:10:57] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> pero necesito los estantes
+[01:10:59] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> yano
+[01:11:02] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> quien quiere un mazo
+[01:11:10] [Server thread/INFO]: ItsMari01_ issued server command: /teammsg holaamigos
+[01:11:10] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> o lo quieres asi
+[01:11:10] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> recien me fijo la skind de tsp
+[01:11:12] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> nadie siokentiendo
+[01:11:13] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> q
+[01:11:15] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> la mesa
+[01:11:18] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> tontito
+[01:11:26] [Server thread/WARN]: .Ferpedo1leiva moved wrongly!
+[01:11:28] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> ,mega
+[01:11:29] [Server thread/INFO]: EduardoKeith issued server command: /tpa .Mattx11053
+[01:11:31] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> tienes lava?
+[01:11:31] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> ame coso
+[01:11:33] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> no tengo
+[01:11:36] [Server thread/INFO]: ImRandom has made the advancement [Enchanter]
+[01:11:37] [Server thread/INFO]: .Mattx11053 issued server command: /tpaccept
+[01:11:42] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ALAVERGA
+[01:11:52] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> eduardo
+[01:11:55] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> hola
+[01:11:56] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> se escapo un aldeano
+[01:11:59] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> traeme lava
+[01:12:01] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> vuelve a tu lugr
+[01:12:02] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> mimazo
+[01:12:03] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> va
+[01:12:04] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mokouver> ola cancun
+[01:12:08] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> ocupas lava mega?
+[01:12:08] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> hola
+[01:12:11] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> yo tengo
+[01:12:12] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> llego eduardo
+[01:12:13] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> tsp se te escapo un aldenao w
+[01:12:13] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> si vegetto
+[01:12:15] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> traeme
+[01:12:17] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> hazte tpa
+[01:12:21] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> mega
+[01:12:22] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> THESACODEBOXEO
+[01:12:25] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> se veia mi skin
+[01:12:27] [Async Chat Thread - #13/INFO]: [Not Secure] <ImZumy> oye rando
+[01:12:27] [Async Chat Thread - #13/INFO]: [Not Secure] <.ItzzTsp> ?
+[01:12:28] [Server thread/INFO]: .Mattx11053 issued server command: /tpa xMega10_
+[01:12:28] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> miraeduardo
+[01:12:31] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> una hacha
+[01:12:31] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> q
+[01:12:31] [Async Chat Thread - #13/INFO]: [Not Secure] <ImRandom> q
+[01:12:33] [Async Chat Thread - #13/INFO]: [Not Secure] <ItsMari01_> de que me sirven los corazones de mar q me dio cesar
+[01:12:35] [Server thread/INFO]: ImZumy issued server command: /tpa i
+[01:12:36] [Async Chat Thread - #13/INFO]: [Not Secure] <xMega10_> amigo que puto internet de mierda de los cojones
+[01:12:39] [Server thread/INFO]: ImZumy issued server command: /tpa ImRandom
+[01:12:41] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mattx11053> acepta tp mega
+[01:12:41] [Server thread/INFO]: ImRandom issued server command: /tpaccept
+[01:12:43] [Server thread/INFO]: xMega10_ lost connection: Timed out
+[01:12:43] [Server thread/INFO]: xMega10_ left the game
+[01:13:21] [User Authenticator #20/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[01:13:21] [Server thread/INFO]: xMega10_ joined the game
+[01:13:21] [Server thread/INFO]: xMega10_[/127.241.59.21:53819] logged in with entity id 214447 at ([world]1123.0, 60.0, 1240.0)
+[01:13:21] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:13:23] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> maldito porque lepegas
+[01:13:24] [Server thread/INFO]: Villager Villager['Farmer'/103876, uuid='a72fb4c1-aa2e-4772-ae53-8a5f194ca613', l='ServerLevel[world]', x=315.62, y=63.00, z=585.33, cpos=[19, 36], tl=74594, v=true] died, message: 'Farmer was slain by ImZumy'
+[01:13:25] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> pq la mayoria del team mega esta aca
+[01:13:26] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> vegetto hazte tpa
+[01:13:28] [Server thread/INFO]: [Not Secure] [Server] mari esos corazones de mar sirven para comprar cosas, usa /spawn
+[01:13:29] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> una raid
+[01:13:30] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> !!!
+[01:13:32] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> porque ese es outo
+[01:13:37] [Server thread/INFO]: .Mattx11053 issued server command: /tpa xMega10_
+[01:13:45] [Server thread/INFO]: Villager Villager['Armorer'/103785, uuid='aaa2a087-2389-4b3a-8fb8-04897ab3d995', l='ServerLevel[world]', x=322.30, y=63.00, z=612.70, cpos=[20, 38], tl=76440, v=true] died, message: 'Armorer was slain by ImZumy'
+[01:13:47] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> esa mmd q
+[01:13:48] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> ala
+[01:13:49] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> gato baboso
+[01:13:49] [Server thread/INFO]: xMega10_ issued server command: /tpaccept
+[01:13:50] [Server thread/INFO]: Villager Villager['Weaponsmith'/103787, uuid='905b9ffb-be90-49de-a123-c521d5647c93', l='ServerLevel[world]', x=323.05, y=63.00, z=612.30, cpos=[20, 38], tl=78608, v=true] died, message: 'Weaponsmith was slain by ImZumy'
+[01:13:53] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> XD
+[01:13:58] [Server thread/INFO]: sCesar_ issued server command: /tp ItsMari01_
+[01:13:58] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ItsMari01_]
+[01:13:58] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> eduardo
+[01:13:59] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> BOTELLAS DE CP
+[01:13:59] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> hola
+[01:14:03] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> yo
+[01:14:04] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> q me das por 3 de estos?
+[01:14:05] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> putisimo cantv de mierda
+[01:14:06] [Async Chat Thread - #10/INFO]: [Not Secure] <ItsMari01_> PUTA MADRE
+[01:14:09] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> hagan raid mejor
+[01:14:10] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> hola
+[01:14:12] [Async Chat Thread - #10/INFO]: [Not Secure] <ItsMari01_> XDDDDDDDD
+[01:14:13] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[01:14:14] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> e
+[01:14:16] [Async Chat Thread - #10/INFO]: [Not Secure] <ItsMari01_> AVISA MAN
+[01:14:22] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> aviso
+[01:14:23] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> amigo que horrible internet
+[01:14:27] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> hagan el amor
+[01:14:28] [Server thread/INFO]: Villager Villager['Librarian'/103873, uuid='8f8feb0a-422e-4369-ab49-4be2213a6eee', l='ServerLevel[world]', x=314.60, y=64.04, z=620.56, cpos=[19, 38], tl=76188, v=true] died, message: 'Librarian was slain by ImZumy'
+[01:14:30] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> no pelien
+[01:14:31] [Async Chat Thread - #13/INFO]: [Not Secure] <TheMario_SM> eduardo mira
+[01:14:31] [Async Chat Thread - #13/INFO]: [Not Secure] <sCesar_> cómo te decía sirven para comprar cosas
+[01:14:37] [Async Chat Thread - #13/INFO]: [Not Secure] <ItsMari01_> mi hornito
+[01:14:42] [Async Chat Thread - #13/INFO]: [Not Secure] <EduardoKeith> ayer
+[01:14:44] [Async Chat Thread - #14/INFO]: [Not Secure] <sCesar_> en el Spawn está la tienda usando /spawn
+[01:14:44] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> XD
+[01:14:48] [Server thread/INFO]: .ItzzTsp tried to swim in lava
+[01:14:50] [Async Chat Thread - #14/INFO]: [Not Secure] <.Mattx11053> XDDD
+[01:14:52] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[01:14:53] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> una mas
+[01:14:54] [Async Chat Thread - #14/INFO]: [Not Secure] <ItsMari01_> ya entiendo
+[01:14:55] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> y tomo esto
+[01:15:01] [Server thread/INFO]: .ItzzTsp issued server command: /back
+[01:15:01] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> jaja
+[01:15:06] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> me dejo sin lava el baboso este
+[01:15:07] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> XD
+[01:15:09] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[01:15:10] [Async Chat Thread - #14/INFO]: [Not Secure] <.Mokouver> que opinas de mi puente krikoso cancun
+[01:15:12] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> eduardo traeme lava ahora si
+[01:15:12] [Async Chat Thread - #14/INFO]: [Not Secure] <ImRandom> amigo mega sin el pvp igual mata gente
+[01:15:13] [Server thread/INFO]: ItsMari01_ lost connection: Disconnected
+[01:15:13] [Server thread/INFO]: ItsMari01_ left the game
+[01:15:15] [User Authenticator #21/INFO]: UUID of player ItsMari01_ is f82b930d-04f7-3059-9494-da25d7696285
+[01:15:15] [Server thread/INFO]: ItsMari01_ joined the game
+[01:15:15] [Server thread/INFO]: ItsMari01_[/127.153.12.117:40491] logged in with entity id 216114 at ([world]1123.0, 60.0, 1240.0)
+[01:15:15] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:15:24] [Server thread/INFO]: .Ferpedo1leiva was blown up by Creeper
+[01:15:25] [Server thread/INFO]: sCesar_ issued server command: /list
+[01:15:25] [Async Chat Thread - #14/INFO]: [Not Secure] <ImRandom> HOLA EDUALDO
+[01:15:27] [Async Chat Thread - #14/INFO]: [Not Secure] <.ItzzTsp> quien me saco el hacha
+[01:15:27] [Async Chat Thread - #14/INFO]: [Not Secure] <EduardoKeith> HOLA
+[01:15:29] [Server thread/INFO]: ItsMari01_ has made the advancement [Not Today, Thank You]
+[01:15:37] [Server thread/INFO]: .Ferpedo1leiva issued server command: /back
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:37] [Server thread/WARN]: .Ferpedo1leiva moved too quickly! -729.0645000000002,4.0,-1337.10944
+[01:15:39] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> alo cantv
+[01:15:42] [Async Chat Thread - #14/INFO]: [Not Secure] <EduardoKeith> ire a buscar la lava
+[01:15:43] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> y si mejor todos somos teams en de separarnos como imbeciles
+[01:15:43] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> te la robe yo tsp
+[01:15:55] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> tambien la masa
+[01:16:02] [Async Chat Thread - #14/INFO]: [Not Secure] <ItsMari01_> casi me void al void
+[01:16:04] [Async Chat Thread - #14/INFO]: [Not Secure] <ImRandom> yo me volvi esclvo de cesar
+[01:16:08] [Async Chat Thread - #14/INFO]: [Not Secure] <ImRandom> y el pendejo no me pago
+[01:16:08] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> seguro fue em narco
+[01:16:10] [Server thread/INFO]: xMega10_ lost connection: Disconnected
+[01:16:10] [Server thread/INFO]: xMega10_ left the game
+[01:16:11] [Server thread/INFO]: sCesar_ issued server command: /tp ImRandom
+[01:16:11] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImRandom]
+[01:16:17] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> dame ese mechero eduardinho
+[01:16:24] [Server thread/INFO]: aaaguuusss has made the advancement [The Parrots and the Bats]
+[01:16:30] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> logro de sexo
+[01:16:31] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> thenarco y si me das el hacha
+[01:16:35] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> no
+[01:16:45] [Server thread/INFO]: .ItzzTsp has made the advancement [Suit Up]
+[01:16:49] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> si me la das no te jodo
+[01:16:50] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> corrupcion
+[01:16:52] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> corrupcion
+[01:16:53] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> corrupcion
+[01:17:01] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> q
+[01:17:06] [Async Chat Thread - #14/INFO]: [Not Secure] <sCesar_> que se vista anda desnudo
+[01:17:07] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> q
+[01:17:15] [Server thread/INFO]: ItsMari01_ lost connection: Disconnected
+[01:17:15] [Server thread/INFO]: ItsMari01_ left the game
+[01:17:20] [Async Chat Thread - #14/INFO]: [Not Secure] <.ItzzTsp> cesar pon wither
+[01:17:21] [Async Chat Thread - #14/INFO]: [Not Secure] <ImRandom> q
+[01:17:24] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> q haces cesar
+[01:17:30] [Async Chat Thread - #14/INFO]: [Not Secure] <ImZumy> es corrupto
+[01:17:31] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> cesar mira
+[01:17:33] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> MORID ESTAFADORES
+[01:17:47] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> tmr eduardo
+[01:17:49] [Async Chat Thread - #14/INFO]: [Not Secure] <.ItzzTsp> QUIEN QUIEREA SUPAHSWING SU CABEZA YO NO LA QUIERO
+[01:17:53] [Async Chat Thread - #14/INFO]: [Not Secure] <EduardoKeith> ME QUEMO
+[01:17:58] [Async Chat Thread - #14/INFO]: [Not Secure] <ImZumy> q
+[01:18:06] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> oye tsp
+[01:18:08] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> no lo necesitas?
+[01:18:12] [Server thread/INFO]: .Mattx11053 has made the advancement [Ice Bucket Challenge]
+[01:18:17] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> y la raid
+[01:18:19] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> rando quieres a supa
+[01:18:20] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> q raid
+[01:18:21] [Server thread/INFO]: ☀ [¡Alerta Cosmica! ] Un Meteorito Volcanico a aterrizado en las coordenadas X:-6 Z:-11, ¿Que podria ser?
+[01:18:21] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> ?
+[01:18:25] [Server thread/INFO]: Villager Villager['Villager'/103727, uuid='cbc58db7-c1f8-4687-9cc6-6e51ee1ded31', l='ServerLevel[world]', x=345.60, y=71.00, z=584.73, cpos=[21, 36], tl=87280, v=true] died, message: 'Villager was shot by Pillager'
+[01:18:33] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> ah sale que perdieron la raid
+[01:18:44] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> como vamos a perder si no salieron los manes
+[01:18:45] [User Authenticator #22/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[01:18:45] [Server thread/INFO]: xMega10_ joined the game
+[01:18:45] [Server thread/INFO]: xMega10_[/127.241.59.21:38141] logged in with entity id 219530 at ([world]1123.0, 60.0, 1240.0)
+[01:18:46] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> CFFF
+[01:18:46] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> eduardo ya
+[01:18:59] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> quemate los pelos
+[01:19:01] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> cesar
+[01:19:02] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> comportse
+[01:19:02] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> que raro anda bug
+[01:19:06] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> pon un wither
+[01:19:06] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> hola
+[01:19:12] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> RANDOM PORQQUE TE FOLLAS A UN VENECO
+[01:19:18] [Server thread/INFO]: xMega10_ lost connection: Timed out
+[01:19:18] [Server thread/INFO]: xMega10_ left the game
+[01:19:20] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> NO ES CUALQUIER VENECO
+[01:19:22] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> es supah
+[01:19:22] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> ES SUPAH
+[01:19:24] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> ES SUPA
+[01:19:25] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> QUUEUEUUE
+[01:19:25] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> UQWUQWUE
+[01:19:26] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> oye equipense
+[01:19:27] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> XDDD
+[01:19:28] [User Authenticator #22/INFO]: UUID of player xMega10_ is 1e83bc86-1c6c-31b5-b20b-48ae4f0a6189
+[01:19:28] [Server thread/INFO]: xMega10_ joined the game
+[01:19:28] [Server thread/INFO]: xMega10_[/127.241.59.21:51653] logged in with entity id 220304 at ([world]1123.0, 60.0, 1240.0)
+[01:19:28] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location
+[01:19:31] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> quemate los pelos
+[01:19:32] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> EDUARDO
+[01:19:36] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> maldigo ahora y siempre ser usuario de cantv
+[01:19:38] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> equipense, mañana vamos a dónde un boss
+[01:20:03] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> cesar y si me giveas todo lo wue estos pendejos me robaron
+[01:20:06] [Async Chat Thread - #10/INFO]: [Not Secure] <TheMario_SM> MAN EDUARDO Q TIENES
+[01:20:06] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> oye cesar y mi trabajo
+[01:20:06] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> cesar tírale un meteorito a themario
+[01:20:14] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> eduardo esta hot
+[01:20:16] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> ah si random vamonos
+[01:20:17] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> por eso quema medio aldea
+[01:20:22] [Async Chat Thread - #14/INFO]: [Not Secure] <TheMario_SM> crei q mega era mari xxd
+[01:20:29] [Async Chat Thread - #14/INFO]: [Not Secure] <xMega10_> MAN MALDITO SEA EL INTERNET ESTE MIERDERO
+[01:20:40] [Async Chat Thread - #14/INFO]: [Not Secure] <sCesar_> entra random
+[01:20:41] [Async Chat Thread - #14/INFO]: [Not Secure] <ImZumy> que quieres muher
+[01:20:48] [Server thread/INFO]: Named entity Slime['Toxic Slime'/176392, uuid='4479812b-17a6-4dc5-ad49-f98132c4e221', l='ServerLevel[world_nether]', x=-64.00, y=-20.00, z=207.62, cpos=[-5, 12], tl=248, v=true] died: Toxic Slime was killed
+[01:20:52] [Async Chat Thread - #14/INFO]: [Not Secure] <.Mokouver> kriko
+[01:20:53] [Server thread/INFO]: Named entity Slime['Toxic Slime'/193139, uuid='17fa5a72-ef97-4872-9c59-c603b9c49771', l='ServerLevel[world_nether]', x=15.98, y=-20.00, z=192.49, cpos=[0, 12], tl=489, v=true] died: Toxic Slime was killed
+[01:20:58] [Server thread/WARN]: [Spawntp] There is no spawnpoint set for world world_nether for player ImRandom
+[01:21:02] [Async Chat Thread - #14/INFO]: [Not Secure] <sCesar_> vamonos
+[01:21:10] [Async Chat Thread - #14/INFO]: [Not Secure] <EduardoKeith> NO COMIDA
+[01:21:11] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> nadie mas entra o q
+[01:21:14] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> XDDDD
+[01:21:15] [Server thread/INFO]: sCesar_ issued server command: /spawn
+[01:21:16] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> XDDD
+[01:21:17] [Server thread/INFO]: Named entity Slime['Toxic Slime'/203116, uuid='a7339e45-a307-4eaa-b8d5-49cac15fc93d', l='ServerLevel[world_nether]', x=31.83, y=-20.00, z=215.69, cpos=[1, 13], tl=148, v=true] died: Toxic Slime was killed
+[01:21:20] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> random vuelve
+[01:21:24] [Server thread/INFO]: Named entity Slime['Toxic Slime'/205740, uuid='c72fe7fb-fbf7-4f3e-a064-8bb1acda35ed', l='ServerLevel[world_nether]', x=79.02, y=-20.00, z=115.01, cpos=[4, 7], tl=1172, v=true] died: Toxic Slime was killed
+[01:21:24] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> se papearon al portal
+[01:21:25] [Server thread/INFO]: Named entity Slime['Toxic Slime'/205741, uuid='4223639f-9e2a-47ad-bbc0-a47f45a4b44d', l='ServerLevel[world_nether]', x=101.74, y=-20.00, z=134.84, cpos=[6, 8], tl=1173, v=true] died: Toxic Slime was killed
+[01:21:30] [Server thread/INFO]: Named entity Slime['Toxic Slime'/205882, uuid='762dfc94-bffe-4bc3-9dbf-b62efd5d68af', l='ServerLevel[world_nether]', x=100.46, y=-20.00, z=207.03, cpos=[6, 12], tl=1944, v=true] died: Toxic Slime was killed
+[01:21:34] [Async Chat Thread - #10/INFO]: [Not Secure] <xMega10_> AMIGO
+[01:21:35] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> -384 70 592
+[01:21:38] [Server thread/INFO]: TheMario_SM hit the ground too hard
+[01:21:40] [Server thread/INFO]: TheMario_SM issued server command: /back
+[01:21:45] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> cesar nos atraparon
+[01:21:47] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mokouver> mariobero
+[01:21:50] [Server thread/INFO]: TheMario_SM issued server command: /tpa .Mokouver
+[01:21:52] [Server thread/INFO]: .ItzzTsp issued server command: /tpa ImRandom
+[01:21:55] [Async Chat Thread - #10/INFO]: [Not Secure] <sCesar_> pero entra al nether porque sale
+[01:22:00] [Server thread/INFO]: ImRandom issued server command: /tpaccept
+[01:22:01] [Server thread/INFO]: sCesar_ issued server command: /tp ImZumy
+[01:22:01] [Server thread/INFO]: [sCesar_: Teleported sCesar_ to ImZumy]
+[01:22:02] [Async Chat Thread - #10/INFO]: [Not Secure] <EduardoKeith> Q
+[01:22:04] [Async Chat Thread - #10/INFO]: [Not Secure] <ImRandom> dijieron que rompieron el portal
+[01:22:09] [Server thread/INFO]: xMega10_ lost connection: Timed out
+[01:22:09] [Server thread/INFO]: xMega10_ left the game
+[01:22:10] [Server thread/INFO]: .Mokouver issued server command: /tpaaccept
+[01:22:14] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> pense que estabas en el nether
+[01:22:15] [Server thread/INFO]: sCesar_ issued server command: /tpahere ImRandom
+[01:22:17] [Server thread/INFO]: Named entity Slime['Toxic Slime'/206212, uuid='4152865e-4319-42d8-9132-4e89143de302', l='ServerLevel[world_nether]', x=58.18, y=-20.00, z=192.01, cpos=[3, 12], tl=638, v=true] died: Toxic Slime was killed
+[01:22:17] [Async Chat Thread - #10/INFO]: [Not Secure] <.ItzzTsp> tontolongo
+[01:22:18] [Server thread/INFO]: .Mokouver issued server command: /tpaccept
+[01:22:18] [Async Chat Thread - #10/INFO]: [Not Secure] <ImZumy> q

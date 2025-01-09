@@ -59,6 +59,7 @@
       "minecraft:old_growth_birch_forest": "2025-01-07 23:59:06 +0000",
       "minecraft:beach": "2025-01-07 23:59:48 +0000",
       "minecraft:desert": "2025-01-08 00:27:41 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-01-09 01:13:39 +0000",
       "minecraft:dark_forest": "2025-01-08 00:15:21 +0000",
       "minecraft:forest": "2025-01-08 00:00:13 +0000",
       "minecraft:river": "2025-01-07 23:58:59 +0000",
@@ -1422,10 +1423,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-01-09 00:59:59 +0000",
       "minecraft:skeleton": "2025-01-08 23:53:41 +0000",
       "minecraft:phantom": "2025-01-09 00:53:52 +0000",
       "minecraft:spider": "2025-01-08 23:53:35 +0000",
       "minecraft:vex": "2025-01-09 00:57:59 +0000",
+      "minecraft:wither_skeleton": "2025-01-09 00:59:40 +0000",
       "minecraft:zombie": "2025-01-08 01:03:41 +0000",
       "minecraft:creeper": "2025-01-09 00:02:57 +0000",
       "minecraft:zombie_villager": "2025-01-08 01:03:48 +0000"
@@ -2063,88 +2066,94 @@
     },
     "done": true
   },
+  "bracken:technical/dimension_travel/enter/overworld": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 01:05:47 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-01-09 00:57:25 +0000",
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "requirement": "2025-01-09 01:17:58 +0000",
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": true
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:57:21 +0000"
+      "log_spam_fixer": "2025-01-09 01:17:21 +0000"
     },
     "done": false
-  },
-  "bracken:technical/dimension_travel/enter/the_nether": {
-    "criteria": {
-      "changed_dimension": "2025-01-09 00:49:08 +0000"
-    },
-    "done": true
   },
   "incendium:withered_forest/kill_spirit": {
     "criteria": {
       "requirement": "2025-01-09 00:57:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-09 01:14:56 +0000"
     },
     "done": true
   },
@@ -2153,6 +2162,42 @@
       "minecraft:soul_sand_valley": "2025-01-09 00:53:50 +0000"
     },
     "done": false
+  },
+  "bracken:technical/dimension_travel/leave/the_nether": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-01-09 01:00:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-09 01:14:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-09 01:14:56 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "fortress": "2025-01-09 00:59:50 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-09 01:14:56 +0000"
+    },
+    "done": true
   },
   "minecraft:story/lava_bucket": {
     "criteria": {
@@ -2172,9 +2217,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-09 01:00:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-01-09 00:59:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2025-01-09 00:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-09 01:00:00 +0000"
     },
     "done": true
   },
