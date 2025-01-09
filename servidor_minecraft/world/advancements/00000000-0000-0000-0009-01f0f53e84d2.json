@@ -247,6 +247,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-08 23:00:09 +0000",
+      "minecraft:silverfish": "2025-01-09 00:46:01 +0000",
       "minecraft:spider": "2025-01-08 00:14:40 +0000",
       "minecraft:zombie": "2025-01-08 00:14:49 +0000"
     },
@@ -1848,73 +1849,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 00:38:21 +0000"
+      "log_spam_fixer": "2025-01-09 00:48:21 +0000"
     },
     "done": false
   },
@@ -1936,6 +1937,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:und": {
+    "criteria": {
+      "bracken:und1": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-01-09 00:21:50 +0000"
@@ -1948,15 +1961,88 @@
     },
     "done": true
   },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-01-09 00:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-09 00:45:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_pickaxe": "2025-01-09 00:19:35 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/titan_dripstone_cavern": {
+    "criteria": {
+      "requirement": "2025-01-09 00:45:21 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/eroded_basin": {
+    "criteria": {
+      "requirement": "2025-01-09 00:43:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:the_underdark/all_biomes": {
+    "criteria": {
+      "bracken:the_underdark/eroded_basin": "2025-01-09 00:43:19 +0000",
+      "bracken:the_underdark/titan_dripstone_cavern": "2025-01-09 00:45:21 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_core": "2025-01-09 00:30:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_border_text/underdark_to_nether": {
+    "criteria": {
+      "requirement": "2025-01-09 00:43:19 +0000"
     },
     "done": true
   },
@@ -1966,11 +2052,89 @@
     },
     "done": true
   },
+  "incendium:toxic_heap/root": {
+    "criteria": {
+      "requirement": "2025-01-09 00:45:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2025-01-09 00:25:54 +0000"
     },
     "done": true
+  },
+  "bracken:the_underdark/enter_underdark": {
+    "criteria": {
+      "requirement": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-09 00:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "bracken:technical/dimension_travel/leave/the_underdark": {
+    "criteria": {
+      "changed_dimension": "2025-01-09 00:45:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:toxic_heap": "2025-01-09 00:45:02 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/jungle_hanging_sign": {
     "criteria": {
@@ -1978,9 +2142,21 @@
     },
     "done": true
   },
+  "bracken:technical/dimension_border_text/nether_to_underdark": {
+    "criteria": {
+      "requirement": "2025-01-09 00:45:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-01-09 00:19:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-09 00:43:18 +0000"
     },
     "done": true
   },
