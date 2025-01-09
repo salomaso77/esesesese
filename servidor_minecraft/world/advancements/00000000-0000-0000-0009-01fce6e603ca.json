@@ -64,9 +64,12 @@
       "minecraft:badlands": "2025-01-08 23:43:55 +0000",
       "minecraft:beach": "2025-01-08 23:59:50 +0000",
       "minecraft:desert": "2025-01-08 23:39:55 +0000",
+      "minecraft:forest": "2025-01-09 02:14:22 +0000",
       "minecraft:sparse_jungle": "2025-01-09 01:43:45 +0000",
       "minecraft:river": "2025-01-09 00:02:45 +0000",
-      "minecraft:savanna": "2025-01-08 23:49:12 +0000"
+      "minecraft:lukewarm_ocean": "2025-01-09 02:13:29 +0000",
+      "minecraft:savanna": "2025-01-08 23:49:12 +0000",
+      "minecraft:plains": "2025-01-09 02:14:32 +0000"
     },
     "done": false
   },
@@ -774,79 +777,80 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_chicken": "2025-01-09 02:13:26 +0000",
       "cooked_mutton": "2025-01-09 01:31:07 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
@@ -886,9 +890,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2025-01-09 02:04:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-09 02:08:49 +0000"
     },
     "done": true
   },
@@ -904,9 +926,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-09 02:08:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-09 02:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
     },
     "done": true
   },
@@ -928,9 +974,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2025-01-09 02:09:16 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2025-01-09 02:05:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-09 02:12:05 +0000"
     },
     "done": true
   },
@@ -940,9 +998,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2025-01-09 02:05:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
     },
     "done": true
   },
@@ -1018,6 +1094,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-09 02:08:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_planks": "2025-01-09 02:05:30 +0000"
@@ -1054,6 +1142,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-09 02:05:30 +0000"
@@ -1063,6 +1157,42 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2025-01-09 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2025-01-09 02:09:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-09 02:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-01-09 02:08:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-01-09 02:08:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-01-09 02:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-01-09 02:08:52 +0000"
     },
     "done": true
   },

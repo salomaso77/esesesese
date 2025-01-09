@@ -3262,75 +3262,87 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-09 02:07:52 +0000"
+      "log_spam_fixer": "2025-01-09 02:18:00 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-01-09 02:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-09 02:09:50 +0000"
+    },
+    "done": true
   },
   "incendium:toxic_heap/mystic_wisdom": {
     "criteria": {
@@ -3371,6 +3383,12 @@
   "incendium:toxic_heap/nuclear_fusion": {
     "criteria": {
       "incendium:waste": "2025-01-09 02:07:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-09 02:09:50 +0000"
     },
     "done": true
   },
